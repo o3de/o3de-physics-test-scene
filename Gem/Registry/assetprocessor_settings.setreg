@@ -1,0 +1,18 @@
+{
+    "Amazon": {
+        "AssetProcessor": {
+            "Settings": {
+                "ScanFolder Physics_Test/Assets": {
+                    "watch": "@GEMROOT:Physics_Test@/Assets",
+                    "recursive": 1,
+                    "order": 101
+                },
+                "ScanFolder Physics_Test/Registry": {
+                    "watch": "@GEMROOT:Physics_Test@/Registry",
+                    "recursive": 1,
+                    "order": 102
+                }
+            }
+        }
+    }
+}
