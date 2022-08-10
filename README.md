@@ -10,6 +10,8 @@ Project consists of 2 levels:
 
 ## Robot Artm Test
 
+![Robot arm simulation](doc/robot_arm.png)
+
 ### Description
 
 This is a simulation of a simple robot arm. It consists of 4 segments connected to a static base. 
@@ -39,16 +41,23 @@ Join types in arms:
 
 ## Mobile Robot
 
+![Mobile robot simulation](doc/mobile_robot.png)
+
 ### Description
 
 This is a simulation of a mobile robot, with main dimensions and masses roughly based on [Hunter SE Mobile Robot](https://www.generationrobots.com/en/403917-robot-mobile-hunter-se-ugv.html). Maximum payload for this robot is 50 kg. Robot was created in 2 versions: with fixed suspension and with “spring” suspension. Robot descends the ramp with an incline of 10 degrees, with and without the 50 kg payload. 
 
-**Note:**
-Wheels are quite heavy (3 kg), which is ok, since they have hub motors. However, adding lighter wheels breaks the simulation.
-In the “spring suspension” version, the swingarm is heavy as well (4 kg, which is more than the wheel). If its mass is reduced to i.e. 1 kg, it’s not able to hold even robot without payload. 
+**Notes:**
+Wheels are quite heavy (3 kg), which is ok, since they have hub motors. However, adding lighter wheels makes the simulation less stable.
+![Stability problems with lightweight wheels](doc/mobile_robot_lightweight_wheels.png)
+
+In the “spring suspension” version, the swingarm is heavy as well (4 kg, which is more than the wheel). If its mass is reduced to i.e. 1 kg, it’s not able to hold the robot. 
+![Stability problems with lightweight swingarms](doc/mobile_robot_lightweight_swingarms.png)
 
 
 ### Simulation setup
+
+![Mobile robot structure](doc/mobile_robot_structure.png)
 
 Robot body:
 -	Mass: 34kg
