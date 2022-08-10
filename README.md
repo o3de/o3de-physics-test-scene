@@ -10,7 +10,7 @@ Project consists of 2 levels:
 
 ## Robot Artm Test
 
-![Robot arm simulation](doc/robot_arm.png)
+![Robot arm simulation](Doc/robot_arm.png)
 
 ### Description
 
@@ -41,7 +41,7 @@ Join types in arms:
 
 ## Mobile Robot
 
-![Mobile robot simulation](doc/mobile_robot.png)
+![Mobile robot simulation](Doc/mobile_robot.png)
 
 ### Description
 
@@ -49,15 +49,17 @@ This is a simulation of a mobile robot, with main dimensions and masses roughly 
 
 **Notes:**
 Wheels are quite heavy (3 kg), which is ok, since they have hub motors. However, adding lighter wheels makes the simulation less stable.
-![Stability problems with lightweight wheels](doc/mobile_robot_lightweight_wheels.png)
+
+![Stability problems with lightweight wheels](Doc/mobile_robot_lightweight_wheels.png)
 
 In the “spring suspension” version, the swingarm is heavy as well (4 kg, which is more than the wheel). If its mass is reduced to i.e. 1 kg, it’s not able to hold the robot. 
-![Stability problems with lightweight swingarms](doc/mobile_robot_lightweight_swingarms.png)
+
+![Stability problems with lightweight swingarms](Doc/mobile_robot_lightweight_swingarms.png)
 
 
 ### Simulation setup
 
-![Mobile robot structure](doc/mobile_robot_structure.png)
+![Mobile robot structure](Doc/mobile_robot_structure.png)
 
 Robot body:
 -	Mass: 34kg
