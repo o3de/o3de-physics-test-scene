@@ -1,14 +1,16 @@
 # o3de-physics-test-scene
 
+This project is intended to serve as a validation tool and a testbed for physics development which are focused on joints and vehicle dynamics.
+
 ***Testing physics in Open 3D Engine***
 
-Project created with O3DE ver. 2205, Windows.
+Project created with O3DE ver. 2205, Windows. It should also run on Linux.
 
 Project consists of 2 levels:
 - robot_arm_test1
 - mobile_robot1
 
-## Robot Artm Test
+## Robot Arm Test
 
 ![Robot arm simulation](Doc/robot_arm.png)
 
