@@ -12,7 +12,7 @@
         "Physics_Test"
     ],
     "icon_path": "preview.png",
-    "engine": "o3de-sdk",
+    "engine": "o3de_dev",
     "external_subdirectories": [
         "Gem"
     ],
