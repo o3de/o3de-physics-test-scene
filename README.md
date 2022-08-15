@@ -53,6 +53,8 @@ The same as in **robot_arm_test1**. The only difference is, that both arms were 
 
 ## Mobile Robot
 
+Level: **mobile_robot1**
+
 ![Mobile robot simulation](Doc/mobile_robot.png)
 
 ### Description
