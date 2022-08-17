@@ -2,7 +2,7 @@
 
 ***Testing physics in Open 3D Engine***
 
-The goal of these activities was to test the O3DE physics capabilities in the context of robotic simulations. In these tests two main aspects were considered: robot chassis with wheel suspension and manipulator arm.
+The goal of these activities is to test the O3DE physics capabilities in the context of robotic simulations. In these tests two main aspects are considered: robot chassis with wheel suspension and manipulator arm.
 
 ## Requirements 
 
@@ -34,7 +34,7 @@ Level: **mobile_robot_physics**
 
 ![Robot arm simulation](Doc/mobile_robot_physics.png)
 
-The goal of level test is to test vehicle physics that can be applied to mobile robot. Scene contains a simple 4-wheels vehicle, with a spring-based suspension, which can be controlled using keyboard. The vehicle can carry a payload, to test physics in different conditions.
+The goal of this level is to test vehicle physics that can be applied to mobile robot. Scene contains a simple 4-wheels vehicle, with a spring-based suspension, which can be controlled using keyboard. The vehicle can carry a payload, to test physics in different load conditions.
 
 ### Instructions
 
