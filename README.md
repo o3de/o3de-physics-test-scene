@@ -12,11 +12,16 @@ This project requires [O3DE development branch](https://github.com/o3de/o3de/tre
 
 1. Follow O3DE documentation to [Download](https://www.o3de.org/docs/welcome-guide/setup/setup-from-github/) and [Build](https://www.o3de.org/docs/welcome-guide/setup/setup-from-github/building-windows/) O3DE. Use [O3DE development branch](https://github.com/o3de/o3de/tree/development).
 1. Clone physics test repository `git clone https://github.com/RobotecAI/o3de-physics-test-scene`
+
+Building the project using project manager on Windows:
+
 1. Open O3DE project manager, select `Open Existing Project` (from the `New Project...` pull-down menu) and select o3de-physics-test-scene.
 1. From the "hamburger menu" of the newly-added project select `Edit Project Settings...` and select engine and hit `Save`.
 1. `Build Project`
 1. `Open Editor`
 1. Load level
+
+To build the project using CLI interface on Windows or Linux follow [these instructions](https://docs.o3de.org/docs/welcome-guide/create/creating-projects-using-cli/). 
 
 ## Contents
 
