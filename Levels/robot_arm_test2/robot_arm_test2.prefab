@@ -1706,10 +1706,6 @@
                             0.0,
                             190.7790069580078
                         ]
-                    },
-                    "PhysXSpecificConfiguration": {
-                        "SolverPositionIterations": 80,
-                        "SolverVelocityIterations": 20
                     }
                 },
                 "Component_[17225545551989179568]": {

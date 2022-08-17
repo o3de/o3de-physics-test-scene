@@ -3,6 +3,8 @@
         "Gems": {
             "PhysX": {
                 "PhysXSystemConfiguration": {
+                    "MaxTimestep": 0.009999999776482582,
+                    "FixedTimeStep": 0.0010000000474974513,
                     "CollisionConfig": {
                         "Layers": {
                             "LayerNames": [
@@ -90,13 +92,6 @@
                                 }
                             ]
                         }
-                    },
-                    "MaterialLibrary": {
-                        "assetId": {
-                            "guid": "{7CDF49C3-91A2-5C4E-B642-6D1AEC80E70E}"
-                        },
-                        "loadBehavior": "QueueLoad",
-                        "assetHint": "assets/physics/surfacetypemateriallibrary.physmaterial"
                     }
                 }
             }
