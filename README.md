@@ -6,7 +6,7 @@ The purpose of this project is to test the O3DE physics capabilities in the cont
 
 ## Requirements 
 
-This project requires [O3DE development branch](https://github.com/o3de/o3de/tree/development). It was created on Windows with O3DE build with date 2022.08.11 and commit #. In principle, it should work with newer versions. It should also work on Linux (not yet tested in current form).
+This project requires [O3DE development branch](https://github.com/o3de/o3de/tree/development). It was created on Windows with O3DE build with date 2022.08.11 and commit #e57b0df5d661867f6. In principle, it should work with newer versions. It should also work on Linux (not yet tested in current form).
 
 ## Running the demo
 
