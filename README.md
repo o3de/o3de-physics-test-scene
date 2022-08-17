@@ -2,11 +2,11 @@
 
 ***Testing physics in Open 3D Engine***
 
-The goal of these activities is to test the O3DE physics capabilities in the context of robotic simulations. In these tests two main aspects are considered: robot chassis with wheel suspension and manipulator arm.
+The purpose of this project is to test the O3DE physics capabilities in the context of robotic simulations. Two main aspects are considered: robot chassis with wheel suspension (mobility) and a manipulator arm.
 
 ## Requirements 
 
-This project requires [O3DE development branch](https://github.com/o3de/o3de/tree/development). It was created using Windows build done using version downloaded at 2022.08.11. It should work an any newer version. It should work on Linux as well, but was not tested.
+This project requires [O3DE development branch](https://github.com/o3de/o3de/tree/development). It was created on Windows with O3DE build with date 2022.08.11 and commit #. In principle, it should work with newer versions. It should also work on Linux (not yet tested in current form).
 
 ## Running the demo
 
