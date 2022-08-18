@@ -43,7 +43,9 @@ The goal of this level is to test vehicle physics that can be applied to mobile 
 
 ### Instructions
 
-- Use keyboard arrows to control the vehicle (speed and steering). Use `WSAD` and mouse to move the camera around the vehicle.
+- Use keyboard arrows to control the vehicle (speed and steering).
+- Press `Enter` to drop the payload.
+- Use `WSAD` and mouse to move the camera around the vehicle.
 - To disable the payload (entity: `payload`), either set its rigid body to Kinematic or move it to the side.
 
 ### Details
