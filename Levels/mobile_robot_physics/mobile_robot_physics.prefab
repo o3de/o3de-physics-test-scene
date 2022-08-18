@@ -171,9 +171,9 @@
                         {
                             "$type": "BoxShapeConfiguration",
                             "Configuration": [
-                                100.0,
-                                100.0,
-                                0.10000000149011612
+                                510.0,
+                                510.0,
+                                0.5100000500679016
                             ]
                         }
                     ]
@@ -194,7 +194,7 @@
                         "Translate": [
                             -3.3578202724456787,
                             2.6361892223358154,
-                            -0.8352457880973816
+                            -1.0450650453567505
                         ]
                     }
                 },
@@ -207,8 +207,8 @@
                     "Id": 4313406717160387852,
                     "QuadShape": {
                         "Configuration": {
-                            "Width": 100.0,
-                            "Height": 100.0
+                            "Width": 510.0,
+                            "Height": 510.0
                         }
                     }
                 },
@@ -352,10 +352,15 @@
                     "Id": 17526784178822845029,
                     "Parent Entity": "Entity_[25652364764505]",
                     "Transform Data": {
+                        "Translate": [
+                            -1.1920928955078125e-7,
+                            0.0,
+                            0.004999999888241291
+                        ],
                         "Rotate": [
-                            90.0,
-                            -0.000002561320798122324,
-                            0.0
+                            90.00000762939453,
+                            0.0,
+                            -0.000004829673343920149
                         ],
                         "UniformScale": 7.079999923706055
                     }
@@ -433,6 +438,11 @@
                     "Id": 17526784178822845029,
                     "Parent Entity": "Entity_[22315175175513]",
                     "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            0.004999999888241291
+                        ],
                         "Rotate": [
                             90.0,
                             -0.000008110849194054026,
@@ -517,7 +527,7 @@
                         "Translate": [
                             0.000164031982421875,
                             0.0,
-                            0.0
+                            0.004999999888241291
                         ],
                         "Rotate": [
                             90.00000762939453,
@@ -534,6 +544,326 @@
                 "Component_[8821107128704608960]": {
                     "$type": "EditorLockComponent",
                     "Id": 8821107128704608960
+                }
+            }
+        },
+        "Entity_[123486344621727]": {
+            "Id": "Entity_[123486344621727]",
+            "Name": "Rod_LF",
+            "Components": {
+                "Component_[10093753899091459236]": {
+                    "$type": "EditorHingeJointComponent",
+                    "Id": 10093753899091459236,
+                    "Configuration": {
+                        "Local Position": [
+                            -0.17007611691951752,
+                            0.0,
+                            0.0
+                        ],
+                        "Local Rotation": [
+                            0.0,
+                            90.0,
+                            90.0
+                        ],
+                        "Parent Entity": "Entity_[123542179196575]",
+                        "Child Entity": "Entity_[123486344621727]",
+                        "Display Debug": 0
+                    },
+                    "Angular Limit": {
+                        "Standard Limit Configuration": {
+                            "Is Soft Limit": true,
+                            "Damping": 100.0
+                        },
+                        "Positive Limit": 0.10000000149011612,
+                        "Negative Limit": -0.10000000149011612
+                    }
+                },
+                "Component_[1287908376729267190]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1287908376729267190
+                },
+                "Component_[13013838428471678011]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 13013838428471678011,
+                    "Parent Entity": "Entity_[22310880208217]",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.17799997329711914,
+                            0.204071044921875,
+                            -0.10799998044967651
+                        ],
+                        "Rotate": [
+                            0.0,
+                            -7.999997138977051,
+                            180.0
+                        ]
+                    }
+                },
+                "Component_[15723081067757209237]": {
+                    "$type": "SelectionComponent",
+                    "Id": 15723081067757209237
+                },
+                "Component_[15829812595535571497]": {
+                    "$type": "EditorShapeColliderComponent",
+                    "Id": 15829812595535571497,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        },
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfigs": [
+                        {
+                            "$type": "BoxShapeConfiguration",
+                            "Configuration": [
+                                0.20000000298023224,
+                                0.03999999910593033,
+                                0.019999999552965164
+                            ]
+                        }
+                    ]
+                },
+                "Component_[17335476657243592358]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 17335476657243592358
+                },
+                "Component_[17724980174080255586]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 17724980174080255586
+                },
+                "Component_[3658876560863902198]": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 3658876560863902198,
+                    "Configuration": {
+                        "entityId": "",
+                        "Compute Mass": false,
+                        "Inertia tensor": [
+                            0.0001666666503297165,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0033666668459773064,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0034666673745959997
+                        ]
+                    }
+                },
+                "Component_[3910374631086156047]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3910374631086156047
+                },
+                "Component_[4152938350980954708]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4152938350980954708
+                },
+                "Component_[4196134556247664001]": {
+                    "$type": "EditorBoxShapeComponent",
+                    "Id": 4196134556247664001,
+                    "GameView": true,
+                    "BoxShape": {
+                        "Configuration": {
+                            "Dimensions": [
+                                0.20000000298023224,
+                                0.03999999910593033,
+                                0.019999999552965164
+                            ]
+                        }
+                    }
+                },
+                "Component_[6889372879567776536]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 6889372879567776536
+                },
+                "Component_[8150146460183736234]": {
+                    "$type": "EditorHingeJointComponent",
+                    "Id": 8150146460183736234,
+                    "Configuration": {
+                        "Local Position": [
+                            0.15186984837055206,
+                            0.0,
+                            0.0
+                        ],
+                        "Local Rotation": [
+                            90.0,
+                            0.0,
+                            90.0
+                        ],
+                        "Parent Entity": "Entity_[136738460174326]",
+                        "Child Entity": "Entity_[123486344621727]",
+                        "Display Debug": 0
+                    },
+                    "Angular Limit": {
+                        "Standard Limit Configuration": {
+                            "Is Limited": false
+                        }
+                    }
+                },
+                "Component_[9944657806766507413]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 9944657806766507413
+                },
+                "Component_[9989785071676502772]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9989785071676502772
+                }
+            }
+        },
+        "Entity_[123542179196575]": {
+            "Id": "Entity_[123542179196575]",
+            "Name": "Rod_RF",
+            "Components": {
+                "Component_[10093753899091459236]": {
+                    "$type": "EditorHingeJointComponent",
+                    "Id": 10093753899091459236,
+                    "Configuration": {
+                        "Local Position": [
+                            0.1288236826658249,
+                            0.0,
+                            0.0
+                        ],
+                        "Local Rotation": [
+                            90.0,
+                            0.0,
+                            90.0
+                        ],
+                        "Parent Entity": "Entity_[87118703003638]",
+                        "Child Entity": "Entity_[123542179196575]",
+                        "Display Debug": 0
+                    },
+                    "Angular Limit": {
+                        "Standard Limit Configuration": {
+                            "Is Limited": false,
+                            "Is Soft Limit": true,
+                            "Damping": 50.0,
+                            "Stiffness": 500.0
+                        },
+                        "Positive Limit": 0.10000000149011612,
+                        "Negative Limit": -0.10000000149011612
+                    }
+                },
+                "Component_[1287908376729267190]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1287908376729267190
+                },
+                "Component_[13013838428471678011]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 13013838428471678011,
+                    "Parent Entity": "Entity_[22310880208217]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.1645500659942627,
+                            0.204071044921875,
+                            -0.10736572742462158
+                        ],
+                        "Rotate": [
+                            0.0,
+                            7.999997138977051,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[15723081067757209237]": {
+                    "$type": "SelectionComponent",
+                    "Id": 15723081067757209237
+                },
+                "Component_[15829812595535571497]": {
+                    "$type": "EditorShapeColliderComponent",
+                    "Id": 15829812595535571497,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        },
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfigs": [
+                        {
+                            "$type": "BoxShapeConfiguration",
+                            "Configuration": [
+                                0.20000000298023224,
+                                0.03999999910593033,
+                                0.019999999552965164
+                            ]
+                        }
+                    ]
+                },
+                "Component_[17335476657243592358]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 17335476657243592358
+                },
+                "Component_[17724980174080255586]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 17724980174080255586
+                },
+                "Component_[3658876560863902198]": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 3658876560863902198,
+                    "Configuration": {
+                        "entityId": "",
+                        "Compute Mass": false,
+                        "Inertia tensor": [
+                            0.0001666666503297165,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0033666668459773064,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0034666673745959997
+                        ]
+                    }
+                },
+                "Component_[3910374631086156047]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3910374631086156047
+                },
+                "Component_[4152938350980954708]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4152938350980954708
+                },
+                "Component_[4196134556247664001]": {
+                    "$type": "EditorBoxShapeComponent",
+                    "Id": 4196134556247664001,
+                    "GameView": true,
+                    "BoxShape": {
+                        "Configuration": {
+                            "Dimensions": [
+                                0.20000000298023224,
+                                0.03999999910593033,
+                                0.019999999552965164
+                            ]
+                        }
+                    }
+                },
+                "Component_[6889372879567776536]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 6889372879567776536
+                },
+                "Component_[9944657806766507413]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 9944657806766507413
+                },
+                "Component_[9989785071676502772]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9989785071676502772
                 }
             }
         },
@@ -669,7 +999,7 @@
                         "Standard Limit Configuration": {
                             "Is Soft Limit": true,
                             "Damping": 50.0,
-                            "Stiffness": 1000.0
+                            "Stiffness": 500.0
                         },
                         "Positive Limit": 0.10000000149011612,
                         "Negative Limit": -0.10000000149011612
@@ -691,7 +1021,7 @@
                         ],
                         "Rotate": [
                             0.0,
-                            -5.0,
+                            -8.0,
                             180.0
                         ]
                     }
@@ -743,7 +1073,7 @@
                         "entityId": "",
                         "Compute Mass": false,
                         "Inertia tensor": [
-                            0.0000666666601318866,
+                            0.0001666666503297165,
                             0.0,
                             0.0,
                             0.0,
@@ -751,7 +1081,7 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.0033666668459773064
+                            0.0034666673745959997
                         ]
                     }
                 },
@@ -819,8 +1149,8 @@
                     "Angular Limit": {
                         "Standard Limit Configuration": {
                             "Is Soft Limit": true,
-                            "Damping": 5.0,
-                            "Stiffness": 20.0
+                            "Damping": 10.0,
+                            "Stiffness": 0.0010000000474974513
                         },
                         "Positive Limit": 0.10000000149011612,
                         "Negative Limit": -0.10000000149011612
@@ -967,7 +1297,7 @@
                     "Id": 12051209418545400883,
                     "CylinderShape": {
                         "Configuration": {
-                            "Height": 0.10000000149011612,
+                            "Height": 0.10999999940395355,
                             "Radius": 0.15000000596046448
                         }
                     }
@@ -1036,20 +1366,20 @@
                         "Compute Mass": false,
                         "Mass": 3.0,
                         "Centre of mass offset": [
-                            9.860927630001015e-10,
-                            -3.041732199449143e-9,
-                            1.2675327454303442e-10
+                            4.382685769854788e-9,
+                            -1.969981511251717e-9,
+                            3.950477167613542e-10
                         ],
                         "Inertia tensor": [
-                            0.018946826457977295,
+                            0.019471827894449234,
                             0.0,
                             0.0,
                             0.0,
-                            0.018946826457977295,
+                            0.019471827894449234,
                             0.0,
                             0.0,
                             0.0,
-                            0.032893646508455276
+                            0.032893650233745575
                         ]
                     }
                 },
@@ -1063,10 +1393,10 @@
                                     "Name": "Entire object",
                                     "MaterialAsset": {
                                         "assetId": {
-                                            "guid": "{6D9F8E0A-466E-5774-8974-FC7F0872FD00}",
+                                            "guid": "{289E9791-A52A-5357-A7F3-D0CC59DCBC3E}",
                                             "subId": 1
                                         },
-                                        "assetHint": "physx/rubber.physicsmaterial"
+                                        "assetHint": "assets/scripts/tire_rubber.physicsmaterial"
                                     }
                                 }
                             ]
@@ -1080,7 +1410,7 @@
                     "ShapeConfigs": [
                         {
                             "$type": "CookedMeshShapeConfiguration",
-                            "CookedData": "TlhTAUNWWE0NAAAAAAAAAElDRQFDTEhMCQAAACAAAAAwAAAAEgAAAGAAAABt6A2+5B5rPc3MTL2amRm+a0lhss3MTL2amRm+a0lhss3MTD1t6A2+5B5rPc3MTD0lOdm9IznZPc3MTD0lOdm9IznZPc3MTL3lHms9begNPs3MTD0kOdk9JDnZPc3MTD0kOdk9JDnZPc3MTL3lHms9begNPs3MTL1rSeGxmpkZPs3MTL1rSeGxmpkZPs3MTD3iHmu9begNvs3MTL0R96gympkZvs3MTL0R96gympkZvs3MTD3iHmu9begNvs3MTD0jOdm9JTnZvc3MTD0jOdm9JTnZvc3MTL3uHms9bOgNvs3MTL0oOdk9IjnZvc3MTL0oOdk9IjnZvc3MTD3uHms9bOgNvs3MTD1t6A0+4h5rvc3MTL2amRk+AAAAAM3MTL2amRk+AAAAAM3MTD1t6A0+4h5rvc3MTD1s6A0+6B5rPc3MTD1s6A0+6B5rPc3MTL3pHmu9bOgNPs3MTD1s6A2+6h5rvc3MTD1s6A2+6h5rvc3MTL3pHmu9bOgNPs3MTL0AAAAAAAAAAAAAgD/PzEy9AAAQAL8Ue7+1xUc+AAAAAAymFr4QAAQXMNtUv9s5Dj8AAAAADKYWvhQABBPcOQ4/MNtUPwAAAAAMpha+GAAEDLbFRz6/FHs/AAAAAA2mFr4cAAQNtsVHvr8Ue78AAAAADKYWviAABAbaOQ6/MdtUvwAAAAAMpha+JAAEBtw5Dj8v21S/AAAAAAymFr4oAAQExMVHPr8Ue78AAAAADaYWviwABAq+FHs/ucVHvgAAAAAMpha+MAAEADTbVD/XOQ6/AAAAAA2mFr40AAQAvRR7P8TFRz4AAAAAC6YWvjgABB0x21Q/2zkOPwAAAAAMpha+PAAEHTDbVL/cOQ6/AAAAAAymFr5AAAQHvhR7v8bFR74AAAAADKYWvkQABBfcOQ6/MNtUPwAAAAAMpha+SAAEEsbFR76/FHs/AAAAAAymFr5MAAQNAAAAAAAAAAAAAIC/z8xMvVAAEAIaBwYLHAQDAh0QDw4VFBkYAAECAwADBAUGBwgJBgkKCwwNDg8MDxAREhMUFRIVDg0WFxgZFhkUExoYFxsaGwgHHhEQHR4dAgEfBQQcHxwLCh8KCQgbFxYTEg0MER4BAAUADAADAAQAEAAPAAIAAQAOAA0ABgAFAAgABwAKAAkACwERAQ4BAgIPAhEDDAMRAwQEEQQQBREFCAUGBg0GEQcRBwoHCAgRCREJCwkKChELEQsMDBENEQ0ODhEPEQ8QEBEBAhEBDhEAAQ4AAQIAAg8CDxEAAwQAAwwDDBEDBBEEEBEABBAFBhEFCBEABQgABQYABg0GDREHCBEHChEABwoABwgJChEJCxEACQsACQoACwwLDBEADxAADQ4NDhEPEBEAAAAAmpkZvpqZGb7NzEy9mpkZPpqZGT7NzEw9RbfhO993Nji2k/8qrWMBqraT/yrfdzY42kCnHK1jAaraQKccUmSeOA6HhzC4BlGx4F0LLwAAgL/PzEw9V7gTPpR77DyUe+w8",
+                            "CookedData": "TlhTAUNWWE0NAAAAAAAAAElDRQFDTEhMCQAAACAAAAAwAAAAEgAAAGAAAABs6A0+6B5rPa5HYb0kOdk9JDnZPa5HYb0kOdk9JDnZPa5HYT1s6A0+6B5rPa5HYT2amRk+AAAAAK5HYT2amRk+AAAAAK5HYb1t6A2+5B5rPa5HYb2amRm+a0lhsq5HYb2amRm+a0lhsq5HYT1t6A2+5B5rPa5HYT0lOdm9IznZPa5HYT0lOdm9IznZPa5HYb3iHmu9begNvq5HYT0jOdm9JTnZva5HYT0jOdm9JTnZva5HYb3iHmu9begNvq5HYb0R96gympkZvq5HYb0R96gympkZvq5HYT3lHms9begNPq5HYb1rSeGxmpkZPq5HYb1rSeGxmpkZPq5HYT3lHms9begNPq5HYT1s6A2+6h5rva5HYT1s6A2+6h5rva5HYb1t6A0+4h5rva5HYT0oOdk9IjnZva5HYT0oOdk9IjnZva5HYb1t6A0+4h5rva5HYb3pHmu9bOgNPq5HYb3pHmu9bOgNPq5HYT3uHms9bOgNvq5HYb3uHms9bOgNvq5HYT0AAAAAAAAAAAAAgL+vR2G9AAAQAjDbVD/aOQ4/AAAAAAymFr4QAAQNvhR7P8TFRz4AAAAADKYWvhQABAe/FHu/tcVHPgAAAAAMpha+GAAEBDDbVL/bOQ4/AAAAAAymFr4cAAQZ2jkOvzDbVL8AAAAADKYWviAABBK2xUe+wBR7vwAAAAAOpha+JAAEErbFRz7AFHs/AAAAAA2mFr4oAAQQ3DkOPzDbVD8AAAAADKYWviwABAy+FHu/xsVHvgAAAAAMpha+MAAEADDbVL/dOQ6/AAAAAA2mFr40AAQAM9tUP9Y5Dr8AAAAADKYWvjgABAbAFHs/usVHvgAAAAAOpha+PAAEBtw5Dr8w21Q/AAAAAAymFr5AAAQZxsVHvr4Uez8AAAAADKYWvkQABBDDxUc+vRR7vwAAAAAMpha+SAAEHNw5Dj8v21S/AAAAAAymFr5MAAQKAAAAAAAAAAAAAIA/r0dhvVAAEAAcExIBAAUbGh4QDw4XBwYLAAECAwADBAUGBwgJBgkKCwwNDg8MDxAREhMUFRIVAgEWCAcXFhcODRgZGhsYGwUEHAsKHRwdFBMfERAeHx4aGR8ZGAQDAhUUHQoJCBYNDBEADgAHAAgAAQACAAwACwAQAA8ABgAFAAoACQADAAQADQEIAREBAgIRAgwDCQMRAwQEEQQNBREFCgUGBg8GEQcOBxEHCAgRCREJCgoRCxELEAsMDBENEQ0ODhEPEQ8QEBEAAQIAAQgBCBEBAhECDBEAAgwAAwQAAwkDCREDBBEEDREABA0FBhEFChEABQoABQYABg8GDxEABwgABw4HDhEHCBEJChEACQoLDBELEBEACxAACwwADQ4NDhEADxAPEBEAAAAAmpkZvpqZGb6uR2G9mpkZPpqZGT6uR2E9mEn4O9ZGTjjEg5grQfW3qcSDmCvWRk44B6NSHUH1t6kHo1IdJzuuOISWljFIYAexBi7ZLwAAgL+vR2E90CETPtMQAj3TEAI9",
                             "Type": 1
                         }
                     ]
@@ -1150,6 +1480,11 @@
                     "Id": 17526784178822845029,
                     "Parent Entity": "Entity_[136742755141622]",
                     "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            0.004999999888241291
+                        ],
                         "Rotate": [
                             90.0,
                             0.0,
@@ -3802,8 +4137,8 @@
                         ]
                     },
                     "PhysXSpecificConfiguration": {
-                        "SolverPositionIterations": 10,
-                        "SolverVelocityIterations": 4
+                        "SolverPositionIterations": 40,
+                        "SolverVelocityIterations": 10
                     }
                 },
                 "Component_[16616440410168978878]": {
@@ -3814,7 +4149,9 @@
                         "Entity_[67214763287897]",
                         "Entity_[22568578245977]",
                         "Entity_[25648069797209]",
+                        "Entity_[123542179196575]",
                         "Entity_[136734165207030]",
+                        "Entity_[123486344621727]",
                         "Entity_[26451228681561]"
                     ]
                 },
@@ -3837,15 +4174,41 @@
                         "Properties": {
                             "Properties": [
                                 {
+                                    "$type": "AzFramework::ScriptPropertyBoolean",
+                                    "id": 2633314933,
+                                    "name": "AWD"
+                                },
+                                {
                                     "$type": "AzFramework::ScriptPropertyNumber",
-                                    "id": 2964832908,
-                                    "name": "speed_coef",
+                                    "id": 762882837,
+                                    "name": "maxSpeed",
+                                    "value": 10.0
+                                },
+                                {
+                                    "$type": "AzFramework::ScriptPropertyNumber",
+                                    "id": 3512074993,
+                                    "name": "maxSteeringAngle",
+                                    "value": 0.5
+                                },
+                                {
+                                    "$type": "AzFramework::ScriptPropertyGenericClass",
+                                    "id": 1110206997,
+                                    "name": "payload",
+                                    "value": {
+                                        "$type": "EntityId",
+                                        "value": "Entity_[52538860037465]"
+                                    }
+                                },
+                                {
+                                    "$type": "AzFramework::ScriptPropertyNumber",
+                                    "id": 3090274679,
+                                    "name": "speedCoef",
                                     "value": 0.2
                                 },
                                 {
                                     "$type": "AzFramework::ScriptPropertyGenericClass",
-                                    "id": 800096546,
-                                    "name": "steering_L",
+                                    "id": 1866970208,
+                                    "name": "steeringL",
                                     "value": {
                                         "$type": "EntityId",
                                         "value": "Entity_[136738460174326]"
@@ -3853,23 +4216,26 @@
                                 },
                                 {
                                     "$type": "AzFramework::ScriptPropertyGenericClass",
-                                    "id": 3586112577,
-                                    "name": "steering_R",
+                                    "id": 2504558851,
+                                    "name": "steeringR",
                                     "value": {
                                         "$type": "EntityId",
                                         "value": "Entity_[87118703003638]"
                                     }
                                 },
                                 {
-                                    "$type": "AzFramework::ScriptPropertyNumber",
-                                    "id": 2328008433,
-                                    "name": "steering_coef",
-                                    "value": 100000000.0
+                                    "$type": "AzFramework::ScriptPropertyGenericClass",
+                                    "id": 561680738,
+                                    "name": "wheelLF",
+                                    "value": {
+                                        "$type": "EntityId",
+                                        "value": "Entity_[136742755141622]"
+                                    }
                                 },
                                 {
                                     "$type": "AzFramework::ScriptPropertyGenericClass",
-                                    "id": 902045004,
-                                    "name": "wheel_L",
+                                    "id": 1000359199,
+                                    "name": "wheelLR",
                                     "value": {
                                         "$type": "EntityId",
                                         "value": "Entity_[26442638746969]"
@@ -3877,8 +4243,17 @@
                                 },
                                 {
                                     "$type": "AzFramework::ScriptPropertyGenericClass",
-                                    "id": 3486195759,
-                                    "name": "wheel_R",
+                                    "id": 4114329277,
+                                    "name": "wheelRF",
+                                    "value": {
+                                        "$type": "EntityId",
+                                        "value": "Entity_[25652364764505]"
+                                    }
+                                },
+                                {
+                                    "$type": "AzFramework::ScriptPropertyGenericClass",
+                                    "id": 4024531648,
+                                    "name": "wheelRR",
                                     "value": {
                                         "$type": "EntityId",
                                         "value": "Entity_[22315175175513]"
@@ -3991,7 +4366,7 @@
                     "Id": 12051209418545400883,
                     "CylinderShape": {
                         "Configuration": {
-                            "Height": 0.10000000149011612,
+                            "Height": 0.10999999940395355,
                             "Radius": 0.15000000596046448
                         }
                     }
@@ -4060,20 +4435,20 @@
                         "Compute Mass": false,
                         "Mass": 3.0,
                         "Centre of mass offset": [
-                            9.860927630001015e-10,
-                            -3.041732199449143e-9,
-                            1.2675327454303442e-10
+                            4.382685769854788e-9,
+                            -1.969981511251717e-9,
+                            3.950477167613542e-10
                         ],
                         "Inertia tensor": [
-                            0.018946826457977295,
+                            0.019471827894449234,
                             0.0,
                             0.0,
                             0.0,
-                            0.018946826457977295,
+                            0.019471827894449234,
                             0.0,
                             0.0,
                             0.0,
-                            0.032893646508455276
+                            0.032893650233745575
                         ]
                     }
                 },
@@ -4087,10 +4462,10 @@
                                     "Name": "Entire object",
                                     "MaterialAsset": {
                                         "assetId": {
-                                            "guid": "{6D9F8E0A-466E-5774-8974-FC7F0872FD00}",
+                                            "guid": "{289E9791-A52A-5357-A7F3-D0CC59DCBC3E}",
                                             "subId": 1
                                         },
-                                        "assetHint": "physx/rubber.physicsmaterial"
+                                        "assetHint": "assets/scripts/tire_rubber.physicsmaterial"
                                     }
                                 }
                             ]
@@ -4104,7 +4479,7 @@
                     "ShapeConfigs": [
                         {
                             "$type": "CookedMeshShapeConfiguration",
-                            "CookedData": "TlhTAUNWWE0NAAAAAAAAAElDRQFDTEhMCQAAACAAAAAwAAAAEgAAAGAAAABt6A2+5B5rPc3MTL2amRm+a0lhss3MTL2amRm+a0lhss3MTD1t6A2+5B5rPc3MTD0lOdm9IznZPc3MTD0lOdm9IznZPc3MTL3lHms9begNPs3MTD0kOdk9JDnZPc3MTD0kOdk9JDnZPc3MTL3lHms9begNPs3MTL1rSeGxmpkZPs3MTL1rSeGxmpkZPs3MTD3iHmu9begNvs3MTL0R96gympkZvs3MTL0R96gympkZvs3MTD3iHmu9begNvs3MTD0jOdm9JTnZvc3MTD0jOdm9JTnZvc3MTL3uHms9bOgNvs3MTL0oOdk9IjnZvc3MTL0oOdk9IjnZvc3MTD3uHms9bOgNvs3MTD1t6A0+4h5rvc3MTL2amRk+AAAAAM3MTL2amRk+AAAAAM3MTD1t6A0+4h5rvc3MTD1s6A0+6B5rPc3MTD1s6A0+6B5rPc3MTL3pHmu9bOgNPs3MTD1s6A2+6h5rvc3MTD1s6A2+6h5rvc3MTL3pHmu9bOgNPs3MTL0AAAAAAAAAAAAAgD/PzEy9AAAQAL8Ue7+1xUc+AAAAAAymFr4QAAQXMNtUv9s5Dj8AAAAADKYWvhQABBPcOQ4/MNtUPwAAAAAMpha+GAAEDLbFRz6/FHs/AAAAAA2mFr4cAAQNtsVHvr8Ue78AAAAADKYWviAABAbaOQ6/MdtUvwAAAAAMpha+JAAEBtw5Dj8v21S/AAAAAAymFr4oAAQExMVHPr8Ue78AAAAADaYWviwABAq+FHs/ucVHvgAAAAAMpha+MAAEADTbVD/XOQ6/AAAAAA2mFr40AAQAvRR7P8TFRz4AAAAAC6YWvjgABB0x21Q/2zkOPwAAAAAMpha+PAAEHTDbVL/cOQ6/AAAAAAymFr5AAAQHvhR7v8bFR74AAAAADKYWvkQABBfcOQ6/MNtUPwAAAAAMpha+SAAEEsbFR76/FHs/AAAAAAymFr5MAAQNAAAAAAAAAAAAAIC/z8xMvVAAEAIaBwYLHAQDAh0QDw4VFBkYAAECAwADBAUGBwgJBgkKCwwNDg8MDxAREhMUFRIVDg0WFxgZFhkUExoYFxsaGwgHHhEQHR4dAgEfBQQcHxwLCh8KCQgbFxYTEg0MER4BAAUADAADAAQAEAAPAAIAAQAOAA0ABgAFAAgABwAKAAkACwERAQ4BAgIPAhEDDAMRAwQEEQQQBREFCAUGBg0GEQcRBwoHCAgRCREJCwkKChELEQsMDBENEQ0ODhEPEQ8QEBEBAhEBDhEAAQ4AAQIAAg8CDxEAAwQAAwwDDBEDBBEEEBEABBAFBhEFCBEABQgABQYABg0GDREHCBEHChEABwoABwgJChEJCxEACQsACQoACwwLDBEADxAADQ4NDhEPEBEAAAAAmpkZvpqZGb7NzEy9mpkZPpqZGT7NzEw9RbfhO993Nji2k/8qrWMBqraT/yrfdzY42kCnHK1jAaraQKccUmSeOA6HhzC4BlGx4F0LLwAAgL/PzEw9V7gTPpR77DyUe+w8",
+                            "CookedData": "TlhTAUNWWE0NAAAAAAAAAElDRQFDTEhMCQAAACAAAAAwAAAAEgAAAGAAAABs6A0+6B5rPa5HYb0kOdk9JDnZPa5HYb0kOdk9JDnZPa5HYT1s6A0+6B5rPa5HYT2amRk+AAAAAK5HYT2amRk+AAAAAK5HYb1t6A2+5B5rPa5HYb2amRm+a0lhsq5HYb2amRm+a0lhsq5HYT1t6A2+5B5rPa5HYT0lOdm9IznZPa5HYT0lOdm9IznZPa5HYb3iHmu9begNvq5HYT0jOdm9JTnZva5HYT0jOdm9JTnZva5HYb3iHmu9begNvq5HYb0R96gympkZvq5HYb0R96gympkZvq5HYT3lHms9begNPq5HYb1rSeGxmpkZPq5HYb1rSeGxmpkZPq5HYT3lHms9begNPq5HYT1s6A2+6h5rva5HYT1s6A2+6h5rva5HYb1t6A0+4h5rva5HYT0oOdk9IjnZva5HYT0oOdk9IjnZva5HYb1t6A0+4h5rva5HYb3pHmu9bOgNPq5HYb3pHmu9bOgNPq5HYT3uHms9bOgNvq5HYb3uHms9bOgNvq5HYT0AAAAAAAAAAAAAgL+vR2G9AAAQAjDbVD/aOQ4/AAAAAAymFr4QAAQNvhR7P8TFRz4AAAAADKYWvhQABAe/FHu/tcVHPgAAAAAMpha+GAAEBDDbVL/bOQ4/AAAAAAymFr4cAAQZ2jkOvzDbVL8AAAAADKYWviAABBK2xUe+wBR7vwAAAAAOpha+JAAEErbFRz7AFHs/AAAAAA2mFr4oAAQQ3DkOPzDbVD8AAAAADKYWviwABAy+FHu/xsVHvgAAAAAMpha+MAAEADDbVL/dOQ6/AAAAAA2mFr40AAQAM9tUP9Y5Dr8AAAAADKYWvjgABAbAFHs/usVHvgAAAAAOpha+PAAEBtw5Dr8w21Q/AAAAAAymFr5AAAQZxsVHvr4Uez8AAAAADKYWvkQABBDDxUc+vRR7vwAAAAAMpha+SAAEHNw5Dj8v21S/AAAAAAymFr5MAAQKAAAAAAAAAAAAAIA/r0dhvVAAEAAcExIBAAUbGh4QDw4XBwYLAAECAwADBAUGBwgJBgkKCwwNDg8MDxAREhMUFRIVAgEWCAcXFhcODRgZGhsYGwUEHAsKHRwdFBMfERAeHx4aGR8ZGAQDAhUUHQoJCBYNDBEADgAHAAgAAQACAAwACwAQAA8ABgAFAAoACQADAAQADQEIAREBAgIRAgwDCQMRAwQEEQQNBREFCgUGBg8GEQcOBxEHCAgRCREJCgoRCxELEAsMDBENEQ0ODhEPEQ8QEBEAAQIAAQgBCBEBAhECDBEAAgwAAwQAAwkDCREDBBEEDREABA0FBhEFChEABQoABQYABg8GDxEABwgABw4HDhEHCBEJChEACQoLDBELEBEACxAACwwADQ4NDhEADxAPEBEAAAAAmpkZvpqZGb6uR2G9mpkZPpqZGT6uR2E9mEn4O9ZGTjjEg5grQfW3qcSDmCvWRk44B6NSHUH1t6kHo1IdJzuuOISWljFIYAexBi7ZLwAAgL+vR2E90CETPtMQAj3TEAI9",
                             "Type": 1
                         }
                     ]
@@ -4136,7 +4511,7 @@
                         "Standard Limit Configuration": {
                             "Is Soft Limit": true,
                             "Damping": 50.0,
-                            "Stiffness": 1000.0
+                            "Stiffness": 500.0
                         },
                         "Positive Limit": 0.10000000149011612,
                         "Negative Limit": -0.10000000149011612
@@ -4158,7 +4533,7 @@
                         ],
                         "Rotate": [
                             0.0,
-                            5.0,
+                            8.0,
                             0.0
                         ]
                     }
@@ -4210,7 +4585,7 @@
                         "entityId": "",
                         "Compute Mass": false,
                         "Inertia tensor": [
-                            0.00006666666740784422,
+                            0.00016666666488163173,
                             0.0,
                             0.0,
                             0.0,
@@ -4218,7 +4593,7 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.005241666920483112
+                            0.005341666284948587
                         ]
                     }
                 },
@@ -4286,7 +4661,7 @@
                         "Standard Limit Configuration": {
                             "Is Soft Limit": true,
                             "Damping": 50.0,
-                            "Stiffness": 1000.0
+                            "Stiffness": 500.0
                         },
                         "Positive Limit": 0.10000000149011612,
                         "Negative Limit": -0.10000000149011612
@@ -4308,7 +4683,7 @@
                         ],
                         "Rotate": [
                             0.0,
-                            5.0,
+                            8.0,
                             0.0
                         ]
                     }
@@ -4360,7 +4735,7 @@
                         "entityId": "",
                         "Compute Mass": false,
                         "Inertia tensor": [
-                            0.0000666666601318866,
+                            0.0001666666503297165,
                             0.0,
                             0.0,
                             0.0,
@@ -4368,7 +4743,7 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.0033666668459773064
+                            0.0034666673745959997
                         ]
                     }
                 },
@@ -4438,7 +4813,7 @@
                     "Id": 12051209418545400883,
                     "CylinderShape": {
                         "Configuration": {
-                            "Height": 0.10000000149011612,
+                            "Height": 0.10999999940395355,
                             "Radius": 0.15000000596046448
                         }
                     }
@@ -4507,20 +4882,20 @@
                         "Compute Mass": false,
                         "Mass": 3.0,
                         "Centre of mass offset": [
-                            9.860927630001015e-10,
-                            -3.041732199449143e-9,
-                            1.2675327454303442e-10
+                            4.382685769854788e-9,
+                            -1.969981511251717e-9,
+                            3.950477167613542e-10
                         ],
                         "Inertia tensor": [
-                            0.018946826457977295,
+                            0.019471827894449234,
                             0.0,
                             0.0,
                             0.0,
-                            0.018946826457977295,
+                            0.019471827894449234,
                             0.0,
                             0.0,
                             0.0,
-                            0.032893646508455276
+                            0.032893650233745575
                         ]
                     }
                 },
@@ -4534,10 +4909,10 @@
                                     "Name": "Entire object",
                                     "MaterialAsset": {
                                         "assetId": {
-                                            "guid": "{6D9F8E0A-466E-5774-8974-FC7F0872FD00}",
+                                            "guid": "{289E9791-A52A-5357-A7F3-D0CC59DCBC3E}",
                                             "subId": 1
                                         },
-                                        "assetHint": "physx/rubber.physicsmaterial"
+                                        "assetHint": "assets/scripts/tire_rubber.physicsmaterial"
                                     }
                                 }
                             ]
@@ -4551,7 +4926,7 @@
                     "ShapeConfigs": [
                         {
                             "$type": "CookedMeshShapeConfiguration",
-                            "CookedData": "TlhTAUNWWE0NAAAAAAAAAElDRQFDTEhMCQAAACAAAAAwAAAAEgAAAGAAAABt6A2+5B5rPc3MTL2amRm+a0lhss3MTL2amRm+a0lhss3MTD1t6A2+5B5rPc3MTD0lOdm9IznZPc3MTD0lOdm9IznZPc3MTL3lHms9begNPs3MTD0kOdk9JDnZPc3MTD0kOdk9JDnZPc3MTL3lHms9begNPs3MTL1rSeGxmpkZPs3MTL1rSeGxmpkZPs3MTD3iHmu9begNvs3MTL0R96gympkZvs3MTL0R96gympkZvs3MTD3iHmu9begNvs3MTD0jOdm9JTnZvc3MTD0jOdm9JTnZvc3MTL3uHms9bOgNvs3MTL0oOdk9IjnZvc3MTL0oOdk9IjnZvc3MTD3uHms9bOgNvs3MTD1t6A0+4h5rvc3MTL2amRk+AAAAAM3MTL2amRk+AAAAAM3MTD1t6A0+4h5rvc3MTD1s6A0+6B5rPc3MTD1s6A0+6B5rPc3MTL3pHmu9bOgNPs3MTD1s6A2+6h5rvc3MTD1s6A2+6h5rvc3MTL3pHmu9bOgNPs3MTL0AAAAAAAAAAAAAgD/PzEy9AAAQAL8Ue7+1xUc+AAAAAAymFr4QAAQXMNtUv9s5Dj8AAAAADKYWvhQABBPcOQ4/MNtUPwAAAAAMpha+GAAEDLbFRz6/FHs/AAAAAA2mFr4cAAQNtsVHvr8Ue78AAAAADKYWviAABAbaOQ6/MdtUvwAAAAAMpha+JAAEBtw5Dj8v21S/AAAAAAymFr4oAAQExMVHPr8Ue78AAAAADaYWviwABAq+FHs/ucVHvgAAAAAMpha+MAAEADTbVD/XOQ6/AAAAAA2mFr40AAQAvRR7P8TFRz4AAAAAC6YWvjgABB0x21Q/2zkOPwAAAAAMpha+PAAEHTDbVL/cOQ6/AAAAAAymFr5AAAQHvhR7v8bFR74AAAAADKYWvkQABBfcOQ6/MNtUPwAAAAAMpha+SAAEEsbFR76/FHs/AAAAAAymFr5MAAQNAAAAAAAAAAAAAIC/z8xMvVAAEAIaBwYLHAQDAh0QDw4VFBkYAAECAwADBAUGBwgJBgkKCwwNDg8MDxAREhMUFRIVDg0WFxgZFhkUExoYFxsaGwgHHhEQHR4dAgEfBQQcHxwLCh8KCQgbFxYTEg0MER4BAAUADAADAAQAEAAPAAIAAQAOAA0ABgAFAAgABwAKAAkACwERAQ4BAgIPAhEDDAMRAwQEEQQQBREFCAUGBg0GEQcRBwoHCAgRCREJCwkKChELEQsMDBENEQ0ODhEPEQ8QEBEBAhEBDhEAAQ4AAQIAAg8CDxEAAwQAAwwDDBEDBBEEEBEABBAFBhEFCBEABQgABQYABg0GDREHCBEHChEABwoABwgJChEJCxEACQsACQoACwwLDBEADxAADQ4NDhEPEBEAAAAAmpkZvpqZGb7NzEy9mpkZPpqZGT7NzEw9RbfhO993Nji2k/8qrWMBqraT/yrfdzY42kCnHK1jAaraQKccUmSeOA6HhzC4BlGx4F0LLwAAgL/PzEw9V7gTPpR77DyUe+w8",
+                            "CookedData": "TlhTAUNWWE0NAAAAAAAAAElDRQFDTEhMCQAAACAAAAAwAAAAEgAAAGAAAABs6A0+6B5rPa5HYb0kOdk9JDnZPa5HYb0kOdk9JDnZPa5HYT1s6A0+6B5rPa5HYT2amRk+AAAAAK5HYT2amRk+AAAAAK5HYb1t6A2+5B5rPa5HYb2amRm+a0lhsq5HYb2amRm+a0lhsq5HYT1t6A2+5B5rPa5HYT0lOdm9IznZPa5HYT0lOdm9IznZPa5HYb3iHmu9begNvq5HYT0jOdm9JTnZva5HYT0jOdm9JTnZva5HYb3iHmu9begNvq5HYb0R96gympkZvq5HYb0R96gympkZvq5HYT3lHms9begNPq5HYb1rSeGxmpkZPq5HYb1rSeGxmpkZPq5HYT3lHms9begNPq5HYT1s6A2+6h5rva5HYT1s6A2+6h5rva5HYb1t6A0+4h5rva5HYT0oOdk9IjnZva5HYT0oOdk9IjnZva5HYb1t6A0+4h5rva5HYb3pHmu9bOgNPq5HYb3pHmu9bOgNPq5HYT3uHms9bOgNvq5HYb3uHms9bOgNvq5HYT0AAAAAAAAAAAAAgL+vR2G9AAAQAjDbVD/aOQ4/AAAAAAymFr4QAAQNvhR7P8TFRz4AAAAADKYWvhQABAe/FHu/tcVHPgAAAAAMpha+GAAEBDDbVL/bOQ4/AAAAAAymFr4cAAQZ2jkOvzDbVL8AAAAADKYWviAABBK2xUe+wBR7vwAAAAAOpha+JAAEErbFRz7AFHs/AAAAAA2mFr4oAAQQ3DkOPzDbVD8AAAAADKYWviwABAy+FHu/xsVHvgAAAAAMpha+MAAEADDbVL/dOQ6/AAAAAA2mFr40AAQAM9tUP9Y5Dr8AAAAADKYWvjgABAbAFHs/usVHvgAAAAAOpha+PAAEBtw5Dr8w21Q/AAAAAAymFr5AAAQZxsVHvr4Uez8AAAAADKYWvkQABBDDxUc+vRR7vwAAAAAMpha+SAAEHNw5Dj8v21S/AAAAAAymFr5MAAQKAAAAAAAAAAAAAIA/r0dhvVAAEAAcExIBAAUbGh4QDw4XBwYLAAECAwADBAUGBwgJBgkKCwwNDg8MDxAREhMUFRIVAgEWCAcXFhcODRgZGhsYGwUEHAsKHRwdFBMfERAeHx4aGR8ZGAQDAhUUHQoJCBYNDBEADgAHAAgAAQACAAwACwAQAA8ABgAFAAoACQADAAQADQEIAREBAgIRAgwDCQMRAwQEEQQNBREFCgUGBg8GEQcOBxEHCAgRCREJCgoRCxELEAsMDBENEQ0ODhEPEQ8QEBEAAQIAAQgBCBEBAhECDBEAAgwAAwQAAwkDCREDBBEEDREABA0FBhEFChEABQoABQYABg8GDxEABwgABw4HDhEHCBEJChEACQoLDBELEBEACxAACwwADQ4NDhEADxAPEBEAAAAAmpkZvpqZGb6uR2G9mpkZPpqZGT6uR2E9mEn4O9ZGTjjEg5grQfW3qcSDmCvWRk44B6NSHUH1t6kHo1IdJzuuOISWljFIYAexBi7ZLwAAgL+vR2E90CETPtMQAj3TEAI9",
                             "Type": 1
                         }
                     ]
@@ -4585,7 +4960,7 @@
                     "Id": 12051209418545400883,
                     "CylinderShape": {
                         "Configuration": {
-                            "Height": 0.10000000149011612,
+                            "Height": 0.10999999940395355,
                             "Radius": 0.15000000596046448
                         }
                     }
@@ -4654,20 +5029,20 @@
                         "Compute Mass": false,
                         "Mass": 3.0,
                         "Centre of mass offset": [
-                            9.860927630001015e-10,
-                            -3.041732199449143e-9,
-                            1.2675327454303442e-10
+                            4.382685769854788e-9,
+                            -1.969981511251717e-9,
+                            3.950477167613542e-10
                         ],
                         "Inertia tensor": [
-                            0.018946826457977295,
+                            0.019471827894449234,
                             0.0,
                             0.0,
                             0.0,
-                            0.018946826457977295,
+                            0.019471827894449234,
                             0.0,
                             0.0,
                             0.0,
-                            0.032893646508455276
+                            0.032893650233745575
                         ]
                     }
                 },
@@ -4681,10 +5056,10 @@
                                     "Name": "Entire object",
                                     "MaterialAsset": {
                                         "assetId": {
-                                            "guid": "{6D9F8E0A-466E-5774-8974-FC7F0872FD00}",
+                                            "guid": "{289E9791-A52A-5357-A7F3-D0CC59DCBC3E}",
                                             "subId": 1
                                         },
-                                        "assetHint": "physx/rubber.physicsmaterial"
+                                        "assetHint": "assets/scripts/tire_rubber.physicsmaterial"
                                     }
                                 }
                             ]
@@ -4698,7 +5073,7 @@
                     "ShapeConfigs": [
                         {
                             "$type": "CookedMeshShapeConfiguration",
-                            "CookedData": "TlhTAUNWWE0NAAAAAAAAAElDRQFDTEhMCQAAACAAAAAwAAAAEgAAAGAAAABt6A2+5B5rPc3MTL2amRm+a0lhss3MTL2amRm+a0lhss3MTD1t6A2+5B5rPc3MTD0lOdm9IznZPc3MTD0lOdm9IznZPc3MTL3lHms9begNPs3MTD0kOdk9JDnZPc3MTD0kOdk9JDnZPc3MTL3lHms9begNPs3MTL1rSeGxmpkZPs3MTL1rSeGxmpkZPs3MTD3iHmu9begNvs3MTL0R96gympkZvs3MTL0R96gympkZvs3MTD3iHmu9begNvs3MTD0jOdm9JTnZvc3MTD0jOdm9JTnZvc3MTL3uHms9bOgNvs3MTL0oOdk9IjnZvc3MTL0oOdk9IjnZvc3MTD3uHms9bOgNvs3MTD1t6A0+4h5rvc3MTL2amRk+AAAAAM3MTL2amRk+AAAAAM3MTD1t6A0+4h5rvc3MTD1s6A0+6B5rPc3MTD1s6A0+6B5rPc3MTL3pHmu9bOgNPs3MTD1s6A2+6h5rvc3MTD1s6A2+6h5rvc3MTL3pHmu9bOgNPs3MTL0AAAAAAAAAAAAAgD/PzEy9AAAQAL8Ue7+1xUc+AAAAAAymFr4QAAQXMNtUv9s5Dj8AAAAADKYWvhQABBPcOQ4/MNtUPwAAAAAMpha+GAAEDLbFRz6/FHs/AAAAAA2mFr4cAAQNtsVHvr8Ue78AAAAADKYWviAABAbaOQ6/MdtUvwAAAAAMpha+JAAEBtw5Dj8v21S/AAAAAAymFr4oAAQExMVHPr8Ue78AAAAADaYWviwABAq+FHs/ucVHvgAAAAAMpha+MAAEADTbVD/XOQ6/AAAAAA2mFr40AAQAvRR7P8TFRz4AAAAAC6YWvjgABB0x21Q/2zkOPwAAAAAMpha+PAAEHTDbVL/cOQ6/AAAAAAymFr5AAAQHvhR7v8bFR74AAAAADKYWvkQABBfcOQ6/MNtUPwAAAAAMpha+SAAEEsbFR76/FHs/AAAAAAymFr5MAAQNAAAAAAAAAAAAAIC/z8xMvVAAEAIaBwYLHAQDAh0QDw4VFBkYAAECAwADBAUGBwgJBgkKCwwNDg8MDxAREhMUFRIVDg0WFxgZFhkUExoYFxsaGwgHHhEQHR4dAgEfBQQcHxwLCh8KCQgbFxYTEg0MER4BAAUADAADAAQAEAAPAAIAAQAOAA0ABgAFAAgABwAKAAkACwERAQ4BAgIPAhEDDAMRAwQEEQQQBREFCAUGBg0GEQcRBwoHCAgRCREJCwkKChELEQsMDBENEQ0ODhEPEQ8QEBEBAhEBDhEAAQ4AAQIAAg8CDxEAAwQAAwwDDBEDBBEEEBEABBAFBhEFCBEABQgABQYABg0GDREHCBEHChEABwoABwgJChEJCxEACQsACQoACwwLDBEADxAADQ4NDhEPEBEAAAAAmpkZvpqZGb7NzEy9mpkZPpqZGT7NzEw9RbfhO993Nji2k/8qrWMBqraT/yrfdzY42kCnHK1jAaraQKccUmSeOA6HhzC4BlGx4F0LLwAAgL/PzEw9V7gTPpR77DyUe+w8",
+                            "CookedData": "TlhTAUNWWE0NAAAAAAAAAElDRQFDTEhMCQAAACAAAAAwAAAAEgAAAGAAAABs6A0+6B5rPa5HYb0kOdk9JDnZPa5HYb0kOdk9JDnZPa5HYT1s6A0+6B5rPa5HYT2amRk+AAAAAK5HYT2amRk+AAAAAK5HYb1t6A2+5B5rPa5HYb2amRm+a0lhsq5HYb2amRm+a0lhsq5HYT1t6A2+5B5rPa5HYT0lOdm9IznZPa5HYT0lOdm9IznZPa5HYb3iHmu9begNvq5HYT0jOdm9JTnZva5HYT0jOdm9JTnZva5HYb3iHmu9begNvq5HYb0R96gympkZvq5HYb0R96gympkZvq5HYT3lHms9begNPq5HYb1rSeGxmpkZPq5HYb1rSeGxmpkZPq5HYT3lHms9begNPq5HYT1s6A2+6h5rva5HYT1s6A2+6h5rva5HYb1t6A0+4h5rva5HYT0oOdk9IjnZva5HYT0oOdk9IjnZva5HYb1t6A0+4h5rva5HYb3pHmu9bOgNPq5HYb3pHmu9bOgNPq5HYT3uHms9bOgNvq5HYb3uHms9bOgNvq5HYT0AAAAAAAAAAAAAgL+vR2G9AAAQAjDbVD/aOQ4/AAAAAAymFr4QAAQNvhR7P8TFRz4AAAAADKYWvhQABAe/FHu/tcVHPgAAAAAMpha+GAAEBDDbVL/bOQ4/AAAAAAymFr4cAAQZ2jkOvzDbVL8AAAAADKYWviAABBK2xUe+wBR7vwAAAAAOpha+JAAEErbFRz7AFHs/AAAAAA2mFr4oAAQQ3DkOPzDbVD8AAAAADKYWviwABAy+FHu/xsVHvgAAAAAMpha+MAAEADDbVL/dOQ6/AAAAAA2mFr40AAQAM9tUP9Y5Dr8AAAAADKYWvjgABAbAFHs/usVHvgAAAAAOpha+PAAEBtw5Dr8w21Q/AAAAAAymFr5AAAQZxsVHvr4Uez8AAAAADKYWvkQABBDDxUc+vRR7vwAAAAAMpha+SAAEHNw5Dj8v21S/AAAAAAymFr5MAAQKAAAAAAAAAAAAAIA/r0dhvVAAEAAcExIBAAUbGh4QDw4XBwYLAAECAwADBAUGBwgJBgkKCwwNDg8MDxAREhMUFRIVAgEWCAcXFhcODRgZGhsYGwUEHAsKHRwdFBMfERAeHx4aGR8ZGAQDAhUUHQoJCBYNDBEADgAHAAgAAQACAAwACwAQAA8ABgAFAAoACQADAAQADQEIAREBAgIRAgwDCQMRAwQEEQQNBREFCgUGBg8GEQcOBxEHCAgRCREJCgoRCxELEAsMDBENEQ0ODhEPEQ8QEBEAAQIAAQgBCBEBAhECDBEAAgwAAwQAAwkDCREDBBEEDREABA0FBhEFChEABQoABQYABg8GDxEABwgABw4HDhEHCBEJChEACQoLDBELEBEACxAACwwADQ4NDhEADxAPEBEAAAAAmpkZvpqZGb6uR2G9mpkZPpqZGT6uR2E9mEn4O9ZGTjjEg5grQfW3qcSDmCvWRk44B6NSHUH1t6kHo1IdJzuuOISWljFIYAexBi7ZLwAAgL+vR2E90CETPtMQAj3TEAI9",
                             "Type": 1
                         }
                     ]
@@ -4730,7 +5105,7 @@
                         "Standard Limit Configuration": {
                             "Is Soft Limit": true,
                             "Damping": 50.0,
-                            "Stiffness": 1000.0
+                            "Stiffness": 500.0
                         },
                         "Positive Limit": 0.10000000149011612,
                         "Negative Limit": -0.10000000149011612
@@ -4752,7 +5127,7 @@
                         ],
                         "Rotate": [
                             0.0,
-                            -5.0,
+                            -8.0,
                             180.0
                         ]
                     }
@@ -4804,7 +5179,7 @@
                         "entityId": "",
                         "Compute Mass": false,
                         "Inertia tensor": [
-                            0.00006666666740784422,
+                            0.00016666666488163173,
                             0.0,
                             0.0,
                             0.0,
@@ -4812,7 +5187,7 @@
                             0.0,
                             0.0,
                             0.0,
-                            0.005241666920483112
+                            0.005341666284948587
                         ]
                     }
                 },
@@ -4953,7 +5328,7 @@
                         "Translate": [
                             0.0,
                             0.0,
-                            0.03908729553222656
+                            0.2626992464065552
                         ]
                     }
                 },
@@ -5012,7 +5387,7 @@
                     "Controller": {
                         "Configuration": {
                             "Field of View": 55.0,
-                            "EditorEntityId": 5030309275975406944
+                            "EditorEntityId": 12768725447688648446
                         }
                     }
                 },
@@ -5378,8 +5753,8 @@
                     "Angular Limit": {
                         "Standard Limit Configuration": {
                             "Is Soft Limit": true,
-                            "Damping": 5.0,
-                            "Stiffness": 20.0
+                            "Damping": 10.0,
+                            "Stiffness": 0.0010000000474974513
                         },
                         "Positive Limit": 0.10000000149011612,
                         "Negative Limit": -0.10000000149011612
