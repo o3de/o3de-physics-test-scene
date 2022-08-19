@@ -62,6 +62,203 @@
         }
     },
     "Entities": {
+        "Entity_[11460435653190]": {
+            "Id": "Entity_[11460435653190]",
+            "Name": "wall",
+            "Components": {
+                "Component_[10953876651268642258]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10953876651268642258
+                },
+                "Component_[11046096320581315574]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 11046096320581315574
+                },
+                "Component_[11116578058423845630]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 11116578058423845630
+                },
+                "Component_[11836507567374440610]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11836507567374440610
+                },
+                "Component_[12271054571961146875]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 12271054571961146875
+                },
+                "Component_[16616440410168978878]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 16616440410168978878,
+                    "Child Entity Order": [
+                        "Entity_[11464730620486]"
+                    ]
+                },
+                "Component_[1807931960527701319]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 1807931960527701319,
+                    "Parent Entity": "Entity_[2873024686968]",
+                    "Transform Data": {
+                        "Translate": [
+                            12.75404167175293,
+                            11.195073127746582,
+                            -0.7152491211891174
+                        ]
+                    }
+                },
+                "Component_[5609115821002756754]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 5609115821002756754
+                },
+                "Component_[7412142156647776837]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 7412142156647776837
+                },
+                "Component_[7907396654938691310]": {
+                    "$type": "EditorNonUniformScaleComponent",
+                    "Id": 7907396654938691310
+                },
+                "Component_[8575572291889212252]": {
+                    "$type": "EditorShapeColliderComponent",
+                    "Id": 8575572291889212252,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        },
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfigs": [
+                        {
+                            "$type": "BoxShapeConfiguration",
+                            "Configuration": [
+                                10.0,
+                                5.0,
+                                0.20000000298023224
+                            ]
+                        }
+                    ]
+                },
+                "Component_[8846272292629100933]": {
+                    "$type": "SelectionComponent",
+                    "Id": 8846272292629100933
+                },
+                "Component_[9324164078949048710]": {
+                    "$type": "EditorBoxShapeComponent",
+                    "Id": 9324164078949048710,
+                    "BoxShape": {
+                        "Configuration": {
+                            "Dimensions": [
+                                10.0,
+                                5.0,
+                                0.20000000298023224
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "Entity_[11464730620486]": {
+            "Id": "Entity_[11464730620486]",
+            "Name": "ramp_mesh",
+            "Components": {
+                "Component_[10201565173162996805]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 10201565173162996805
+                },
+                "Component_[11634603118171617741]": {
+                    "$type": "SelectionComponent",
+                    "Id": 11634603118171617741
+                },
+                "Component_[12758597745485045190]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12758597745485045190
+                },
+                "Component_[12814490272611360254]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 12814490272611360254,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2511422688
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{0CD745C0-6AA8-569A-A68A-73A3270986C4}",
+                                                "subId": 803645540
+                                            },
+                                            "assetHint": "objects/groudplane/groundplane_512x512m_groundplane_10871786180989855844.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[13456807630138578240]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13456807630138578240
+                },
+                "Component_[16557197523848837548]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 16557197523848837548
+                },
+                "Component_[18087264586374973042]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 18087264586374973042
+                },
+                "Component_[211828142749256650]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 211828142749256650,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{C15CD465-9589-56ED-945F-8416FA4798A3}",
+                                    "subId": 284301017
+                                },
+                                "assetHint": "objects/_primitives/_box_1x1.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[2804313319473453446]": {
+                    "$type": "EditorNonUniformScaleComponent",
+                    "Id": 2804313319473453446,
+                    "NonUniformScale": [
+                        10.0,
+                        5.0,
+                        0.20000000298023224
+                    ]
+                },
+                "Component_[6397974071609674395]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 6397974071609674395
+                },
+                "Component_[7856500471901971778]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7856500471901971778
+                },
+                "Component_[8679404082259052829]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 8679404082259052829,
+                    "Parent Entity": "Entity_[11460435653190]"
+                },
+                "Component_[8744272218418481285]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 8744272218418481285
+                }
+            }
+        },
         "Entity_[1155164325235]": {
             "Id": "Entity_[1155164325235]",
             "Name": "Sun",
@@ -995,7 +1192,7 @@
                     "Angular Limit": {
                         "Standard Limit Configuration": {
                             "Is Soft Limit": true,
-                            "Damping": 50.0,
+                            "Damping": 70.0,
                             "Stiffness": 500.0
                         },
                         "Positive Limit": 0.10000000149011612,
@@ -1031,6 +1228,9 @@
                     "$type": "EditorShapeColliderComponent",
                     "Id": 15829812595535571497,
                     "ColliderConfiguration": {
+                        "CollisionGroupId": {
+                            "GroupId": "{5CBA9289-BBCE-41D8-BA9B-8055A73E118E}"
+                        },
                         "MaterialSlots": {
                             "Slots": [
                                 {
@@ -1177,6 +1377,9 @@
                     "$type": "EditorShapeColliderComponent",
                     "Id": 15829812595535571497,
                     "ColliderConfiguration": {
+                        "CollisionGroupId": {
+                            "GroupId": "{5CBA9289-BBCE-41D8-BA9B-8055A73E118E}"
+                        },
                         "MaterialSlots": {
                             "Slots": [
                                 {
@@ -1281,7 +1484,10 @@
                             0.0
                         ],
                         "Parent Entity": "Entity_[136738460174326]",
-                        "Child Entity": "Entity_[136742755141622]"
+                        "Child Entity": "Entity_[136742755141622]",
+                        "Breakable": true,
+                        "Maximum Force": 50000.0,
+                        "Maximum Torque": 10000.0
                     },
                     "Angular Limit": {
                         "Standard Limit Configuration": {
@@ -1361,41 +1567,7 @@
                 },
                 "Component_[2736669661172033782]": {
                     "$type": "EditorDisabledCompositionComponent",
-                    "Id": 2736669661172033782,
-                    "DisabledComponents": [
-                        {
-                            "$type": "EditorShapeColliderComponent",
-                            "Id": 8820867234237328602,
-                            "ColliderConfiguration": {
-                                "MaterialSlots": {
-                                    "Slots": [
-                                        {
-                                            "Name": "Entire object",
-                                            "MaterialAsset": {
-                                                "assetId": {
-                                                    "guid": "{289E9791-A52A-5357-A7F3-D0CC59DCBC3E}",
-                                                    "subId": 1
-                                                },
-                                                "assetHint": "assets/scripts/tire_rubber.physicsmaterial"
-                                            }
-                                        }
-                                    ]
-                                },
-                                "MaterialSelection": {
-                                    "MaterialIds": [
-                                        {}
-                                    ]
-                                }
-                            },
-                            "ShapeConfigs": [
-                                {
-                                    "$type": "CookedMeshShapeConfiguration",
-                                    "CookedData": "TlhTAUNWWE0NAAAAAAAAAElDRQFDTEhMCQAAACAAAAAwAAAAEgAAAGAAAABs6A0+6B5rPa5HYb0kOdk9JDnZPa5HYb0kOdk9JDnZPa5HYT1s6A0+6B5rPa5HYT2amRk+AAAAAK5HYT2amRk+AAAAAK5HYb1t6A2+5B5rPa5HYb2amRm+a0lhsq5HYb2amRm+a0lhsq5HYT1t6A2+5B5rPa5HYT0lOdm9IznZPa5HYT0lOdm9IznZPa5HYb3iHmu9begNvq5HYT0jOdm9JTnZva5HYT0jOdm9JTnZva5HYb3iHmu9begNvq5HYb0R96gympkZvq5HYb0R96gympkZvq5HYT3lHms9begNPq5HYb1rSeGxmpkZPq5HYb1rSeGxmpkZPq5HYT3lHms9begNPq5HYT1s6A2+6h5rva5HYT1s6A2+6h5rva5HYb1t6A0+4h5rva5HYT0oOdk9IjnZva5HYT0oOdk9IjnZva5HYb1t6A0+4h5rva5HYb3pHmu9bOgNPq5HYb3pHmu9bOgNPq5HYT3uHms9bOgNvq5HYb3uHms9bOgNvq5HYT0AAAAAAAAAAAAAgL+vR2G9AAAQAjDbVD/aOQ4/AAAAAAymFr4QAAQNvhR7P8TFRz4AAAAADKYWvhQABAe/FHu/tcVHPgAAAAAMpha+GAAEBDDbVL/bOQ4/AAAAAAymFr4cAAQZ2jkOvzDbVL8AAAAADKYWviAABBK2xUe+wBR7vwAAAAAOpha+JAAEErbFRz7AFHs/AAAAAA2mFr4oAAQQ3DkOPzDbVD8AAAAADKYWviwABAy+FHu/xsVHvgAAAAAMpha+MAAEADDbVL/dOQ6/AAAAAA2mFr40AAQAM9tUP9Y5Dr8AAAAADKYWvjgABAbAFHs/usVHvgAAAAAOpha+PAAEBtw5Dr8w21Q/AAAAAAymFr5AAAQZxsVHvr4Uez8AAAAADKYWvkQABBDDxUc+vRR7vwAAAAAMpha+SAAEHNw5Dj8v21S/AAAAAAymFr5MAAQKAAAAAAAAAAAAAIA/r0dhvVAAEAAcExIBAAUbGh4QDw4XBwYLAAECAwADBAUGBwgJBgkKCwwNDg8MDxAREhMUFRIVAgEWCAcXFhcODRgZGhsYGwUEHAsKHRwdFBMfERAeHx4aGR8ZGAQDAhUUHQoJCBYNDBEADgAHAAgAAQACAAwACwAQAA8ABgAFAAoACQADAAQADQEIAREBAgIRAgwDCQMRAwQEEQQNBREFCgUGBg8GEQcOBxEHCAgRCREJCgoRCxELEAsMDBENEQ0ODhEPEQ8QEBEAAQIAAQgBCBEBAhECDBEAAgwAAwQAAwkDCREDBBEEDREABA0FBhEFChEABQoABQYABg8GDxEABwgABw4HDhEHCBEJChEACQoLDBELEBEACxAACwwADQ4NDhEADxAPEBEAAAAAmpkZvpqZGb6uR2G9mpkZPpqZGT6uR2E9mEn4O9ZGTjjEg5grQfW3qcSDmCvWRk44B6NSHUH1t6kHo1IdJzuuOISWljFIYAexBi7ZLwAAgL+vR2E90CETPtMQAj3TEAI9",
-                                    "Type": 1
-                                }
-                            ]
-                        }
-                    ]
+                    "Id": 2736669661172033782
                 },
                 "Component_[3206189696000187238]": {
                     "$type": "EditorEntitySortComponent",
@@ -4106,7 +4278,7 @@
         },
         "Entity_[22310880208217]": {
             "Id": "Entity_[22310880208217]",
-            "Name": "mobile_robot",
+            "Name": "mobile_robot_chassis",
             "Components": {
                 "Component_[10953876651268642258]": {
                     "$type": "EditorPendingCompositionComponent",
@@ -4206,8 +4378,8 @@
                             "Properties": [
                                 {
                                     "$type": "AzFramework::ScriptPropertyBoolean",
-                                    "id": 2633314933,
-                                    "name": "AWD",
+                                    "id": 3588792605,
+                                    "name": "frontWheelsDrive",
                                     "value": true
                                 },
                                 {
@@ -4223,73 +4395,80 @@
                                     "value": 0.6
                                 },
                                 {
-                                    "$type": "AzFramework::ScriptPropertyGenericClass",
-                                    "id": 1110206997,
-                                    "name": "payload",
-                                    "value": {
-                                        "$type": "EntityId",
-                                        "value": "Entity_[52538860037465]"
-                                    }
-                                },
+                                    "$type": "AzFramework::ScriptPropertyBoolean",
+                                    "id": 2653595522,
+                                    "name": "rearWheelsDrive",
+                                    "value": true
+                                }
+                            ],
+                            "Groups": [
                                 {
-                                    "$type": "AzFramework::ScriptPropertyNumber",
-                                    "id": 3090274679,
-                                    "name": "speedCoef",
-                                    "value": 0.2
-                                },
-                                {
-                                    "$type": "AzFramework::ScriptPropertyGenericClass",
-                                    "id": 1866970208,
-                                    "name": "steeringL",
-                                    "value": {
-                                        "$type": "EntityId",
-                                        "value": "Entity_[136738460174326]"
-                                    }
-                                },
-                                {
-                                    "$type": "AzFramework::ScriptPropertyGenericClass",
-                                    "id": 2504558851,
-                                    "name": "steeringR",
-                                    "value": {
-                                        "$type": "EntityId",
-                                        "value": "Entity_[87118703003638]"
-                                    }
-                                },
-                                {
-                                    "$type": "AzFramework::ScriptPropertyGenericClass",
-                                    "id": 561680738,
-                                    "name": "wheelLF",
-                                    "value": {
-                                        "$type": "EntityId",
-                                        "value": "Entity_[136742755141622]"
-                                    }
-                                },
-                                {
-                                    "$type": "AzFramework::ScriptPropertyGenericClass",
-                                    "id": 1000359199,
-                                    "name": "wheelLR",
-                                    "value": {
-                                        "$type": "EntityId",
-                                        "value": "Entity_[26442638746969]"
-                                    }
-                                },
-                                {
-                                    "$type": "AzFramework::ScriptPropertyGenericClass",
-                                    "id": 4114329277,
-                                    "name": "wheelRF",
-                                    "value": {
-                                        "$type": "EntityId",
-                                        "value": "Entity_[25652364764505]"
-                                    }
-                                },
-                                {
-                                    "$type": "AzFramework::ScriptPropertyGenericClass",
-                                    "id": 4024531648,
-                                    "name": "wheelRR",
-                                    "value": {
-                                        "$type": "EntityId",
-                                        "value": "Entity_[22315175175513]"
-                                    }
+                                    "Name": "entities",
+                                    "Properties": [
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 1110206997,
+                                            "name": "payload",
+                                            "value": {
+                                                "$type": "EntityId",
+                                                "value": "Entity_[52538860037465]"
+                                            }
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 1866970208,
+                                            "name": "steeringL",
+                                            "value": {
+                                                "$type": "EntityId",
+                                                "value": "Entity_[136738460174326]"
+                                            }
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 2504558851,
+                                            "name": "steeringR",
+                                            "value": {
+                                                "$type": "EntityId",
+                                                "value": "Entity_[87118703003638]"
+                                            }
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 561680738,
+                                            "name": "wheelLF",
+                                            "value": {
+                                                "$type": "EntityId",
+                                                "value": "Entity_[136742755141622]"
+                                            }
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 1000359199,
+                                            "name": "wheelLR",
+                                            "value": {
+                                                "$type": "EntityId",
+                                                "value": "Entity_[26442638746969]"
+                                            }
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 4114329277,
+                                            "name": "wheelRF",
+                                            "value": {
+                                                "$type": "EntityId",
+                                                "value": "Entity_[25652364764505]"
+                                            }
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 4024531648,
+                                            "name": "wheelRR",
+                                            "value": {
+                                                "$type": "EntityId",
+                                                "value": "Entity_[22315175175513]"
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         },
@@ -4541,7 +4720,7 @@
                     "Angular Limit": {
                         "Standard Limit Configuration": {
                             "Is Soft Limit": true,
-                            "Damping": 50.0,
+                            "Damping": 70.0,
                             "Stiffness": 500.0
                         },
                         "Positive Limit": 0.10000000149011612,
@@ -4691,7 +4870,7 @@
                     "Angular Limit": {
                         "Standard Limit Configuration": {
                             "Is Soft Limit": true,
-                            "Damping": 50.0,
+                            "Damping": 70.0,
                             "Stiffness": 500.0
                         },
                         "Positive Limit": 0.10000000149011612,
@@ -4727,6 +4906,9 @@
                     "$type": "EditorShapeColliderComponent",
                     "Id": 15829812595535571497,
                     "ColliderConfiguration": {
+                        "CollisionGroupId": {
+                            "GroupId": "{5CBA9289-BBCE-41D8-BA9B-8055A73E118E}"
+                        },
                         "MaterialSlots": {
                             "Slots": [
                                 {
@@ -4831,7 +5013,10 @@
                             0.0
                         ],
                         "Parent Entity": "Entity_[87118703003638]",
-                        "Child Entity": "Entity_[25652364764505]"
+                        "Child Entity": "Entity_[25652364764505]",
+                        "Breakable": true,
+                        "Maximum Force": 50000.0,
+                        "Maximum Torque": 10000.0
                     },
                     "Angular Limit": {
                         "Standard Limit Configuration": {
@@ -5133,7 +5318,7 @@
                     "Angular Limit": {
                         "Standard Limit Configuration": {
                             "Is Soft Limit": true,
-                            "Damping": 50.0,
+                            "Damping": 70.0,
                             "Stiffness": 500.0
                         },
                         "Positive Limit": 0.10000000149011612,
@@ -5280,6 +5465,7 @@
                         "Entity_[176277929101302]",
                         "Entity_[153694991058934]",
                         "Entity_[153737940731894]",
+                        "Entity_[11460435653190]",
                         "Entity_[157968483518454]",
                         "Entity_[153712170928118]",
                         "Entity_[152032838715382]",
@@ -5813,6 +5999,9 @@
                     "$type": "EditorShapeColliderComponent",
                     "Id": 15829812595535571497,
                     "ColliderConfiguration": {
+                        "CollisionGroupId": {
+                            "GroupId": "{5CBA9289-BBCE-41D8-BA9B-8055A73E118E}"
+                        },
                         "MaterialSlots": {
                             "Slots": [
                                 {

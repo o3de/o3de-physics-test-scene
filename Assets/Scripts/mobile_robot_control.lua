@@ -11,6 +11,8 @@ local mobile_robot_control =
 {
     Properties =
     {
+        entities = 
+        {
         wheelLR = { default = EntityId() },
         wheelRR = { default = EntityId() },
         wheelLF = { default = EntityId() },
@@ -18,7 +20,7 @@ local mobile_robot_control =
         steeringL = { default = EntityId() },
         steeringR = { default = EntityId() },
         payload = { default = EntityId() },
-        speedCoef = { default = 0.2},
+        },
         maxSteeringAngle = { 
             default = 0.5,
             suffix = "rad",
@@ -27,9 +29,13 @@ local mobile_robot_control =
             default = 2.0,
             suffix = "m/s",  
         },
-        AWD = { 
+        frontWheelsDrive = { 
             default = false,
-            description = "If set, all weels will be driven"
+            description = "If set, front weels will be driven"
+        },
+        rearWheelsDrive = { 
+            default = true,
+            description = "If set, rear weels will be driven"
         },
     }
 }
@@ -83,8 +89,8 @@ end
 
 
 function mobile_robot_control:SetSteering(targetAngle) -- rad
-    self:_SetWheelSteeringAngle(self.Properties.steeringR, targetAngle)  
-    self:_SetWheelSteeringAngle(self.Properties.steeringL, targetAngle)  
+    self:_SetWheelSteeringAngle(self.Properties.entities.steeringR, targetAngle)  
+    self:_SetWheelSteeringAngle(self.Properties.entities.steeringL, targetAngle)  
 end
 
 
@@ -113,13 +119,14 @@ function mobile_robot_control:SetSpeed(targetSpeed, accelerationCoefficient)
     end
     --Debug.Log("v="..tostring(currentSpeed).."  F="..tostring(force))
 
-    self:_SetSpeedOneWheel(self.Properties.wheelLR, force)
-    self:_SetSpeedOneWheel(self.Properties.wheelRR, -force)
+    if self.Properties.rearWheelsDrive then
+        self:_SetSpeedOneWheel(self.Properties.entities.wheelLR, force)
+        self:_SetSpeedOneWheel(self.Properties.entities.wheelRR, -force)
+    end
 
-    if self.Properties.AWD then
-        -- Debug.Log('AWD')
-        self:_SetSpeedOneWheel(self.Properties.wheelLF, force)
-        self:_SetSpeedOneWheel(self.Properties.wheelRF, -force)
+    if self.Properties.frontWheelsDrive then
+        self:_SetSpeedOneWheel(self.Properties.entities.wheelLF, force)
+        self:_SetSpeedOneWheel(self.Properties.entities.wheelRF, -force)
     end
 
 
@@ -169,11 +176,11 @@ function mobile_robot_control:OnHeld  (value)
 
     -- ENTER
     if value == 6.0 then
-        local tm = TransformBus.Event.GetWorldTM(self.Properties.payload)
+        local tm = TransformBus.Event.GetWorldTM(self.Properties.entities.payload)
         v = Transform.TransformVector(tm, Vector3(7,0, 20))
-        RigidBodyRequestBus.Event.ApplyLinearImpulse(self.Properties.payload, v)
+        RigidBodyRequestBus.Event.ApplyLinearImpulse(self.Properties.entities.payload, v)
         v = Transform.TransformVector(tm, Vector3(0,0.5, 0))
-        RigidBodyRequestBus.Event.ApplyAngularImpulse(self.Properties.payload, v)
+        RigidBodyRequestBus.Event.ApplyAngularImpulse(self.Properties.entities.payload, v)
     end
 
     self.lastKey = value
