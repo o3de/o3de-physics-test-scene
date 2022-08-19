@@ -25,6 +25,7 @@ local mobile_robot_control =
         },
         maxSpeed = { 
             default = 2.0,
+            suffix = "m/s",  
         },
         AWD = { 
             default = false,
@@ -110,7 +111,7 @@ function mobile_robot_control:SetSpeed(targetSpeed, accelerationCoefficient)
     elseif force<0 then
         force = force -0.1
     end
-    Debug.Log("v="..tostring(currentSpeed).."  F="..tostring(force))
+    --Debug.Log("v="..tostring(currentSpeed).."  F="..tostring(force))
 
     self:_SetSpeedOneWheel(self.Properties.wheelLR, force)
     self:_SetSpeedOneWheel(self.Properties.wheelRR, -force)

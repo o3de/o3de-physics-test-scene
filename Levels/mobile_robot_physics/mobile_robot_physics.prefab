@@ -1289,16 +1289,6 @@
                         }
                     }
                 },
-                "Component_[12051209418545400883]": {
-                    "$type": "EditorCylinderShapeComponent",
-                    "Id": 12051209418545400883,
-                    "CylinderShape": {
-                        "Configuration": {
-                            "Height": 0.10999999940395355,
-                            "Radius": 0.15000000596046448
-                        }
-                    }
-                },
                 "Component_[12111299992888733455]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 12111299992888733455
@@ -1324,13 +1314,88 @@
                         ]
                     }
                 },
+                "Component_[13632494578845322196]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 13632494578845322196,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "DefaultMaterial",
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{289E9791-A52A-5357-A7F3-D0CC59DCBC3E}",
+                                            "subId": 1
+                                        },
+                                        "assetHint": "assets/scripts/tire_rubber.physicsmaterial"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{3CA8A704-7D21-51A1-B42A-848C03D30E23}",
+                                    "subId": 1339250261
+                                },
+                                "assetHint": "wheel_collision.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{3CA8A704-7D21-51A1-B42A-848C03D30E23}",
+                                        "subId": 1339250261
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "wheel_collision.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
                 "Component_[16787872766302325326]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 16787872766302325326
                 },
                 "Component_[2736669661172033782]": {
                     "$type": "EditorDisabledCompositionComponent",
-                    "Id": 2736669661172033782
+                    "Id": 2736669661172033782,
+                    "DisabledComponents": [
+                        {
+                            "$type": "EditorShapeColliderComponent",
+                            "Id": 8820867234237328602,
+                            "ColliderConfiguration": {
+                                "MaterialSlots": {
+                                    "Slots": [
+                                        {
+                                            "Name": "Entire object",
+                                            "MaterialAsset": {
+                                                "assetId": {
+                                                    "guid": "{289E9791-A52A-5357-A7F3-D0CC59DCBC3E}",
+                                                    "subId": 1
+                                                },
+                                                "assetHint": "assets/scripts/tire_rubber.physicsmaterial"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "MaterialSelection": {
+                                    "MaterialIds": [
+                                        {}
+                                    ]
+                                }
+                            },
+                            "ShapeConfigs": [
+                                {
+                                    "$type": "CookedMeshShapeConfiguration",
+                                    "CookedData": "TlhTAUNWWE0NAAAAAAAAAElDRQFDTEhMCQAAACAAAAAwAAAAEgAAAGAAAABs6A0+6B5rPa5HYb0kOdk9JDnZPa5HYb0kOdk9JDnZPa5HYT1s6A0+6B5rPa5HYT2amRk+AAAAAK5HYT2amRk+AAAAAK5HYb1t6A2+5B5rPa5HYb2amRm+a0lhsq5HYb2amRm+a0lhsq5HYT1t6A2+5B5rPa5HYT0lOdm9IznZPa5HYT0lOdm9IznZPa5HYb3iHmu9begNvq5HYT0jOdm9JTnZva5HYT0jOdm9JTnZva5HYb3iHmu9begNvq5HYb0R96gympkZvq5HYb0R96gympkZvq5HYT3lHms9begNPq5HYb1rSeGxmpkZPq5HYb1rSeGxmpkZPq5HYT3lHms9begNPq5HYT1s6A2+6h5rva5HYT1s6A2+6h5rva5HYb1t6A0+4h5rva5HYT0oOdk9IjnZva5HYT0oOdk9IjnZva5HYb1t6A0+4h5rva5HYb3pHmu9bOgNPq5HYb3pHmu9bOgNPq5HYT3uHms9bOgNvq5HYb3uHms9bOgNvq5HYT0AAAAAAAAAAAAAgL+vR2G9AAAQAjDbVD/aOQ4/AAAAAAymFr4QAAQNvhR7P8TFRz4AAAAADKYWvhQABAe/FHu/tcVHPgAAAAAMpha+GAAEBDDbVL/bOQ4/AAAAAAymFr4cAAQZ2jkOvzDbVL8AAAAADKYWviAABBK2xUe+wBR7vwAAAAAOpha+JAAEErbFRz7AFHs/AAAAAA2mFr4oAAQQ3DkOPzDbVD8AAAAADKYWviwABAy+FHu/xsVHvgAAAAAMpha+MAAEADDbVL/dOQ6/AAAAAA2mFr40AAQAM9tUP9Y5Dr8AAAAADKYWvjgABAbAFHs/usVHvgAAAAAOpha+PAAEBtw5Dr8w21Q/AAAAAAymFr5AAAQZxsVHvr4Uez8AAAAADKYWvkQABBDDxUc+vRR7vwAAAAAMpha+SAAEHNw5Dj8v21S/AAAAAAymFr5MAAQKAAAAAAAAAAAAAIA/r0dhvVAAEAAcExIBAAUbGh4QDw4XBwYLAAECAwADBAUGBwgJBgkKCwwNDg8MDxAREhMUFRIVAgEWCAcXFhcODRgZGhsYGwUEHAsKHRwdFBMfERAeHx4aGR8ZGAQDAhUUHQoJCBYNDBEADgAHAAgAAQACAAwACwAQAA8ABgAFAAoACQADAAQADQEIAREBAgIRAgwDCQMRAwQEEQQNBREFCgUGBg8GEQcOBxEHCAgRCREJCgoRCxELEAsMDBENEQ0ODhEPEQ8QEBEAAQIAAQgBCBEBAhECDBEAAgwAAwQAAwkDCREDBBEEDREABA0FBhEFChEABQoABQYABg8GDxEABwgABw4HDhEHCBEJChEACQoLDBELEBEACxAACwwADQ4NDhEADxAPEBEAAAAAmpkZvpqZGb6uR2G9mpkZPpqZGT6uR2E9mEn4O9ZGTjjEg5grQfW3qcSDmCvWRk44B6NSHUH1t6kHo1IdJzuuOISWljFIYAexBi7ZLwAAgL+vR2E90CETPtMQAj3TEAI9",
+                                    "Type": 1
+                                }
+                            ]
+                        }
+                    ]
                 },
                 "Component_[3206189696000187238]": {
                     "$type": "EditorEntitySortComponent",
@@ -1363,54 +1428,22 @@
                         "Compute Mass": false,
                         "Mass": 3.0,
                         "Centre of mass offset": [
-                            4.382685769854788e-9,
-                            -1.969981511251717e-9,
-                            3.950477167613542e-10
+                            0.00000533845741301775,
+                            0.000006211106210685102,
+                            -0.0000017931450884134392
                         ],
                         "Inertia tensor": [
-                            0.019471827894449234,
+                            0.01903856173157692,
                             0.0,
                             0.0,
                             0.0,
-                            0.019471827894449234,
+                            0.01904674805700779,
                             0.0,
                             0.0,
                             0.0,
-                            0.032893650233745575
+                            0.03220491111278534
                         ]
                     }
-                },
-                "Component_[8820867234237328602]": {
-                    "$type": "EditorShapeColliderComponent",
-                    "Id": 8820867234237328602,
-                    "ColliderConfiguration": {
-                        "MaterialSlots": {
-                            "Slots": [
-                                {
-                                    "Name": "Entire object",
-                                    "MaterialAsset": {
-                                        "assetId": {
-                                            "guid": "{289E9791-A52A-5357-A7F3-D0CC59DCBC3E}",
-                                            "subId": 1
-                                        },
-                                        "assetHint": "assets/scripts/tire_rubber.physicsmaterial"
-                                    }
-                                }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
-                            ]
-                        }
-                    },
-                    "ShapeConfigs": [
-                        {
-                            "$type": "CookedMeshShapeConfiguration",
-                            "CookedData": "TlhTAUNWWE0NAAAAAAAAAElDRQFDTEhMCQAAACAAAAAwAAAAEgAAAGAAAABs6A0+6B5rPa5HYb0kOdk9JDnZPa5HYb0kOdk9JDnZPa5HYT1s6A0+6B5rPa5HYT2amRk+AAAAAK5HYT2amRk+AAAAAK5HYb1t6A2+5B5rPa5HYb2amRm+a0lhsq5HYb2amRm+a0lhsq5HYT1t6A2+5B5rPa5HYT0lOdm9IznZPa5HYT0lOdm9IznZPa5HYb3iHmu9begNvq5HYT0jOdm9JTnZva5HYT0jOdm9JTnZva5HYb3iHmu9begNvq5HYb0R96gympkZvq5HYb0R96gympkZvq5HYT3lHms9begNPq5HYb1rSeGxmpkZPq5HYb1rSeGxmpkZPq5HYT3lHms9begNPq5HYT1s6A2+6h5rva5HYT1s6A2+6h5rva5HYb1t6A0+4h5rva5HYT0oOdk9IjnZva5HYT0oOdk9IjnZva5HYb1t6A0+4h5rva5HYb3pHmu9bOgNPq5HYb3pHmu9bOgNPq5HYT3uHms9bOgNvq5HYb3uHms9bOgNvq5HYT0AAAAAAAAAAAAAgL+vR2G9AAAQAjDbVD/aOQ4/AAAAAAymFr4QAAQNvhR7P8TFRz4AAAAADKYWvhQABAe/FHu/tcVHPgAAAAAMpha+GAAEBDDbVL/bOQ4/AAAAAAymFr4cAAQZ2jkOvzDbVL8AAAAADKYWviAABBK2xUe+wBR7vwAAAAAOpha+JAAEErbFRz7AFHs/AAAAAA2mFr4oAAQQ3DkOPzDbVD8AAAAADKYWviwABAy+FHu/xsVHvgAAAAAMpha+MAAEADDbVL/dOQ6/AAAAAA2mFr40AAQAM9tUP9Y5Dr8AAAAADKYWvjgABAbAFHs/usVHvgAAAAAOpha+PAAEBtw5Dr8w21Q/AAAAAAymFr5AAAQZxsVHvr4Uez8AAAAADKYWvkQABBDDxUc+vRR7vwAAAAAMpha+SAAEHNw5Dj8v21S/AAAAAAymFr5MAAQKAAAAAAAAAAAAAIA/r0dhvVAAEAAcExIBAAUbGh4QDw4XBwYLAAECAwADBAUGBwgJBgkKCwwNDg8MDxAREhMUFRIVAgEWCAcXFhcODRgZGhsYGwUEHAsKHRwdFBMfERAeHx4aGR8ZGAQDAhUUHQoJCBYNDBEADgAHAAgAAQACAAwACwAQAA8ABgAFAAoACQADAAQADQEIAREBAgIRAgwDCQMRAwQEEQQNBREFCgUGBg8GEQcOBxEHCAgRCREJCgoRCxELEAsMDBENEQ0ODhEPEQ8QEBEAAQIAAQgBCBEBAhECDBEAAgwAAwQAAwkDCREDBBEEDREABA0FBhEFChEABQoABQYABg8GDxEABwgABw4HDhEHCBEJChEACQoLDBELEBEACxAACwwADQ4NDhEADxAPEBEAAAAAmpkZvpqZGb6uR2G9mpkZPpqZGT6uR2E9mEn4O9ZGTjjEg5grQfW3qcSDmCvWRk44B6NSHUH1t6kHo1IdJzuuOISWljFIYAexBi7ZLwAAgL+vR2E90CETPtMQAj3TEAI9",
-                            "Type": 1
-                        }
-                    ]
                 }
             }
         },
@@ -4115,17 +4148,24 @@
                         "entityId": "",
                         "Compute Mass": false,
                         "Mass": 40.0,
+                        "Compute COM": false,
+                        "Centre of mass offset": [
+                            0.0,
+                            0.0,
+                            -0.05000000074505806
+                        ],
                         "Inertia tensor": [
-                            2.316333293914795,
+                            2.4163331985473633,
                             0.0,
                             0.0,
                             0.0,
-                            0.3750000298023224,
+                            0.4750000238418579,
                             0.0,
                             0.0,
                             0.0,
                             2.5413334369659424
-                        ]
+                        ],
+                        "Debug Draw Center of Mass": true
                     },
                     "PhysXSpecificConfiguration": {
                         "SolverPositionIterations": 40,
@@ -4167,19 +4207,20 @@
                                 {
                                     "$type": "AzFramework::ScriptPropertyBoolean",
                                     "id": 2633314933,
-                                    "name": "AWD"
+                                    "name": "AWD",
+                                    "value": true
                                 },
                                 {
                                     "$type": "AzFramework::ScriptPropertyNumber",
                                     "id": 762882837,
                                     "name": "maxSpeed",
-                                    "value": 10.0
+                                    "value": 5.0
                                 },
                                 {
                                     "$type": "AzFramework::ScriptPropertyNumber",
                                     "id": 3512074993,
                                     "name": "maxSteeringAngle",
-                                    "value": 0.5
+                                    "value": 0.6
                                 },
                                 {
                                     "$type": "AzFramework::ScriptPropertyGenericClass",
@@ -4352,16 +4393,6 @@
                         }
                     }
                 },
-                "Component_[12051209418545400883]": {
-                    "$type": "EditorCylinderShapeComponent",
-                    "Id": 12051209418545400883,
-                    "CylinderShape": {
-                        "Configuration": {
-                            "Height": 0.10999999940395355,
-                            "Radius": 0.15000000596046448
-                        }
-                    }
-                },
                 "Component_[12111299992888733455]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 12111299992888733455
@@ -4390,6 +4421,47 @@
                 "Component_[16787872766302325326]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 16787872766302325326
+                },
+                "Component_[17319527509850424042]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 17319527509850424042,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "DefaultMaterial",
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{289E9791-A52A-5357-A7F3-D0CC59DCBC3E}",
+                                            "subId": 1
+                                        },
+                                        "assetHint": "assets/scripts/tire_rubber.physicsmaterial"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{3CA8A704-7D21-51A1-B42A-848C03D30E23}",
+                                    "subId": 1339250261
+                                },
+                                "assetHint": "wheel_collision.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{3CA8A704-7D21-51A1-B42A-848C03D30E23}",
+                                        "subId": 1339250261
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "wheel_collision.pxmesh"
+                                }
+                            }
+                        }
+                    }
                 },
                 "Component_[2736669661172033782]": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -4426,54 +4498,22 @@
                         "Compute Mass": false,
                         "Mass": 3.0,
                         "Centre of mass offset": [
-                            4.382685769854788e-9,
-                            -1.969981511251717e-9,
-                            3.950477167613542e-10
+                            0.00000533845741301775,
+                            0.000006211106210685102,
+                            -0.0000017931450884134392
                         ],
                         "Inertia tensor": [
-                            0.019471827894449234,
+                            0.01903856173157692,
                             0.0,
                             0.0,
                             0.0,
-                            0.019471827894449234,
+                            0.01904674805700779,
                             0.0,
                             0.0,
                             0.0,
-                            0.032893650233745575
+                            0.03220491111278534
                         ]
                     }
-                },
-                "Component_[8820867234237328602]": {
-                    "$type": "EditorShapeColliderComponent",
-                    "Id": 8820867234237328602,
-                    "ColliderConfiguration": {
-                        "MaterialSlots": {
-                            "Slots": [
-                                {
-                                    "Name": "Entire object",
-                                    "MaterialAsset": {
-                                        "assetId": {
-                                            "guid": "{289E9791-A52A-5357-A7F3-D0CC59DCBC3E}",
-                                            "subId": 1
-                                        },
-                                        "assetHint": "assets/scripts/tire_rubber.physicsmaterial"
-                                    }
-                                }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
-                            ]
-                        }
-                    },
-                    "ShapeConfigs": [
-                        {
-                            "$type": "CookedMeshShapeConfiguration",
-                            "CookedData": "TlhTAUNWWE0NAAAAAAAAAElDRQFDTEhMCQAAACAAAAAwAAAAEgAAAGAAAABs6A0+6B5rPa5HYb0kOdk9JDnZPa5HYb0kOdk9JDnZPa5HYT1s6A0+6B5rPa5HYT2amRk+AAAAAK5HYT2amRk+AAAAAK5HYb1t6A2+5B5rPa5HYb2amRm+a0lhsq5HYb2amRm+a0lhsq5HYT1t6A2+5B5rPa5HYT0lOdm9IznZPa5HYT0lOdm9IznZPa5HYb3iHmu9begNvq5HYT0jOdm9JTnZva5HYT0jOdm9JTnZva5HYb3iHmu9begNvq5HYb0R96gympkZvq5HYb0R96gympkZvq5HYT3lHms9begNPq5HYb1rSeGxmpkZPq5HYb1rSeGxmpkZPq5HYT3lHms9begNPq5HYT1s6A2+6h5rva5HYT1s6A2+6h5rva5HYb1t6A0+4h5rva5HYT0oOdk9IjnZva5HYT0oOdk9IjnZva5HYb1t6A0+4h5rva5HYb3pHmu9bOgNPq5HYb3pHmu9bOgNPq5HYT3uHms9bOgNvq5HYb3uHms9bOgNvq5HYT0AAAAAAAAAAAAAgL+vR2G9AAAQAjDbVD/aOQ4/AAAAAAymFr4QAAQNvhR7P8TFRz4AAAAADKYWvhQABAe/FHu/tcVHPgAAAAAMpha+GAAEBDDbVL/bOQ4/AAAAAAymFr4cAAQZ2jkOvzDbVL8AAAAADKYWviAABBK2xUe+wBR7vwAAAAAOpha+JAAEErbFRz7AFHs/AAAAAA2mFr4oAAQQ3DkOPzDbVD8AAAAADKYWviwABAy+FHu/xsVHvgAAAAAMpha+MAAEADDbVL/dOQ6/AAAAAA2mFr40AAQAM9tUP9Y5Dr8AAAAADKYWvjgABAbAFHs/usVHvgAAAAAOpha+PAAEBtw5Dr8w21Q/AAAAAAymFr5AAAQZxsVHvr4Uez8AAAAADKYWvkQABBDDxUc+vRR7vwAAAAAMpha+SAAEHNw5Dj8v21S/AAAAAAymFr5MAAQKAAAAAAAAAAAAAIA/r0dhvVAAEAAcExIBAAUbGh4QDw4XBwYLAAECAwADBAUGBwgJBgkKCwwNDg8MDxAREhMUFRIVAgEWCAcXFhcODRgZGhsYGwUEHAsKHRwdFBMfERAeHx4aGR8ZGAQDAhUUHQoJCBYNDBEADgAHAAgAAQACAAwACwAQAA8ABgAFAAoACQADAAQADQEIAREBAgIRAgwDCQMRAwQEEQQNBREFCgUGBg8GEQcOBxEHCAgRCREJCgoRCxELEAsMDBENEQ0ODhEPEQ8QEBEAAQIAAQgBCBEBAhECDBEAAgwAAwQAAwkDCREDBBEEDREABA0FBhEFChEABQoABQYABg8GDxEABwgABw4HDhEHCBEJChEACQoLDBELEBEACxAACwwADQ4NDhEADxAPEBEAAAAAmpkZvpqZGb6uR2G9mpkZPpqZGT6uR2E9mEn4O9ZGTjjEg5grQfW3qcSDmCvWRk44B6NSHUH1t6kHo1IdJzuuOISWljFIYAexBi7ZLwAAgL+vR2E90CETPtMQAj3TEAI9",
-                            "Type": 1
-                        }
-                    ]
                 }
             }
         },
@@ -4799,16 +4839,6 @@
                         }
                     }
                 },
-                "Component_[12051209418545400883]": {
-                    "$type": "EditorCylinderShapeComponent",
-                    "Id": 12051209418545400883,
-                    "CylinderShape": {
-                        "Configuration": {
-                            "Height": 0.10999999940395355,
-                            "Radius": 0.15000000596046448
-                        }
-                    }
-                },
                 "Component_[12111299992888733455]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 12111299992888733455
@@ -4861,6 +4891,47 @@
                     "$type": "EditorLockComponent",
                     "Id": 5154916986803806312
                 },
+                "Component_[6345713874119317736]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 6345713874119317736,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "DefaultMaterial",
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{289E9791-A52A-5357-A7F3-D0CC59DCBC3E}",
+                                            "subId": 1
+                                        },
+                                        "assetHint": "assets/scripts/tire_rubber.physicsmaterial"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{3CA8A704-7D21-51A1-B42A-848C03D30E23}",
+                                    "subId": 1339250261
+                                },
+                                "assetHint": "wheel_collision.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{3CA8A704-7D21-51A1-B42A-848C03D30E23}",
+                                        "subId": 1339250261
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "wheel_collision.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
                 "Component_[6744919202379144952]": {
                     "$type": "SelectionComponent",
                     "Id": 6744919202379144952
@@ -4873,54 +4944,22 @@
                         "Compute Mass": false,
                         "Mass": 3.0,
                         "Centre of mass offset": [
-                            4.382685769854788e-9,
-                            -1.969981511251717e-9,
-                            3.950477167613542e-10
+                            0.00000533845741301775,
+                            0.000006211106210685102,
+                            -0.0000017931450884134392
                         ],
                         "Inertia tensor": [
-                            0.019471827894449234,
+                            0.01903856173157692,
                             0.0,
                             0.0,
                             0.0,
-                            0.019471827894449234,
+                            0.01904674805700779,
                             0.0,
                             0.0,
                             0.0,
-                            0.032893650233745575
+                            0.03220491111278534
                         ]
                     }
-                },
-                "Component_[8820867234237328602]": {
-                    "$type": "EditorShapeColliderComponent",
-                    "Id": 8820867234237328602,
-                    "ColliderConfiguration": {
-                        "MaterialSlots": {
-                            "Slots": [
-                                {
-                                    "Name": "Entire object",
-                                    "MaterialAsset": {
-                                        "assetId": {
-                                            "guid": "{289E9791-A52A-5357-A7F3-D0CC59DCBC3E}",
-                                            "subId": 1
-                                        },
-                                        "assetHint": "assets/scripts/tire_rubber.physicsmaterial"
-                                    }
-                                }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
-                            ]
-                        }
-                    },
-                    "ShapeConfigs": [
-                        {
-                            "$type": "CookedMeshShapeConfiguration",
-                            "CookedData": "TlhTAUNWWE0NAAAAAAAAAElDRQFDTEhMCQAAACAAAAAwAAAAEgAAAGAAAABs6A0+6B5rPa5HYb0kOdk9JDnZPa5HYb0kOdk9JDnZPa5HYT1s6A0+6B5rPa5HYT2amRk+AAAAAK5HYT2amRk+AAAAAK5HYb1t6A2+5B5rPa5HYb2amRm+a0lhsq5HYb2amRm+a0lhsq5HYT1t6A2+5B5rPa5HYT0lOdm9IznZPa5HYT0lOdm9IznZPa5HYb3iHmu9begNvq5HYT0jOdm9JTnZva5HYT0jOdm9JTnZva5HYb3iHmu9begNvq5HYb0R96gympkZvq5HYb0R96gympkZvq5HYT3lHms9begNPq5HYb1rSeGxmpkZPq5HYb1rSeGxmpkZPq5HYT3lHms9begNPq5HYT1s6A2+6h5rva5HYT1s6A2+6h5rva5HYb1t6A0+4h5rva5HYT0oOdk9IjnZva5HYT0oOdk9IjnZva5HYb1t6A0+4h5rva5HYb3pHmu9bOgNPq5HYb3pHmu9bOgNPq5HYT3uHms9bOgNvq5HYb3uHms9bOgNvq5HYT0AAAAAAAAAAAAAgL+vR2G9AAAQAjDbVD/aOQ4/AAAAAAymFr4QAAQNvhR7P8TFRz4AAAAADKYWvhQABAe/FHu/tcVHPgAAAAAMpha+GAAEBDDbVL/bOQ4/AAAAAAymFr4cAAQZ2jkOvzDbVL8AAAAADKYWviAABBK2xUe+wBR7vwAAAAAOpha+JAAEErbFRz7AFHs/AAAAAA2mFr4oAAQQ3DkOPzDbVD8AAAAADKYWviwABAy+FHu/xsVHvgAAAAAMpha+MAAEADDbVL/dOQ6/AAAAAA2mFr40AAQAM9tUP9Y5Dr8AAAAADKYWvjgABAbAFHs/usVHvgAAAAAOpha+PAAEBtw5Dr8w21Q/AAAAAAymFr5AAAQZxsVHvr4Uez8AAAAADKYWvkQABBDDxUc+vRR7vwAAAAAMpha+SAAEHNw5Dj8v21S/AAAAAAymFr5MAAQKAAAAAAAAAAAAAIA/r0dhvVAAEAAcExIBAAUbGh4QDw4XBwYLAAECAwADBAUGBwgJBgkKCwwNDg8MDxAREhMUFRIVAgEWCAcXFhcODRgZGhsYGwUEHAsKHRwdFBMfERAeHx4aGR8ZGAQDAhUUHQoJCBYNDBEADgAHAAgAAQACAAwACwAQAA8ABgAFAAoACQADAAQADQEIAREBAgIRAgwDCQMRAwQEEQQNBREFCgUGBg8GEQcOBxEHCAgRCREJCgoRCxELEAsMDBENEQ0ODhEPEQ8QEBEAAQIAAQgBCBEBAhECDBEAAgwAAwQAAwkDCREDBBEEDREABA0FBhEFChEABQoABQYABg8GDxEABwgABw4HDhEHCBEJChEACQoLDBELEBEACxAACwwADQ4NDhEADxAPEBEAAAAAmpkZvpqZGb6uR2G9mpkZPpqZGT6uR2E9mEn4O9ZGTjjEg5grQfW3qcSDmCvWRk44B6NSHUH1t6kHo1IdJzuuOISWljFIYAexBi7ZLwAAgL+vR2E90CETPtMQAj3TEAI9",
-                            "Type": 1
-                        }
-                    ]
                 }
             }
         },
@@ -4943,16 +4982,6 @@
                     "Angular Limit": {
                         "Standard Limit Configuration": {
                             "Is Limited": false
-                        }
-                    }
-                },
-                "Component_[12051209418545400883]": {
-                    "$type": "EditorCylinderShapeComponent",
-                    "Id": 12051209418545400883,
-                    "CylinderShape": {
-                        "Configuration": {
-                            "Height": 0.10999999940395355,
-                            "Radius": 0.15000000596046448
                         }
                     }
                 },
@@ -4996,6 +5025,47 @@
                         "Entity_[12231758424952]"
                     ]
                 },
+                "Component_[3933878623927137301]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 3933878623927137301,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "DefaultMaterial",
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{289E9791-A52A-5357-A7F3-D0CC59DCBC3E}",
+                                            "subId": 1
+                                        },
+                                        "assetHint": "assets/scripts/tire_rubber.physicsmaterial"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{3CA8A704-7D21-51A1-B42A-848C03D30E23}",
+                                    "subId": 1339250261
+                                },
+                                "assetHint": "wheel_collision.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{3CA8A704-7D21-51A1-B42A-848C03D30E23}",
+                                        "subId": 1339250261
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "wheel_collision.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
                 "Component_[4075984941854223527]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 4075984941854223527
@@ -5020,54 +5090,22 @@
                         "Compute Mass": false,
                         "Mass": 3.0,
                         "Centre of mass offset": [
-                            4.382685769854788e-9,
-                            -1.969981511251717e-9,
-                            3.950477167613542e-10
+                            0.00000533845741301775,
+                            0.000006211106210685102,
+                            -0.0000017931450884134392
                         ],
                         "Inertia tensor": [
-                            0.019471827894449234,
+                            0.01903856173157692,
                             0.0,
                             0.0,
                             0.0,
-                            0.019471827894449234,
+                            0.01904674805700779,
                             0.0,
                             0.0,
                             0.0,
-                            0.032893650233745575
+                            0.03220491111278534
                         ]
                     }
-                },
-                "Component_[8820867234237328602]": {
-                    "$type": "EditorShapeColliderComponent",
-                    "Id": 8820867234237328602,
-                    "ColliderConfiguration": {
-                        "MaterialSlots": {
-                            "Slots": [
-                                {
-                                    "Name": "Entire object",
-                                    "MaterialAsset": {
-                                        "assetId": {
-                                            "guid": "{289E9791-A52A-5357-A7F3-D0CC59DCBC3E}",
-                                            "subId": 1
-                                        },
-                                        "assetHint": "assets/scripts/tire_rubber.physicsmaterial"
-                                    }
-                                }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
-                            ]
-                        }
-                    },
-                    "ShapeConfigs": [
-                        {
-                            "$type": "CookedMeshShapeConfiguration",
-                            "CookedData": "TlhTAUNWWE0NAAAAAAAAAElDRQFDTEhMCQAAACAAAAAwAAAAEgAAAGAAAABs6A0+6B5rPa5HYb0kOdk9JDnZPa5HYb0kOdk9JDnZPa5HYT1s6A0+6B5rPa5HYT2amRk+AAAAAK5HYT2amRk+AAAAAK5HYb1t6A2+5B5rPa5HYb2amRm+a0lhsq5HYb2amRm+a0lhsq5HYT1t6A2+5B5rPa5HYT0lOdm9IznZPa5HYT0lOdm9IznZPa5HYb3iHmu9begNvq5HYT0jOdm9JTnZva5HYT0jOdm9JTnZva5HYb3iHmu9begNvq5HYb0R96gympkZvq5HYb0R96gympkZvq5HYT3lHms9begNPq5HYb1rSeGxmpkZPq5HYb1rSeGxmpkZPq5HYT3lHms9begNPq5HYT1s6A2+6h5rva5HYT1s6A2+6h5rva5HYb1t6A0+4h5rva5HYT0oOdk9IjnZva5HYT0oOdk9IjnZva5HYb1t6A0+4h5rva5HYb3pHmu9bOgNPq5HYb3pHmu9bOgNPq5HYT3uHms9bOgNvq5HYb3uHms9bOgNvq5HYT0AAAAAAAAAAAAAgL+vR2G9AAAQAjDbVD/aOQ4/AAAAAAymFr4QAAQNvhR7P8TFRz4AAAAADKYWvhQABAe/FHu/tcVHPgAAAAAMpha+GAAEBDDbVL/bOQ4/AAAAAAymFr4cAAQZ2jkOvzDbVL8AAAAADKYWviAABBK2xUe+wBR7vwAAAAAOpha+JAAEErbFRz7AFHs/AAAAAA2mFr4oAAQQ3DkOPzDbVD8AAAAADKYWviwABAy+FHu/xsVHvgAAAAAMpha+MAAEADDbVL/dOQ6/AAAAAA2mFr40AAQAM9tUP9Y5Dr8AAAAADKYWvjgABAbAFHs/usVHvgAAAAAOpha+PAAEBtw5Dr8w21Q/AAAAAAymFr5AAAQZxsVHvr4Uez8AAAAADKYWvkQABBDDxUc+vRR7vwAAAAAMpha+SAAEHNw5Dj8v21S/AAAAAAymFr5MAAQKAAAAAAAAAAAAAIA/r0dhvVAAEAAcExIBAAUbGh4QDw4XBwYLAAECAwADBAUGBwgJBgkKCwwNDg8MDxAREhMUFRIVAgEWCAcXFhcODRgZGhsYGwUEHAsKHRwdFBMfERAeHx4aGR8ZGAQDAhUUHQoJCBYNDBEADgAHAAgAAQACAAwACwAQAA8ABgAFAAoACQADAAQADQEIAREBAgIRAgwDCQMRAwQEEQQNBREFCgUGBg8GEQcOBxEHCAgRCREJCgoRCxELEAsMDBENEQ0ODhEPEQ8QEBEAAQIAAQgBCBEBAhECDBEAAgwAAwQAAwkDCREDBBEEDREABA0FBhEFChEABQoABQYABg8GDxEABwgABw4HDhEHCBEJChEACQoLDBELEBEACxAACwwADQ4NDhEADxAPEBEAAAAAmpkZvpqZGb6uR2G9mpkZPpqZGT6uR2E9mEn4O9ZGTjjEg5grQfW3qcSDmCvWRk44B6NSHUH1t6kHo1IdJzuuOISWljFIYAexBi7ZLwAAgL+vR2E90CETPtMQAj3TEAI9",
-                            "Type": 1
-                        }
-                    ]
                 }
             }
         },

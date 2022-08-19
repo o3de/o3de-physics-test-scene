@@ -1,0 +1,56 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{8C869A74-B9E6-5435-9430-3F8E1C08C183}",
+            "name": "wheel_collision",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.Cylinder",
+                    "RootNode.Cylinder.transform",
+                    "RootNode.Cylinder.custom_properties",
+                    "RootNode.Cylinder.UVMap",
+                    "RootNode.Cylinder.DefaultMaterial"
+                ]
+            },
+            "export method": 1,
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "DefaultMaterial",
+                        "MaterialAsset": {
+                            "assetId": {
+                                "guid": "{289E9791-A52A-5357-A7F3-D0CC59DCBC3E}",
+                                "subId": 1
+                            },
+                            "assetHint": "assets/scripts/tire_rubber.physicsmaterial"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "wheel_collision",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.Cylinder",
+                    "RootNode.Cylinder.transform",
+                    "RootNode.Cylinder.custom_properties",
+                    "RootNode.Cylinder.UVMap",
+                    "RootNode.Cylinder.DefaultMaterial"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{A2ED483A-3A18-5684-AB62-60EC399FFED3}"
+        }
+    ]
+}
