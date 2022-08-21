@@ -21,10 +21,10 @@
                         "Name": "DefaultMaterial",
                         "MaterialAsset": {
                             "assetId": {
-                                "guid": "{289E9791-A52A-5357-A7F3-D0CC59DCBC3E}",
+                                "guid": "{2BA01013-2D78-57FA-8D6D-A1D5C978A32B}",
                                 "subId": 1
                             },
-                            "assetHint": "assets/scripts/tire_rubber.physicsmaterial"
+                            "assetHint": "assets/physics/tire_rubber.physicsmaterial"
                         }
                     }
                 ]

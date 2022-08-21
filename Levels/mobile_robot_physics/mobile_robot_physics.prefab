@@ -509,10 +509,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{B8AEF0B0-F4E5-5637-A2AC-D0B772673EA3}",
+                                    "guid": "{E2AC6EAD-0CFD-5955-8E6A-8A70C48EA8D4}",
                                     "subId": 282111860
                                 },
-                                "assetHint": "wheel.azmodel"
+                                "assetHint": "assets/models/wheel.azmodel"
                             }
                         }
                     }
@@ -594,10 +594,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{B8AEF0B0-F4E5-5637-A2AC-D0B772673EA3}",
+                                    "guid": "{E2AC6EAD-0CFD-5955-8E6A-8A70C48EA8D4}",
                                     "subId": 282111860
                                 },
-                                "assetHint": "wheel.azmodel"
+                                "assetHint": "assets/models/wheel.azmodel"
                             }
                         }
                     }
@@ -679,10 +679,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{B8AEF0B0-F4E5-5637-A2AC-D0B772673EA3}",
+                                    "guid": "{E2AC6EAD-0CFD-5955-8E6A-8A70C48EA8D4}",
                                     "subId": 282111860
                                 },
-                                "assetHint": "wheel.azmodel"
+                                "assetHint": "assets/models/wheel.azmodel"
                             }
                         }
                     }
@@ -1530,10 +1530,10 @@
                                     "Name": "DefaultMaterial",
                                     "MaterialAsset": {
                                         "assetId": {
-                                            "guid": "{289E9791-A52A-5357-A7F3-D0CC59DCBC3E}",
+                                            "guid": "{2BA01013-2D78-57FA-8D6D-A1D5C978A32B}",
                                             "subId": 1
                                         },
-                                        "assetHint": "assets/scripts/tire_rubber.physicsmaterial"
+                                        "assetHint": "assets/physics/tire_rubber.physicsmaterial"
                                     }
                                 }
                             ]
@@ -1543,19 +1543,19 @@
                         "PhysicsAsset": {
                             "Asset": {
                                 "assetId": {
-                                    "guid": "{3CA8A704-7D21-51A1-B42A-848C03D30E23}",
+                                    "guid": "{D1647581-66D3-5BDF-9C6C-19FFB4338101}",
                                     "subId": 1339250261
                                 },
-                                "assetHint": "wheel_collision.pxmesh"
+                                "assetHint": "assets/models/wheel_collision.pxmesh"
                             },
                             "Configuration": {
                                 "PhysicsAsset": {
                                     "assetId": {
-                                        "guid": "{3CA8A704-7D21-51A1-B42A-848C03D30E23}",
+                                        "guid": "{D1647581-66D3-5BDF-9C6C-19FFB4338101}",
                                         "subId": 1339250261
                                     },
                                     "loadBehavior": "QueueLoad",
-                                    "assetHint": "wheel_collision.pxmesh"
+                                    "assetHint": "assets/models/wheel_collision.pxmesh"
                                 }
                             }
                         }
@@ -1642,10 +1642,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{B8AEF0B0-F4E5-5637-A2AC-D0B772673EA3}",
+                                    "guid": "{E2AC6EAD-0CFD-5955-8E6A-8A70C48EA8D4}",
                                     "subId": 282111860
                                 },
-                                "assetHint": "wheel.azmodel"
+                                "assetHint": "assets/models/wheel.azmodel"
                             }
                         }
                     }
@@ -4611,10 +4611,10 @@
                                     "Name": "DefaultMaterial",
                                     "MaterialAsset": {
                                         "assetId": {
-                                            "guid": "{289E9791-A52A-5357-A7F3-D0CC59DCBC3E}",
+                                            "guid": "{2BA01013-2D78-57FA-8D6D-A1D5C978A32B}",
                                             "subId": 1
                                         },
-                                        "assetHint": "assets/scripts/tire_rubber.physicsmaterial"
+                                        "assetHint": "assets/physics/tire_rubber.physicsmaterial"
                                     }
                                 }
                             ]
@@ -4624,19 +4624,19 @@
                         "PhysicsAsset": {
                             "Asset": {
                                 "assetId": {
-                                    "guid": "{3CA8A704-7D21-51A1-B42A-848C03D30E23}",
+                                    "guid": "{D1647581-66D3-5BDF-9C6C-19FFB4338101}",
                                     "subId": 1339250261
                                 },
-                                "assetHint": "wheel_collision.pxmesh"
+                                "assetHint": "assets/models/wheel_collision.pxmesh"
                             },
                             "Configuration": {
                                 "PhysicsAsset": {
                                     "assetId": {
-                                        "guid": "{3CA8A704-7D21-51A1-B42A-848C03D30E23}",
+                                        "guid": "{D1647581-66D3-5BDF-9C6C-19FFB4338101}",
                                         "subId": 1339250261
                                     },
                                     "loadBehavior": "QueueLoad",
-                                    "assetHint": "wheel_collision.pxmesh"
+                                    "assetHint": "assets/models/wheel_collision.pxmesh"
                                 }
                             }
                         }
@@ -5086,10 +5086,10 @@
                                     "Name": "DefaultMaterial",
                                     "MaterialAsset": {
                                         "assetId": {
-                                            "guid": "{289E9791-A52A-5357-A7F3-D0CC59DCBC3E}",
+                                            "guid": "{2BA01013-2D78-57FA-8D6D-A1D5C978A32B}",
                                             "subId": 1
                                         },
-                                        "assetHint": "assets/scripts/tire_rubber.physicsmaterial"
+                                        "assetHint": "assets/physics/tire_rubber.physicsmaterial"
                                     }
                                 }
                             ]
@@ -5099,19 +5099,19 @@
                         "PhysicsAsset": {
                             "Asset": {
                                 "assetId": {
-                                    "guid": "{3CA8A704-7D21-51A1-B42A-848C03D30E23}",
+                                    "guid": "{D1647581-66D3-5BDF-9C6C-19FFB4338101}",
                                     "subId": 1339250261
                                 },
-                                "assetHint": "wheel_collision.pxmesh"
+                                "assetHint": "assets/models/wheel_collision.pxmesh"
                             },
                             "Configuration": {
                                 "PhysicsAsset": {
                                     "assetId": {
-                                        "guid": "{3CA8A704-7D21-51A1-B42A-848C03D30E23}",
+                                        "guid": "{D1647581-66D3-5BDF-9C6C-19FFB4338101}",
                                         "subId": 1339250261
                                     },
                                     "loadBehavior": "QueueLoad",
-                                    "assetHint": "wheel_collision.pxmesh"
+                                    "assetHint": "assets/models/wheel_collision.pxmesh"
                                 }
                             }
                         }
@@ -5220,10 +5220,10 @@
                                     "Name": "DefaultMaterial",
                                     "MaterialAsset": {
                                         "assetId": {
-                                            "guid": "{289E9791-A52A-5357-A7F3-D0CC59DCBC3E}",
+                                            "guid": "{2BA01013-2D78-57FA-8D6D-A1D5C978A32B}",
                                             "subId": 1
                                         },
-                                        "assetHint": "assets/scripts/tire_rubber.physicsmaterial"
+                                        "assetHint": "assets/physics/tire_rubber.physicsmaterial"
                                     }
                                 }
                             ]
@@ -5233,19 +5233,19 @@
                         "PhysicsAsset": {
                             "Asset": {
                                 "assetId": {
-                                    "guid": "{3CA8A704-7D21-51A1-B42A-848C03D30E23}",
+                                    "guid": "{D1647581-66D3-5BDF-9C6C-19FFB4338101}",
                                     "subId": 1339250261
                                 },
-                                "assetHint": "wheel_collision.pxmesh"
+                                "assetHint": "assets/models/wheel_collision.pxmesh"
                             },
                             "Configuration": {
                                 "PhysicsAsset": {
                                     "assetId": {
-                                        "guid": "{3CA8A704-7D21-51A1-B42A-848C03D30E23}",
+                                        "guid": "{D1647581-66D3-5BDF-9C6C-19FFB4338101}",
                                         "subId": 1339250261
                                     },
                                     "loadBehavior": "QueueLoad",
-                                    "assetHint": "wheel_collision.pxmesh"
+                                    "assetHint": "assets/models/wheel_collision.pxmesh"
                                 }
                             }
                         }
