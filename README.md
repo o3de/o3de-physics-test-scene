@@ -51,6 +51,6 @@ The goal of this level is to test vehicle physics that can be applied to mobile 
 
 [Detailed description of model structure and simulation parameters](Doc/Mobile_Robot_Technical_Details.md)
 
-### Initial feasibility tests
+## Initial feasibility tests
 
 [See here](Doc/Initial_Feasibility_tests.md)
