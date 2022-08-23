@@ -117,12 +117,6 @@ function mobile_robot_control:SetSpeed(targetSpeed, accelerationCoefficient)
 
     dif = targetSpeed - currentSpeed
     torque = dif * accelerationCoefficient
-    if torque>0 then 
-        torque = torque +0.1
-    elseif torque<0 then
-        torque = torque -0.1
-    end
-
 
     if self.Properties.rearWheelsDrive then
         self:_SetSpeedOneWheel(self.Properties.entities.wheelLR, torque)
