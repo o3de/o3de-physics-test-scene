@@ -26,7 +26,8 @@ To build the project using the CLI interface on Windows or Linux follow [these i
 ## Contents
 
 The project consists of the following levels:
-- [mobile_robot_physics](#mobile_robot_physics)
+- [mobile_robot_physics](#mobile_robot_physics) - Mobile Robot Physics PoC
+- manipulator_physics - Manipulator Physics PoC (`description on the way`)
 - [robot_arm_test1](Doc/Initial_Feasibility_tests.md#robot_arm_test1)
 - [robot_arm_test2](Doc/Initial_Feasibility_tests.md#robot_arm_test2)
 - [mobile_robot1](Doc/Initial_Feasibility_tests.md#mobile_robot1)
