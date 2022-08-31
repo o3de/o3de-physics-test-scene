@@ -52,7 +52,10 @@ The goal of this level is to test vehicle physics that can be applied to mobile 
 
 ### Details
 
-[Detailed description of model structure and simulation parameters](Doc/Mobile_Robot_Technical_Details.md)
+|   | 
+| --| 
+|For a technical details refer to [this document](Doc/Mobile_Robot_Technical_Details.md) |
+|To read about issues and solutions/workarounds refer to [this document](Doc/Mobile_Robot_Issues.md) |
 
 ## <a name="manipulator_physics"></a>Manipulator Physics PoC
 

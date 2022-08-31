@@ -1,6 +1,9 @@
 # O3DE Physics tests - Mobile Robot Technical Details
 
-For a general description and running instruction refer to [README](../README.md)
+|   | 
+| --| 
+|For a general description and running instruction refer to [README](../README.md) |
+|To read about issues and solutions/workarounds refer to [this document](Mobile_Robot_Issues.md) |
 
 ## Model Structure
 
@@ -89,30 +92,6 @@ The controller may work in front-, rear-, or all-wheel drive configurations. It 
 
 The target vehicle speed is set by pressing up/down arrows on the keyboard. When these keys are pressed, the target speed is set to +/- `maxSpeed` (sign depends on arrow direction). The controller updates speed only if up/down arrows are pressed. If none of them is pressed no torque is applied, which allows free rolling of the vehicle.
 maxSpeed can be modified in script settings (`robot chassis -> Entity Inspector`).
-
-## Notes
-
-**Note 1**
-Physics parameters tuning was necessary for simulation stability. 
-
--  Global physics configuration: 
-    -  Max Time Stape: 0.01
-    - Fixed Time STape: 0.001
--  Solver iterations for the chassis (entity mobile_robot): Position: 10, Velocity: 4
-
-**Note 2**
-Simulation of contact between tires and ground is a complicated task. With the initial set of default parameters (rubber and cylindrical wheel collision shape), wheels were wobbling and jumping. Two solutions were applied:
-
-1.  Tire rubber physics material was altered. Restitution was set to 0.0, and “restitution combine” was set to “minimum” (to force using 0.0 all the time). At the same time, both friction coefficients were set to 1.0
-2.  Wheels are tilted most of the time. The collision shape was changed from cylindrical to more realistic, with a convex rolling surface.
-
-| ![Wheel collision shape (left) and wheel mesh (right)](mobile_robot_tires.png) |
-|:--:| 
-| *Wheel collision shape (left) and wheel mesh (right)* |
-
-**Note 3**
-Steering (rotation of steering knuckles) is applied to each wheel separately. However, occasionally e.g., when hitting an obstacle or during a ride on bumpy terrain, wheels tended to have independent rotations. This might cause some wobbling. To prevent it, both knuckles were connected by steering rods. Since the rotation axes of knuckle joints J2 are not parallel due to the rotation of swing arms, steering rods are connected with additional joint J5. Since parameters of this joint have an impact on the overall behavior of the front suspension, its stiffness was set to a much lower value than the stiffness of the swingarm joint J1. It should be considered however to tune parameters of all joints in front suspension (e.g. by reducing the stiffness of J1 joints). 
-
 
 ## TODO
 - Apply more advanced controllers for speed and steering (e.g. PID). Currently applied controllers (based on the proportional part of PID only) are prone to problems like the constant bias of resultant value (e.g. velocity can never reach the target value).
