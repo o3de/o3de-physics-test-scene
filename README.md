@@ -27,13 +27,15 @@ To build the project using the CLI interface on Windows or Linux follow [these i
 
 The project consists of the following levels:
 - [mobile_robot_physics](#mobile_robot_physics) - Mobile Robot Physics PoC
-- manipulator_physics - Manipulator Physics PoC (`description on the way`)
+- [manipulator_physics](#manipulator_physics) - Manipulator Physics PoC (`description on the way`)
+
+In addition, the project includes 3 initial feasibility tests:
 - [robot_arm_test1](Doc/Initial_Feasibility_tests.md#robot_arm_test1)
 - [robot_arm_test2](Doc/Initial_Feasibility_tests.md#robot_arm_test2)
 - [mobile_robot1](Doc/Initial_Feasibility_tests.md#mobile_robot1)
 
 
-## <a name="mobile_robot_physics"></a>Mobile Robot Physics
+## <a name="mobile_robot_physics"></a>Mobile Robot Physics PoC
 
 Level: **mobile_robot_physics**
 
@@ -51,6 +53,24 @@ The goal of this level is to test vehicle physics that can be applied to mobile 
 ### Details
 
 [Detailed description of model structure and simulation parameters](Doc/Mobile_Robot_Technical_Details.md)
+
+## <a name="manipulator_physics"></a>Manipulator Physics PoC
+
+Level: **manipulator_physics**
+
+![Manipulator physics simulation](Doc/manipulator_PoC.png)
+
+The goal of this level is to test how a manipulator can be created using physics implemented in O3DE. The scene contains a mock-up of an apple-picking robot with a fully functional 3 DOF manipulator. The manipulator performs linear movements in 3 directions:
+
+-   In X axis: horizontally, along the vehicle
+-   In Z axis: vertically
+-   In Y axis: horizontally, movement of the apple-gripper / suction tube 
+
+### Instructions
+
+-   Use `left` and `right` arrows to move along the X axis. The movement is performed between predefined points.
+-   Use `up` and `down` arrows to move along the Z axis. The movement is performed between predefined points.
+-   Use `space` to slide out/in the gripper.
 
 ## Initial feasibility tests
 
