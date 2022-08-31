@@ -34,7 +34,9 @@ Real vehicles use different types of suspension. In the vast majority of cases, 
 
 #### Workaround
 
-Hinge-type joints implemented in the O3DE can have a rotation limit with stiffness and damping properties. It can be used as a substitute for the prismatic joint. This solution has however some drawbacks. To keep the wheel alignment and prevent tilting while it moves up and down, two suspension arms must be used (like in the [double wishbone suspension] (https://en.wikipedia.org/wiki/Double_wishbone_suspension)). This makes the design more complicated, and prone to problems with stability. Because of this issue, a simpler solution has been chosen for the PoC, with only one suspension arm per wheel (see the [design description](Mobile_Robot_Technical_Details.md)). This however raises other problems: the steering rod must consist of 2, properly aligned parts (see issue #4). 
+Hinge-type joints implemented in the O3DE can have a rotation limit with stiffness and damping properties. It can be used as a substitute for the prismatic joint. This solution has however some drawbacks. To keep the wheel alignment and prevent camber while it moves up and down, two suspension arms must be used (like in the [double wishbone suspension] (https://en.wikipedia.org/wiki/Double_wishbone_suspension)). This makes the design more complicated, and prone to problems with stability. Because of this issue, a simpler solution has been chosen for the PoC, with only one suspension arm per wheel ([swing axel suspension](https://en.wikipedia.org/wiki/Swing_axle)). This however raises other problems: the steering rod must consist of 2, properly aligned parts (see issue #4). 
+
+Refer to the [design description](Mobile_Robot_Technical_Details.md) for design details.
 
 Initial tests show, that despite these issues, this type of suspension is sufficient as the first iteration of mobile robot simulation.
 
