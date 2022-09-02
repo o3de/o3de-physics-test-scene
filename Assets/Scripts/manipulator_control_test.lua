@@ -35,7 +35,7 @@ end
 -- Creating PID controllers for each DOF
 pidX = pid(10.0, 0.1, 200)
 pidZ = pid(10.0, 0.0, 200)
-pidY = pid(0.001, 10.0, 200)
+pidY = pid(10.0, 10.0, 200)
 
 
 --[[
