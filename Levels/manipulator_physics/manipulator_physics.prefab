@@ -1116,6 +1116,24 @@
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 14183305161309404605
                 },
+                "Component_[15713514757630141599]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 15713514757630141599,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": {
+                                "{}": {
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{EBEB0D83-E541-57BD-AEA8-1359B24DC766}"
+                                        },
+                                        "assetHint": "assets/red.azmaterial"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
                 "Component_[16739412337288395088]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 16739412337288395088,
@@ -1705,7 +1723,7 @@
         },
         "Entity_[1070423356822]": {
             "Id": "Entity_[1070423356822]",
-            "Name": "slider_Z",
+            "Name": "slider_X",
             "Components": {
                 "Component_[10457163603104671692]": {
                     "$type": "EditorShapeColliderComponent",
@@ -1961,7 +1979,7 @@
         },
         "Entity_[1083308258710]": {
             "Id": "Entity_[1083308258710]",
-            "Name": "rail_Z",
+            "Name": "rail_X",
             "Components": {
                 "Component_[10457163603104671692]": {
                     "$type": "EditorShapeColliderComponent",
@@ -2288,6 +2306,24 @@
                 "Component_[18369384053534186835]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 18369384053534186835
+                },
+                "Component_[2646096384610054218]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 2646096384610054218,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": {
+                                "{}": {
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{EBEB0D83-E541-57BD-AEA8-1359B24DC766}"
+                                        },
+                                        "assetHint": "assets/red.azmaterial"
+                                    }
+                                }
+                            }
+                        }
+                    }
                 },
                 "Component_[6296860913470795073]": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -3365,6 +3401,24 @@
                 "Component_[7942886355197073839]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 7942886355197073839
+                },
+                "Component_[9030892550524785397]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 9030892550524785397,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": {
+                                "{}": {
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{EBEB0D83-E541-57BD-AEA8-1359B24DC766}"
+                                        },
+                                        "assetHint": "assets/red.azmaterial"
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -3545,7 +3599,7 @@
         },
         "Entity_[13626574035529]": {
             "Id": "Entity_[13626574035529]",
-            "Name": "rail_X",
+            "Name": "rail_Z",
             "Components": {
                 "Component_[10457163603104671692]": {
                     "$type": "EditorShapeColliderComponent",
@@ -3631,8 +3685,13 @@
                     "Parent Entity": "Entity_[40946861005385]",
                     "Transform Data": {
                         "Translate": [
-                            0.9178311824798584,
+                            3.741234302520752,
                             0.0,
+                            0.059847116470336914
+                        ],
+                        "Rotate": [
+                            0.0,
+                            -89.99994659423828,
                             0.0
                         ]
                     }
@@ -3775,7 +3834,7 @@
         },
         "Entity_[13635163970121]": {
             "Id": "Entity_[13635163970121]",
-            "Name": "slider_X",
+            "Name": "slider_Z",
             "Components": {
                 "Component_[10457163603104671692]": {
                     "$type": "EditorShapeColliderComponent",
@@ -8269,7 +8328,7 @@
                                             "name": "sliderX",
                                             "value": {
                                                 "$type": "EntityId",
-                                                "value": "Entity_[13635163970121]"
+                                                "value": "Entity_[1070423356822]"
                                             }
                                         },
                                         {
@@ -8287,7 +8346,7 @@
                                             "name": "sliderZ",
                                             "value": {
                                                 "$type": "EntityId",
-                                                "value": "Entity_[1070423356822]"
+                                                "value": "Entity_[13635163970121]"
                                             }
                                         }
                                     ]
@@ -8710,7 +8769,7 @@
                         "Rotate": [
                             -89.99990844726563,
                             0.00005122641596244648,
-                            89.9998779296875
+                            180.0
                         ]
                     }
                 },
