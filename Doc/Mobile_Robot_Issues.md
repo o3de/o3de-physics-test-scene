@@ -19,8 +19,8 @@ When using the default setting of physics parameters, major problems with stabil
 
 To eliminate these problems with physics, the following changes to the default configuration were done:
 - Global physics configuration: 
-    - `Max Time Stape: 0.01`
-    - `Fixed Time STape: 0.001`
+    - `Max Time Step: 0.01`
+    - `Fixed Time Step: 0.001`
 - Solver iterations for the chassis (entity `mobile_robot`): `Position: 10`, `Velocity: 4`
 
 These parameters were set experimentally, and most probably may be further tuned. 

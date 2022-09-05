@@ -61,7 +61,7 @@ The goal of this level is to test vehicle physics that can be applied to mobile 
 
 Level: **manipulator_physics**
 
-![Manipulator physics simulation](Doc/manipulator_PoC.png)
+![Manipulator physics simulation](Doc/apple_robot_manipulator_with_mockup.gif)
 
 The goal of this level is to test how a manipulator can be created using physics implemented in O3DE. The scene contains a mock-up of an apple-picking robot with a fully functional 3 DOF manipulator. The manipulator performs linear movements in 3 directions:
 
@@ -74,6 +74,12 @@ The goal of this level is to test how a manipulator can be created using physics
 -   Use `left` and `right` arrows to move along the X axis. The movement is performed between predefined points.
 -   Use `up` and `down` arrows to move along the Z axis. The movement is performed between predefined points.
 -   Use `space` to slide out/in the gripper.
+
+### Details
+
+|   | 
+| --| 
+|To read about issues and solutions/workarounds refer to [this document](Doc/Manipulator_Issues.md) |
 
 ## Initial feasibility tests
 
