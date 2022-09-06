@@ -2,8 +2,8 @@
 	<Class name="PhysX::EditorMaterialAsset" version="2" type="{BC7B88B9-EE31-4FBF-A01E-2A93624C49D3}">
 		<Class name="AssetData" field="BaseClass1" version="1" type="{AF3F7D32-1536-422A-89F3-A11E1F5B5A9C}"/>
 		<Class name="PhysX::MaterialConfiguration" field="MaterialConfiguration" version="1" type="{66213D20-9862-465D-AF4F-2D94317161F6}">
-			<Class name="float" field="DynamicFriction" value="0.2000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
-			<Class name="float" field="StaticFriction" value="0.1000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+			<Class name="float" field="DynamicFriction" value="0.1000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+			<Class name="float" field="StaticFriction" value="0.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
 			<Class name="float" field="Restitution" value="0.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
 			<Class name="unsigned char" field="FrictionCombine" value="1" type="{72B9409A-7D1A-4831-9CFE-FCB3FADD3426}"/>
 			<Class name="unsigned char" field="RestitutionCombine" value="1" type="{72B9409A-7D1A-4831-9CFE-FCB3FADD3426}"/>
