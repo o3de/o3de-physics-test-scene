@@ -72,7 +72,7 @@ Vehicle controller is in the mobile_robot_control.lua script. It pursues two obj
 
 The steering angle is set by rotating steering knuckles around joint J2. In the case of each knuckle, the controller reads current rotation and applies torque impulse (`ApplyAngularImpulse`) calculated based on the difference between expected and current angles. At the current stage, the controller value of this impulse is calculated using the following equation:
 
-`torque = (10.0 * (target_angle – current_angle)) <sup>3</sup>`
+`torque = (10.0 * (target_angle – current_angle)) ^3`
 
 **Note:** It should be considered to apply a more advanced controller, e.g. PID.
 
