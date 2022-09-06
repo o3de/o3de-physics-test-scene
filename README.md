@@ -79,6 +79,7 @@ The goal of this level is to test how a manipulator can be created using physics
 
 |   | 
 | --| 
+|For a technical details refer to [this document](Doc/Manipulator_Technical_Details.md) |
 |To read about issues and solutions/workarounds refer to [this document](Doc/Manipulator_Issues.md) |
 
 ## Initial feasibility tests

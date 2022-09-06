@@ -3,6 +3,7 @@
 |   | 
 | --| 
 |For a general description and running instruction refer to [README](../README.md) |
+|For a technical details refer to [this document](Doc/Manipulator_Technical_Details.md) |
 
 
 ## Issues and Solutions/Workarounds
@@ -68,4 +69,6 @@ Considering these conclusions, a hybrid approach was chosen, with 2 contact-base
 | ![Emulating prismatic joint - hybrid approach](manipulator_initial_tests_hybrid.gif) |
 |:--:| 
 | *Emulating prismatic joint - hybrid approach* |
+
+For a technical details of the final approach refer to [this document](Manipulator_Technical_Details.md)
 

@@ -1,4 +1,4 @@
-# O3DE Physics tests - Mobile Robot Technical Details
+# O3DE Physics tests - Mobile Robot PoC Technical Details
 
 |   | 
 | --| 
