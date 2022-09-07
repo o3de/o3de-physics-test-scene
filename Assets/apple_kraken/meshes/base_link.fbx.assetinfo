@@ -1,0 +1,56 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{5FB90552-E0AD-5550-8474-4A371F87FFA1}",
+            "name": "base_link",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.Light",
+                    "RootNode.Camera",
+                    "RootNode.base_link",
+                    "RootNode.Light.custom_properties",
+                    "RootNode.Camera.custom_properties",
+                    "RootNode.base_link.transform",
+                    "RootNode.base_link.custom_properties",
+                    "RootNode.base_link.Material_001"
+                ]
+            },
+            "export method": 1,
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "Material_001"
+                    }
+                ]
+            },
+            "export method": "1"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "base_link",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.Light",
+                    "RootNode.Camera",
+                    "RootNode.base_link",
+                    "RootNode.Light.custom_properties",
+                    "RootNode.Camera.custom_properties",
+                    "RootNode.base_link.transform",
+                    "RootNode.base_link.custom_properties",
+                    "RootNode.base_link.Material_001"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{788ED0A4-9114-5BCD-91BF-12CE85BDE914}"
+        }
+    ]
+}
