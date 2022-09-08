@@ -979,13 +979,14 @@
                                 {
                                     "$type": "AzFramework::ScriptPropertyBoolean",
                                     "id": 3588792605,
-                                    "name": "frontWheelsDrive"
+                                    "name": "frontWheelsDrive",
+                                    "value": true
                                 },
                                 {
                                     "$type": "AzFramework::ScriptPropertyNumber",
                                     "id": 762882837,
                                     "name": "maxSpeed",
-                                    "value": 2.0
+                                    "value": 4.0
                                 },
                                 {
                                     "$type": "AzFramework::ScriptPropertyNumber",
@@ -1003,7 +1004,7 @@
                                     "$type": "AzFramework::ScriptPropertyNumber",
                                     "id": 2883697301,
                                     "name": "speedForceCoefficient",
-                                    "value": 100.0
+                                    "value": 10.0
                                 },
                                 {
                                     "$type": "AzFramework::ScriptPropertyNumber",
@@ -1049,7 +1050,7 @@
                                             "name": "wheelLR",
                                             "value": {
                                                 "$type": "EntityId",
-                                                "value": "Entity_[466594535074]"
+                                                "value": "Entity_[475184469666]"
                                             }
                                         },
                                         {
@@ -1067,7 +1068,7 @@
                                             "name": "wheelRR",
                                             "value": {
                                                 "$type": "EntityId",
-                                                "value": "Entity_[479479436962]"
+                                                "value": "Entity_[496659306146]"
                                             }
                                         }
                                     ]
