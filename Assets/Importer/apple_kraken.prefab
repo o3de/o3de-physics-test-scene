@@ -7,6 +7,10 @@
                 "$type": "EditorOnlyEntityComponent",
                 "Id": 11035967395270033799
             },
+            "Component_[12194662577164093353]": {
+                "$type": "SelectionComponent",
+                "Id": 12194662577164093353
+            },
             "Component_[13684238873381722359]": {
                 "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                 "Id": 13684238873381722359,
@@ -51,6 +55,83 @@
         }
     },
     "Entities": {
+        "Entity_[1787622806141]": {
+            "Id": "Entity_[1787622806141]",
+            "Name": "Camera",
+            "Components": {
+                "Component_[11296319696918017135]": {
+                    "$type": "SelectionComponent",
+                    "Id": 11296319696918017135
+                },
+                "Component_[12787925568054624540]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12787925568054624540
+                },
+                "Component_[13836650172613785694]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13836650172613785694
+                },
+                "Component_[15512430261506122585]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 15512430261506122585
+                },
+                "Component_[17854078369100832472]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 17854078369100832472
+                },
+                "Component_[3239598796610090223]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 3239598796610090223
+                },
+                "Component_[3839979446579412675]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3839979446579412675
+                },
+                "Component_[384848127060248957]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 384848127060248957
+                },
+                "Component_[5146475614040778237]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 5146475614040778237
+                },
+                "Component_[5445033586587934531]": {
+                    "$type": "{CA11DA46-29FF-4083-B5F6-E02C3A8C3A3D} EditorCameraComponent",
+                    "Id": 5445033586587934531,
+                    "Controller": {
+                        "Configuration": {
+                            "EditorEntityId": 4579332533710419851
+                        }
+                    }
+                },
+                "Component_[6269501439657698278]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 6269501439657698278,
+                    "m_template": {
+                        "$type": "FlyCameraInputComponent",
+                        "Move Speed": 5.0,
+                        "Rotation Speed": 1.0
+                    }
+                },
+                "Component_[7230263139792245435]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 7230263139792245435,
+                    "Parent Entity": "Entity_[492364338850]",
+                    "Transform Data": {
+                        "Translate": [
+                            1.868666172027588,
+                            -4.553153991699219,
+                            1.6823302507400513
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            14.480500221252441
+                        ]
+                    }
+                }
+            }
+        },
         "Entity_[458004600482]": {
             "Id": "Entity_[458004600482]",
             "Name": "wheel_front_left_link",
@@ -116,6 +197,10 @@
                         "Positive Limit": 360.0,
                         "Negative Limit": -360.0
                     }
+                },
+                "Component_[16768095594567288343]": {
+                    "$type": "SelectionComponent",
+                    "Id": 16768095594567288343
                 },
                 "Component_[16979387758303894970]": {
                     "$type": "EditorEntityIconComponent",
@@ -228,6 +313,9 @@
                         "Child Entity": "Entity_[462299567778]"
                     },
                     "Angular Limit": {
+                        "Standard Limit Configuration": {
+                            "Is Limited": false
+                        },
                         "Positive Limit": 360.0,
                         "Negative Limit": -360.0
                     }
@@ -235,6 +323,10 @@
                 "Component_[14378162648130571445]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 14378162648130571445
+                },
+                "Component_[16997044299212835574]": {
+                    "$type": "SelectionComponent",
+                    "Id": 16997044299212835574
                 },
                 "Component_[2749169707890954149]": {
                     "$type": "EditorRigidBodyComponent",
@@ -308,11 +400,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{A8D1C53E-EFA6-57CB-A3E4-0F139DE60198}",
-                                    "subId": 282335409
+                                    "guid": "{E2AC6EAD-0CFD-5955-8E6A-8A70C48EA8D4}",
+                                    "subId": 282111860
                                 },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "assets/apple_kraken/meshes/wheel_left_link.azmodel"
+                                "assetHint": "assets/models/wheel.azmodel"
                             }
                         }
                     }
@@ -344,7 +435,24 @@
                 "Component_[5332078737300276292]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 5332078737300276292,
-                    "Parent Entity": "Entity_[475184469666]"
+                    "Parent Entity": "Entity_[475184469666]",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.040019601583480835,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotate": [
+                            0.0,
+                            90.0,
+                            0.0
+                        ],
+                        "UniformScale": 2.200000047683716
+                    }
+                },
+                "Component_[6917068061558046514]": {
+                    "$type": "SelectionComponent",
+                    "Id": 6917068061558046514
                 },
                 "Component_[7437920184700826464]": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -412,16 +520,30 @@
                         ]
                     }
                 },
+                "Component_[1413952853526883690]": {
+                    "$type": "SelectionComponent",
+                    "Id": 1413952853526883690
+                },
                 "Component_[14599694067555784862]": {
                     "$type": "EditorHingeJointComponent",
                     "Id": 14599694067555784862,
                     "Configuration": {
+                        "Local Rotation": [
+                            0.0,
+                            90.0,
+                            0.0
+                        ],
                         "Parent Entity": "Entity_[492364338850]",
                         "Child Entity": "Entity_[470889502370]"
                     },
                     "Angular Limit": {
+                        "Standard Limit Configuration": {
+                            "Is Soft Limit": true,
+                            "Damping": 200.0,
+                            "Stiffness": 1.0
+                        },
                         "Positive Limit": 0.0,
-                        "Negative Limit": -0.0
+                        "Negative Limit": -0.0010000000474974513
                     }
                 },
                 "Component_[16065791340978752066]": {
@@ -507,8 +629,8 @@
                     "Transform Data": {
                         "Translate": [
                             -0.5879660248756409,
-                            -1.0,
-                            0.3240649998188019
+                            -0.9998860359191895,
+                            0.32909440994262695
                         ]
                     }
                 },
@@ -554,6 +676,10 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 5125990630124900163
                 },
+                "Component_[5892873688518610705]": {
+                    "$type": "SelectionComponent",
+                    "Id": 5892873688518610705
+                },
                 "Component_[59815691442254534]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 59815691442254534
@@ -592,6 +718,10 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 12997629483518008182
                 },
+                "Component_[13450070497928951978]": {
+                    "$type": "SelectionComponent",
+                    "Id": 13450070497928951978
+                },
                 "Component_[13505455942520893443]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 13505455942520893443
@@ -603,7 +733,15 @@
                 "Component_[18251030660441530398]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 18251030660441530398,
-                    "Parent Entity": "Entity_[496659306146]"
+                    "Parent Entity": "Entity_[496659306146]",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            90.0,
+                            0.0
+                        ],
+                        "UniformScale": 2.200000047683716
+                    }
                 },
                 "Component_[18402049341639999332]": {
                     "$type": "AZ::Render::EditorMeshComponent",
@@ -612,11 +750,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{A429784A-E5E9-50F0-B2F3-DAB4B0B60928}",
-                                    "subId": 272404837
+                                    "guid": "{E2AC6EAD-0CFD-5955-8E6A-8A70C48EA8D4}",
+                                    "subId": 282111860
                                 },
-                                "loadBehavior": "PreLoad",
-                                "assetHint": "assets/apple_kraken/meshes/wheel_right_link.azmodel"
+                                "assetHint": "assets/models/wheel.azmodel"
                             }
                         }
                     }
@@ -655,12 +792,22 @@
                     "$type": "EditorHingeJointComponent",
                     "Id": 11226574674789732610,
                     "Configuration": {
+                        "Local Rotation": [
+                            0.0,
+                            90.0,
+                            0.0
+                        ],
                         "Parent Entity": "Entity_[492364338850]",
                         "Child Entity": "Entity_[483774404258]"
                     },
                     "Angular Limit": {
+                        "Standard Limit Configuration": {
+                            "Is Soft Limit": true,
+                            "Damping": 200.0,
+                            "Stiffness": 1.0
+                        },
                         "Positive Limit": 0.0,
-                        "Negative Limit": -0.0
+                        "Negative Limit": -0.0010000000474974513
                     }
                 },
                 "Component_[12568355405343390363]": {
@@ -734,6 +881,10 @@
                         "Entity_[458004600482]"
                     ]
                 },
+                "Component_[8484831485972449696]": {
+                    "$type": "SelectionComponent",
+                    "Id": 8484831485972449696
+                },
                 "Component_[9976561117321527785]": {
                     "$type": "EditorLockComponent",
                     "Id": 9976561117321527785
@@ -756,11 +907,11 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{79DC4E4E-E90C-50D6-80D9-66E196013294}",
-                                    "subId": 282023681
+                                    "guid": "{A95C92C0-2854-5D90-ACFC-3C720DE0CDA8}",
+                                    "subId": 278041562
                                 },
                                 "loadBehavior": "PreLoad",
-                                "assetHint": "assets/apple_kraken/meshes/base_link.azmodel"
+                                "assetHint": "assets/apple_kraken/meshes/base_link_updated.azmodel"
                             }
                         }
                     }
@@ -793,6 +944,10 @@
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 6461352539520875281
                 },
+                "Component_[8607406631527469453]": {
+                    "$type": "SelectionComponent",
+                    "Id": 8607406631527469453
+                },
                 "Component_[8971537038122720910]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 8971537038122720910
@@ -807,9 +962,146 @@
                     "$type": "EditorEntityIconComponent",
                     "Id": 11102045576153403254
                 },
+                "Component_[13514024098664117531]": {
+                    "$type": "SelectionComponent",
+                    "Id": 13514024098664117531
+                },
                 "Component_[13777626508986679901]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 13777626508986679901
+                },
+                "Component_[14143848030729929734]": {
+                    "$type": "ScriptEditorComponent",
+                    "Id": 14143848030729929734,
+                    "ScriptComponent": {
+                        "Properties": {
+                            "Properties": [
+                                {
+                                    "$type": "AzFramework::ScriptPropertyBoolean",
+                                    "id": 3588792605,
+                                    "name": "frontWheelsDrive"
+                                },
+                                {
+                                    "$type": "AzFramework::ScriptPropertyNumber",
+                                    "id": 762882837,
+                                    "name": "maxSpeed",
+                                    "value": 2.0
+                                },
+                                {
+                                    "$type": "AzFramework::ScriptPropertyNumber",
+                                    "id": 3512074993,
+                                    "name": "maxSteeringAngle",
+                                    "value": 0.5
+                                },
+                                {
+                                    "$type": "AzFramework::ScriptPropertyBoolean",
+                                    "id": 2653595522,
+                                    "name": "rearWheelsDrive",
+                                    "value": true
+                                },
+                                {
+                                    "$type": "AzFramework::ScriptPropertyNumber",
+                                    "id": 2883697301,
+                                    "name": "speedForceCoefficient",
+                                    "value": 100.0
+                                },
+                                {
+                                    "$type": "AzFramework::ScriptPropertyNumber",
+                                    "id": 2157005436,
+                                    "name": "steeringForceCoefficient",
+                                    "value": 10.0
+                                }
+                            ],
+                            "Groups": [
+                                {
+                                    "Name": "entities",
+                                    "Properties": [
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 1866970208,
+                                            "name": "steeringL",
+                                            "value": {
+                                                "$type": "EntityId",
+                                                "value": "Entity_[483774404258]"
+                                            }
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 2504558851,
+                                            "name": "steeringR",
+                                            "value": {
+                                                "$type": "EntityId",
+                                                "value": "Entity_[470889502370]"
+                                            }
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 561680738,
+                                            "name": "wheelLF",
+                                            "value": {
+                                                "$type": "EntityId",
+                                                "value": "Entity_[458004600482]"
+                                            }
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 1000359199,
+                                            "name": "wheelLR",
+                                            "value": {
+                                                "$type": "EntityId",
+                                                "value": "Entity_[466594535074]"
+                                            }
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 4114329277,
+                                            "name": "wheelRF",
+                                            "value": {
+                                                "$type": "EntityId",
+                                                "value": "Entity_[462299567778]"
+                                            }
+                                        },
+                                        {
+                                            "$type": "AzFramework::ScriptPropertyGenericClass",
+                                            "id": 4024531648,
+                                            "name": "wheelRR",
+                                            "value": {
+                                                "$type": "EntityId",
+                                                "value": "Entity_[479479436962]"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "Script": {
+                            "assetId": {
+                                "guid": "{21AEC1EC-B484-5858-9AEA-4484335B2B9D}",
+                                "subId": 1
+                            },
+                            "assetHint": "assets/apple_kraken/apple_kraken_control.luac"
+                        }
+                    },
+                    "ScriptAsset": {
+                        "assetId": {
+                            "guid": "{21AEC1EC-B484-5858-9AEA-4484335B2B9D}",
+                            "subId": 1
+                        },
+                        "assetHint": "assets/apple_kraken/apple_kraken_control.luac"
+                    }
+                },
+                "Component_[17542284158634707105]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 17542284158634707105,
+                    "m_template": {
+                        "$type": "InputConfigurationComponent",
+                        "Input Event Bindings": {
+                            "assetId": {
+                                "guid": "{A2C996A0-5B43-5A04-8A91-D09B508DC179}"
+                            },
+                            "assetHint": "assets/scripts/mobile_robot_control_keyboard.inputbindings"
+                        }
+                    }
                 },
                 "Component_[18345699306953242609]": {
                     "$type": "EditorRigidBodyComponent",
@@ -877,7 +1169,7 @@
                         "Translate": [
                             0.0,
                             5.347400665283203,
-                            0.9432715177536011
+                            0.8029617071151733
                         ]
                     }
                 },
@@ -889,6 +1181,7 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 9965255083717370401,
                     "Child Entity Order": [
+                        "Entity_[1787622806141]",
                         "Entity_[488069371554]",
                         "Entity_[483774404258]",
                         "Entity_[470889502370]",
@@ -992,6 +1285,10 @@
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 5094902262667506691
                 },
+                "Component_[7925681265047887876]": {
+                    "$type": "SelectionComponent",
+                    "Id": 7925681265047887876
+                },
                 "Component_[8139686387823190746]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 8139686387823190746,
@@ -1025,6 +1322,10 @@
             "Id": "Entity_[500954273442]",
             "Name": "base_footprint",
             "Components": {
+                "Component_[10972329231689527696]": {
+                    "$type": "SelectionComponent",
+                    "Id": 10972329231689527696
+                },
                 "Component_[10996270044906797478]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 10996270044906797478,
@@ -1085,6 +1386,10 @@
                             }
                         }
                     }
+                },
+                "Component_[15367067070673988510]": {
+                    "$type": "SelectionComponent",
+                    "Id": 15367067070673988510
                 },
                 "Component_[2018923082141364679]": {
                     "$type": "EditorOnlyEntityComponent",
@@ -1194,6 +1499,10 @@
                 "Component_[13969611118937130179]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 13969611118937130179
+                },
+                "Component_[15164264974370723984]": {
+                    "$type": "SelectionComponent",
+                    "Id": 15164264974370723984
                 },
                 "Component_[18359192263831113415]": {
                     "$type": "EditorPendingCompositionComponent",
