@@ -12,10 +12,12 @@
         "Physics_Test"
     ],
     "icon_path": "preview.png",
-    "engine": "o3de_dev",
+    "engine": "o3de",
     "external_subdirectories": [
         "Gem"
     ],
     "restricted": "o3de-physics-test-scene",
-    "gem_names": []
+    "gem_names": [
+        "ROS2"
+    ]
 }
