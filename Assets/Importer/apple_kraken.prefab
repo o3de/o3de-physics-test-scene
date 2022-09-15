@@ -7,10 +7,6 @@
                 "$type": "EditorOnlyEntityComponent",
                 "Id": 11035967395270033799
             },
-            "Component_[12194662577164093353]": {
-                "$type": "SelectionComponent",
-                "Id": 12194662577164093353
-            },
             "Component_[13684238873381722359]": {
                 "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                 "Id": 13684238873381722359,
@@ -59,10 +55,6 @@
             "Id": "Entity_[1787622806141]",
             "Name": "Camera",
             "Components": {
-                "Component_[11296319696918017135]": {
-                    "$type": "SelectionComponent",
-                    "Id": 11296319696918017135
-                },
                 "Component_[12787925568054624540]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 12787925568054624540
@@ -198,10 +190,6 @@
                         "Negative Limit": -360.0
                     }
                 },
-                "Component_[16768095594567288343]": {
-                    "$type": "SelectionComponent",
-                    "Id": 16768095594567288343
-                },
                 "Component_[16979387758303894970]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 16979387758303894970
@@ -252,6 +240,15 @@
                     "Child Entity Order": [
                         "Entity_[505249240738]"
                     ]
+                },
+                "Component_[7220214910972644826]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 7220214910972644826,
+                    "m_template": {
+                        "$type": "WheelControllerComponent",
+                        "SteeringEntity": "Entity_[483774404258]",
+                        "VisualEntity": "Entity_[505249240738]"
+                    }
                 },
                 "Component_[9763519471329731780]": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -324,10 +321,6 @@
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 14378162648130571445
                 },
-                "Component_[16997044299212835574]": {
-                    "$type": "SelectionComponent",
-                    "Id": 16997044299212835574
-                },
                 "Component_[2749169707890954149]": {
                     "$type": "EditorRigidBodyComponent",
                     "Id": 2749169707890954149,
@@ -386,6 +379,15 @@
                 "Component_[961826267153254484]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 961826267153254484
+                },
+                "Component_[9800729491780811223]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 9800729491780811223,
+                    "m_template": {
+                        "$type": "WheelControllerComponent",
+                        "SteeringEntity": "Entity_[470889502370]",
+                        "VisualEntity": "Entity_[509544208034]"
+                    }
                 }
             }
         },
@@ -449,10 +451,6 @@
                         ],
                         "UniformScale": 2.200000047683716
                     }
-                },
-                "Component_[6917068061558046514]": {
-                    "$type": "SelectionComponent",
-                    "Id": 6917068061558046514
                 },
                 "Component_[7437920184700826464]": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -520,10 +518,6 @@
                         ]
                     }
                 },
-                "Component_[1413952853526883690]": {
-                    "$type": "SelectionComponent",
-                    "Id": 1413952853526883690
-                },
                 "Component_[14599694067555784862]": {
                     "$type": "EditorHingeJointComponent",
                     "Id": 14599694067555784862,
@@ -589,6 +583,15 @@
                     "Child Entity Order": [
                         "Entity_[466594535074]"
                     ]
+                },
+                "Component_[1581360125782699041]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 1581360125782699041,
+                    "m_template": {
+                        "$type": "WheelControllerComponent",
+                        "SteeringEntity": "",
+                        "VisualEntity": "Entity_[466594535074]"
+                    }
                 },
                 "Component_[16059363075450807459]": {
                     "$type": "EditorRigidBodyComponent",
@@ -676,10 +679,6 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 5125990630124900163
                 },
-                "Component_[5892873688518610705]": {
-                    "$type": "SelectionComponent",
-                    "Id": 5892873688518610705
-                },
                 "Component_[59815691442254534]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 59815691442254534
@@ -717,10 +716,6 @@
                 "Component_[12997629483518008182]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 12997629483518008182
-                },
-                "Component_[13450070497928951978]": {
-                    "$type": "SelectionComponent",
-                    "Id": 13450070497928951978
                 },
                 "Component_[13505455942520893443]": {
                     "$type": "EditorInspectorComponent",
@@ -881,10 +876,6 @@
                         "Entity_[458004600482]"
                     ]
                 },
-                "Component_[8484831485972449696]": {
-                    "$type": "SelectionComponent",
-                    "Id": 8484831485972449696
-                },
                 "Component_[9976561117321527785]": {
                     "$type": "EditorLockComponent",
                     "Id": 9976561117321527785
@@ -944,10 +935,6 @@
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 6461352539520875281
                 },
-                "Component_[8607406631527469453]": {
-                    "$type": "SelectionComponent",
-                    "Id": 8607406631527469453
-                },
                 "Component_[8971537038122720910]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 8971537038122720910
@@ -962,133 +949,181 @@
                     "$type": "EditorEntityIconComponent",
                     "Id": 11102045576153403254
                 },
-                "Component_[13514024098664117531]": {
-                    "$type": "SelectionComponent",
-                    "Id": 13514024098664117531
-                },
                 "Component_[13777626508986679901]": {
                     "$type": "EditorDisabledCompositionComponent",
-                    "Id": 13777626508986679901
-                },
-                "Component_[14143848030729929734]": {
-                    "$type": "ScriptEditorComponent",
-                    "Id": 14143848030729929734,
-                    "ScriptComponent": {
-                        "Properties": {
-                            "Properties": [
-                                {
-                                    "$type": "AzFramework::ScriptPropertyBoolean",
-                                    "id": 3588792605,
-                                    "name": "frontWheelsDrive",
-                                    "value": true
-                                },
-                                {
-                                    "$type": "AzFramework::ScriptPropertyNumber",
-                                    "id": 762882837,
-                                    "name": "maxSpeed",
-                                    "value": 4.0
-                                },
-                                {
-                                    "$type": "AzFramework::ScriptPropertyNumber",
-                                    "id": 3512074993,
-                                    "name": "maxSteeringAngle",
-                                    "value": 0.5
-                                },
-                                {
-                                    "$type": "AzFramework::ScriptPropertyBoolean",
-                                    "id": 2653595522,
-                                    "name": "rearWheelsDrive",
-                                    "value": true
-                                },
-                                {
-                                    "$type": "AzFramework::ScriptPropertyNumber",
-                                    "id": 2883697301,
-                                    "name": "speedForceCoefficient",
-                                    "value": 10.0
-                                },
-                                {
-                                    "$type": "AzFramework::ScriptPropertyNumber",
-                                    "id": 2157005436,
-                                    "name": "steeringForceCoefficient",
-                                    "value": 10.0
-                                }
-                            ],
-                            "Groups": [
-                                {
-                                    "Name": "entities",
+                    "Id": 13777626508986679901,
+                    "DisabledComponents": [
+                        {
+                            "$type": "ScriptEditorComponent",
+                            "Id": 14143848030729929734,
+                            "ScriptComponent": {
+                                "Properties": {
                                     "Properties": [
                                         {
-                                            "$type": "AzFramework::ScriptPropertyGenericClass",
-                                            "id": 1866970208,
-                                            "name": "steeringL",
-                                            "value": {
-                                                "$type": "EntityId",
-                                                "value": "Entity_[483774404258]"
-                                            }
+                                            "$type": "AzFramework::ScriptPropertyBoolean",
+                                            "id": 3588792605,
+                                            "name": "frontWheelsDrive",
+                                            "value": true
                                         },
                                         {
-                                            "$type": "AzFramework::ScriptPropertyGenericClass",
-                                            "id": 2504558851,
-                                            "name": "steeringR",
-                                            "value": {
-                                                "$type": "EntityId",
-                                                "value": "Entity_[470889502370]"
-                                            }
+                                            "$type": "AzFramework::ScriptPropertyNumber",
+                                            "id": 762882837,
+                                            "name": "maxSpeed",
+                                            "value": 4.0
                                         },
                                         {
-                                            "$type": "AzFramework::ScriptPropertyGenericClass",
-                                            "id": 561680738,
-                                            "name": "wheelLF",
-                                            "value": {
-                                                "$type": "EntityId",
-                                                "value": "Entity_[458004600482]"
-                                            }
+                                            "$type": "AzFramework::ScriptPropertyNumber",
+                                            "id": 3512074993,
+                                            "name": "maxSteeringAngle",
+                                            "value": 0.5
                                         },
                                         {
-                                            "$type": "AzFramework::ScriptPropertyGenericClass",
-                                            "id": 1000359199,
-                                            "name": "wheelLR",
-                                            "value": {
-                                                "$type": "EntityId",
-                                                "value": "Entity_[475184469666]"
-                                            }
+                                            "$type": "AzFramework::ScriptPropertyBoolean",
+                                            "id": 2653595522,
+                                            "name": "rearWheelsDrive",
+                                            "value": true
                                         },
                                         {
-                                            "$type": "AzFramework::ScriptPropertyGenericClass",
-                                            "id": 4114329277,
-                                            "name": "wheelRF",
-                                            "value": {
-                                                "$type": "EntityId",
-                                                "value": "Entity_[462299567778]"
-                                            }
+                                            "$type": "AzFramework::ScriptPropertyNumber",
+                                            "id": 2883697301,
+                                            "name": "speedForceCoefficient",
+                                            "value": 10.0
                                         },
                                         {
-                                            "$type": "AzFramework::ScriptPropertyGenericClass",
-                                            "id": 4024531648,
-                                            "name": "wheelRR",
-                                            "value": {
-                                                "$type": "EntityId",
-                                                "value": "Entity_[496659306146]"
-                                            }
+                                            "$type": "AzFramework::ScriptPropertyNumber",
+                                            "id": 2157005436,
+                                            "name": "steeringForceCoefficient",
+                                            "value": 10.0
+                                        }
+                                    ],
+                                    "Groups": [
+                                        {
+                                            "Name": "entities",
+                                            "Properties": [
+                                                {
+                                                    "$type": "AzFramework::ScriptPropertyGenericClass",
+                                                    "id": 1866970208,
+                                                    "name": "steeringL",
+                                                    "value": {
+                                                        "$type": "EntityId",
+                                                        "value": "Entity_[483774404258]"
+                                                    }
+                                                },
+                                                {
+                                                    "$type": "AzFramework::ScriptPropertyGenericClass",
+                                                    "id": 2504558851,
+                                                    "name": "steeringR",
+                                                    "value": {
+                                                        "$type": "EntityId",
+                                                        "value": "Entity_[470889502370]"
+                                                    }
+                                                },
+                                                {
+                                                    "$type": "AzFramework::ScriptPropertyGenericClass",
+                                                    "id": 561680738,
+                                                    "name": "wheelLF",
+                                                    "value": {
+                                                        "$type": "EntityId",
+                                                        "value": "Entity_[458004600482]"
+                                                    }
+                                                },
+                                                {
+                                                    "$type": "AzFramework::ScriptPropertyGenericClass",
+                                                    "id": 1000359199,
+                                                    "name": "wheelLR",
+                                                    "value": {
+                                                        "$type": "EntityId",
+                                                        "value": "Entity_[475184469666]"
+                                                    }
+                                                },
+                                                {
+                                                    "$type": "AzFramework::ScriptPropertyGenericClass",
+                                                    "id": 4114329277,
+                                                    "name": "wheelRF",
+                                                    "value": {
+                                                        "$type": "EntityId",
+                                                        "value": "Entity_[462299567778]"
+                                                    }
+                                                },
+                                                {
+                                                    "$type": "AzFramework::ScriptPropertyGenericClass",
+                                                    "id": 4024531648,
+                                                    "name": "wheelRR",
+                                                    "value": {
+                                                        "$type": "EntityId",
+                                                        "value": "Entity_[496659306146]"
+                                                    }
+                                                }
+                                            ]
                                         }
                                     ]
+                                },
+                                "Script": {
+                                    "assetId": {
+                                        "guid": "{21AEC1EC-B484-5858-9AEA-4484335B2B9D}",
+                                        "subId": 1
+                                    },
+                                    "assetHint": "assets/apple_kraken/apple_kraken_control.luac"
+                                }
+                            },
+                            "ScriptAsset": {
+                                "assetId": {
+                                    "guid": "{21AEC1EC-B484-5858-9AEA-4484335B2B9D}",
+                                    "subId": 1
+                                },
+                                "assetHint": "assets/apple_kraken/apple_kraken_control.luac"
+                            }
+                        }
+                    ]
+                },
+                "Component_[16198849498082122078]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 16198849498082122078,
+                    "m_template": {
+                        "$type": "InputConfigurationComponent",
+                        "Input Event Bindings": {
+                            "assetId": {
+                                "guid": "{A2C996A0-5B43-5A04-8A91-D09B508DC179}"
+                            },
+                            "assetHint": "assets/scripts/mobile_robot_control_keyboard.inputbindings"
+                        }
+                    }
+                },
+                "Component_[16659052876052696890]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 16659052876052696890,
+                    "m_template": {
+                        "$type": "VehicleModelComponent",
+                        "ChassisConfiguration": {
+                            "AxlesConfigurations": [
+                                {
+                                    "AxleTag": "Front",
+                                    "AxleWheels": [
+                                        "Entity_[458004600482]",
+                                        "Entity_[462299567778]"
+                                    ],
+                                    "IsSteering": true,
+                                    "IsDrive": true
+                                },
+                                {
+                                    "AxleTag": "Rear",
+                                    "AxleWheels": [
+                                        "Entity_[475184469666]",
+                                        "Entity_[496659306146]"
+                                    ],
+                                    "IsDrive": true
                                 }
                             ]
                         },
-                        "Script": {
-                            "assetId": {
-                                "guid": "{21AEC1EC-B484-5858-9AEA-4484335B2B9D}",
-                                "subId": 1
+                        "DriveModel": {
+                            "SteeringPID": {
+                                "P": 1000.0,
+                                "D": 10.0
                             },
-                            "assetHint": "assets/apple_kraken/apple_kraken_control.luac"
+                            "SpeedPID": {
+                                "P": 10.0
+                            }
                         }
-                    },
-                    "ScriptAsset": {
-                        "assetId": {
-                            "guid": "{21AEC1EC-B484-5858-9AEA-4484335B2B9D}",
-                            "subId": 1
-                        },
-                        "assetHint": "assets/apple_kraken/apple_kraken_control.luac"
                     }
                 },
                 "Component_[17542284158634707105]": {
@@ -1248,6 +1283,15 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 16438867729777590679
                 },
+                "Component_[3645364165596545679]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 3645364165596545679,
+                    "m_template": {
+                        "$type": "WheelControllerComponent",
+                        "SteeringEntity": "",
+                        "VisualEntity": "Entity_[479479436962]"
+                    }
+                },
                 "Component_[3782489048424594032]": {
                     "$type": "EditorColliderComponent",
                     "Id": 3782489048424594032,
@@ -1286,10 +1330,6 @@
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 5094902262667506691
                 },
-                "Component_[7925681265047887876]": {
-                    "$type": "SelectionComponent",
-                    "Id": 7925681265047887876
-                },
                 "Component_[8139686387823190746]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 8139686387823190746,
@@ -1323,10 +1363,6 @@
             "Id": "Entity_[500954273442]",
             "Name": "base_footprint",
             "Components": {
-                "Component_[10972329231689527696]": {
-                    "$type": "SelectionComponent",
-                    "Id": 10972329231689527696
-                },
                 "Component_[10996270044906797478]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 10996270044906797478,
@@ -1387,10 +1423,6 @@
                             }
                         }
                     }
-                },
-                "Component_[15367067070673988510]": {
-                    "$type": "SelectionComponent",
-                    "Id": 15367067070673988510
                 },
                 "Component_[2018923082141364679]": {
                     "$type": "EditorOnlyEntityComponent",
@@ -1500,10 +1532,6 @@
                 "Component_[13969611118937130179]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 13969611118937130179
-                },
-                "Component_[15164264974370723984]": {
-                    "$type": "SelectionComponent",
-                    "Id": 15164264974370723984
                 },
                 "Component_[18359192263831113415]": {
                     "$type": "EditorPendingCompositionComponent",
