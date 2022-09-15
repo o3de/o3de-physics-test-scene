@@ -5604,6 +5604,10 @@
                             0.0,
                             0.03220491111278534
                         ]
+                    },
+                    "PhysXSpecificConfiguration": {
+                        "SolverPositionIterations": 40,
+                        "SolverVelocityIterations": 40
                     }
                 }
             }
@@ -5849,7 +5853,6 @@
                         ],
                         "Parent Entity": "Entity_[377635553411]",
                         "Child Entity": "Entity_[386225488003]",
-                        "Breakable": true,
                         "Maximum Force": 50000.0,
                         "Maximum Torque": 10000.0
                     },
@@ -5879,7 +5882,7 @@
                         ],
                         "Rotate": [
                             0.0,
-                            89.96572875976563,
+                            -90.0,
                             0.0
                         ]
                     }
@@ -5966,6 +5969,8 @@
                     "Id": 7615127150075669899,
                     "Configuration": {
                         "entityId": "",
+                        "Angular damping": 1.5,
+                        "Interpolate Motion": true,
                         "Compute Mass": false,
                         "Mass": 3.0,
                         "Centre of mass offset": [
@@ -5984,6 +5989,10 @@
                             0.0,
                             0.03220491111278534
                         ]
+                    },
+                    "PhysXSpecificConfiguration": {
+                        "SolverPositionIterations": 40,
+                        "SolverVelocityIterations": 40
                     }
                 }
             }
@@ -6077,7 +6086,6 @@
                         ],
                         "Parent Entity": "Entity_[420585226371]",
                         "Child Entity": "Entity_[394815422595]",
-                        "Breakable": true,
                         "Maximum Force": 50000.0,
                         "Maximum Torque": 10000.0
                     },
@@ -6194,6 +6202,8 @@
                     "Id": 7615127150075669899,
                     "Configuration": {
                         "entityId": "",
+                        "Angular damping": 1.5,
+                        "Interpolate Motion": true,
                         "Compute Mass": false,
                         "Mass": 3.0,
                         "Centre of mass offset": [
