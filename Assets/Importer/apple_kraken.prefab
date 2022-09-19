@@ -247,7 +247,12 @@
                     "m_template": {
                         "$type": "WheelControllerComponent",
                         "SteeringEntity": "Entity_[483774404258]",
-                        "VisualEntity": "Entity_[505249240738]"
+                        "VisualEntity": "Entity_[505249240738]",
+                        "DriveDir": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ]
                     }
                 },
                 "Component_[9763519471329731780]": {
@@ -386,7 +391,12 @@
                     "m_template": {
                         "$type": "WheelControllerComponent",
                         "SteeringEntity": "Entity_[470889502370]",
-                        "VisualEntity": "Entity_[509544208034]"
+                        "VisualEntity": "Entity_[509544208034]",
+                        "DriveDir": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ]
                     }
                 }
             }
@@ -590,7 +600,12 @@
                     "m_template": {
                         "$type": "WheelControllerComponent",
                         "SteeringEntity": "",
-                        "VisualEntity": "Entity_[466594535074]"
+                        "VisualEntity": "Entity_[466594535074]",
+                        "DriveDir": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ]
                     }
                 },
                 "Component_[16059363075450807459]": {
@@ -1289,7 +1304,12 @@
                     "m_template": {
                         "$type": "WheelControllerComponent",
                         "SteeringEntity": "",
-                        "VisualEntity": "Entity_[479479436962]"
+                        "VisualEntity": "Entity_[479479436962]",
+                        "DriveDir": [
+                            1.0,
+                            0.0,
+                            0.0
+                        ]
                     }
                 },
                 "Component_[3782489048424594032]": {

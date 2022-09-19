@@ -1,0 +1,48 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{8DFAA94D-D46D-5443-8B0A-34AEAE2D4A86}",
+            "name": "WheelLeft",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "Scene",
+                    "Scene.WheelLeft",
+                    "Scene.WheelLeft.transform",
+                    "Scene.WheelLeft.UV0",
+                    "Scene.WheelLeft.WheelLeft"
+                ]
+            },
+            "export method": 1,
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "WheelLeft"
+                    }
+                ]
+            },
+            "export method": "1"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "WheelLeft",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "Scene",
+                    "Scene.WheelLeft",
+                    "Scene.WheelLeft.transform",
+                    "Scene.WheelLeft.UV0",
+                    "Scene.WheelLeft.WheelLeft"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{BC4C0037-302A-587B-9E11-DBB19D7F7DDE}"
+        }
+    ]
+}
