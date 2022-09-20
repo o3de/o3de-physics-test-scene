@@ -5884,6 +5884,11 @@
                 },
                 {
                     "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[8305135804346276366]/Transform Data/Translate/1",
+                    "value": -2.6706762313842773
+                },
+                {
+                    "op": "replace",
                     "path": "/Entities/Entity_[523337078634]/Components/Component_[13564935090526834374]/Controller/Configuration/ModelAsset/loadBehavior",
                     "value": "QueueLoad"
                 }

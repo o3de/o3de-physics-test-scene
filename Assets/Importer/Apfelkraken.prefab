@@ -441,20 +441,7 @@
                     "Configuration": {
                         "entityId": "",
                         "Compute Mass": false,
-                        "Mass": 10.0,
-                        "Compute COM": false,
-                        "Compute inertia": false,
-                        "Inertia tensor": [
-                            0.003513999981805682,
-                            0.0,
-                            0.0,
-                            0.0,
-                            0.0019809999503195286,
-                            0.0,
-                            0.0,
-                            0.0,
-                            0.0019809999503195286
-                        ]
+                        "Mass": 10.0
                     },
                     "PhysXSpecificConfiguration": {
                         "SolverPositionIterations": 40,
@@ -1425,7 +1412,7 @@
                         },
                         "DriveModel": {
                             "SteeringPID": {
-                                "P": 1000000.0
+                                "P": 300.0
                             },
                             "SpeedPID": {
                                 "P": 10.0
@@ -1513,20 +1500,7 @@
                     "Configuration": {
                         "entityId": "",
                         "Compute Mass": false,
-                        "Mass": 10.0,
-                        "Compute COM": false,
-                        "Compute inertia": false,
-                        "Inertia tensor": [
-                            0.003513999981805682,
-                            0.0,
-                            0.0,
-                            0.0,
-                            0.0019809999503195286,
-                            0.0,
-                            0.0,
-                            0.0,
-                            0.0019809999503195286
-                        ]
+                        "Mass": 10.0
                     },
                     "PhysXSpecificConfiguration": {
                         "SolverPositionIterations": 40,
