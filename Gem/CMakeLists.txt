@@ -36,6 +36,8 @@ ly_add_target(
             Include
     BUILD_DEPENDENCIES
         PRIVATE
+            Gem::PhysX.Static
+            Gem::ImGui.Static
             AZ::AzGameFramework
             Gem::Atom_AtomBridge.Static
 )
@@ -51,6 +53,7 @@ ly_add_target(
             Include
     BUILD_DEPENDENCIES
         PRIVATE
+            Gem::ImGui.Static
             Gem::Physics_Test.Static
             AZ::AzCore
 )

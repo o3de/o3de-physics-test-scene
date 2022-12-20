@@ -23,4 +23,5 @@ set(ENABLED_GEMS
     TextureAtlas
     WhiteBox
     PhysXDebug
+    ImGui
 )

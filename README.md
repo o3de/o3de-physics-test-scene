@@ -28,6 +28,7 @@ To build the project using the CLI interface on Windows or Linux follow [these i
 The project consists of the following levels:
 - [mobile_robot_physics](#mobile_robot_physics) - Mobile Robot Physics PoC
 - [manipulator_physics](#manipulator_physics) - Manipulator Physics PoC (`description on the way`)
+- [robotic_arm_physics] (#robotic_arm) - 
 
 In addition, the project includes 3 initial feasibility tests:
 - [robot_arm_test1](Doc/Initial_Feasibility_tests.md#robot_arm_test1)
@@ -85,3 +86,10 @@ The goal of this level is to test how a manipulator can be created using physics
 ## Initial feasibility tests
 
 [See here](Doc/Initial_Feasibility_tests.md)
+
+
+# Robotic Arm
+Test level with improted robot using URDF importer. The scene is used to test developed API to PhysX joints.
+It is using this experimental branch from O3DE: https://github.com/michalpelka/o3de/tree/add_physx_joint_control
+
+![Robotic arm simulation](Doc/robotic_arm.gif)
