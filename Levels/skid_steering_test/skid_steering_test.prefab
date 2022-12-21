@@ -3260,32 +3260,32 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[5237844189300090886]/Transform Data/Translate/0",
-                    "value": 1.6274677515029907
+                    "value": 1.569276213645935
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[5237844189300090886]/Transform Data/Translate/1",
-                    "value": 3.347674608230591
+                    "value": 6.360136985778809
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[5237844189300090886]/Transform Data/Translate/2",
-                    "value": 1.0
+                    "value": 1.2059621810913086
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[5237844189300090886]/Transform Data/Rotate/0",
-                    "value": -176.733154296875
+                    "value": -176.7331085205078
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[5237844189300090886]/Transform Data/Rotate/1",
-                    "value": -30.264266967773438
+                    "value": -30.264272689819336
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[5237844189300090886]/Transform Data/Rotate/2",
-                    "value": 88.72166442871094
+                    "value": 88.72169494628906
                 },
                 {
                     "op": "add",

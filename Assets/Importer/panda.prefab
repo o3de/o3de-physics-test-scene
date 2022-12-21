@@ -129,7 +129,7 @@
                         "Negative Limit": -1.0
                     },
                     "Motor": {
-                        "Use Motor": true
+                        "UseMotor": true
                     }
                 },
                 "Component_[12504405826328742383]": {
@@ -512,7 +512,7 @@
                         "Negative Limit": -166.0
                     },
                     "Motor": {
-                        "Use Motor": true
+                        "UseMotor": true
                     }
                 },
                 "Component_[8594347468316697810]": {
@@ -816,7 +816,7 @@
                         "Negative Limit": -175.99998474121094
                     },
                     "Motor": {
-                        "Use Motor": true
+                        "UseMotor": true
                     }
                 },
                 "Component_[15888283843276217511]": {
@@ -1131,8 +1131,7 @@
                         "Negative Limit": -101.0
                     },
                     "Motor": {
-                        "Use Motor": true,
-                        "Gear Ratio": 10.0
+                        "UseMotor": true
                     }
                 },
                 "Component_[804351385537396011]": {
@@ -1231,7 +1230,7 @@
                         "Negative Limit": -166.0
                     },
                     "Motor": {
-                        "Use Motor": true
+                        "UseMotor": true
                     }
                 },
                 "Component_[14642315946499918737]": {
@@ -1682,7 +1681,7 @@
                         "Negative Limit": -166.0
                     },
                     "Motor": {
-                        "Use Motor": true
+                        "UseMotor": true
                     }
                 },
                 "Component_[7957954241301087468]": {
@@ -2033,7 +2032,7 @@
                         "Upper Limit": 0.03999999910593033
                     },
                     "Motor": {
-                        "Use Motor": true
+                        "UseMotor": true
                     }
                 },
                 "Component_[5011659990375240844]": {
@@ -2309,7 +2308,7 @@
                         "Negative Limit": -166.0
                     },
                     "Motor": {
-                        "Use Motor": true
+                        "UseMotor": true
                     }
                 },
                 "Component_[7651470095727410225]": {
@@ -2558,7 +2557,7 @@
                         "Upper Limit": 0.03999999910593033
                     },
                     "Motor": {
-                        "Use Motor": true
+                        "UseMotor": true
                     }
                 }
             }

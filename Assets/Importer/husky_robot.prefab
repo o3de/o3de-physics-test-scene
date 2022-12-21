@@ -123,7 +123,18 @@
                 },
                 "Component_[7706147748193290305]": {
                     "$type": "AZ::Render::EditorMeshComponent",
-                    "Id": 7706147748193290305
+                    "Id": 7706147748193290305,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{26A2955C-5126-5224-832E-DBD05A888405}",
+                                    "subId": 284207153
+                                },
+                                "assetHint": "assets/urdf/husky/meshes/bumper.azmodel"
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -625,7 +636,8 @@
                         "Negative Limit": -360.0
                     },
                     "Motor": {
-                        "Use Motor": true
+                        "UseMotor": true,
+                        "ForceLimit": 1.0
                     }
                 },
                 "Component_[16153738957685134839]": {
@@ -802,7 +814,8 @@
                         "Negative Limit": -360.0
                     },
                     "Motor": {
-                        "Use Motor": true
+                        "UseMotor": true,
+                        "ForceLimit": 1.0
                     }
                 },
                 "Component_[15137705602870072050]": {
@@ -1447,7 +1460,8 @@
                         "Negative Limit": -360.0
                     },
                     "Motor": {
-                        "Use Motor": true
+                        "UseMotor": true,
+                        "ForceLimit": 1.0
                     }
                 },
                 "Component_[637572449809674939]": {
@@ -1602,8 +1616,8 @@
                         "Negative Limit": -360.0
                     },
                     "Motor": {
-                        "Use Motor": true,
-                        "Force Limit": 1.0
+                        "UseMotor": true,
+                        "ForceLimit": 1.0
                     }
                 },
                 "Component_[8941603047449548785]": {
@@ -1674,7 +1688,18 @@
                 },
                 "Component_[8090628320775425011]": {
                     "$type": "AZ::Render::EditorMeshComponent",
-                    "Id": 8090628320775425011
+                    "Id": 8090628320775425011,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{26A2955C-5126-5224-832E-DBD05A888405}",
+                                    "subId": 284207153
+                                },
+                                "assetHint": "assets/urdf/husky/meshes/bumper.azmodel"
+                            }
+                        }
+                    }
                 },
                 "Component_[9997591362103497508]": {
                     "$type": "EditorVisibilityComponent",
@@ -1724,15 +1749,14 @@
                     "m_template": {
                         "$type": "SkidSteeringDemo",
                         "Left Joints": [
-                            "Entity_[2565990120873]",
-                            "Entity_[2604644826537]"
+                            "Entity_[2604644826537]",
+                            "Entity_[2565990120873]"
                         ],
                         "Right Joints": [
                             "Entity_[2574580055465]",
                             "Entity_[2600349859241]"
                         ],
-                        "Base link": "Entity_[2587464957353]",
-                        "Brick mode": true
+                        "Base link": "Entity_[2587464957353]"
                     }
                 },
                 "Component_[17124931505244278790]": {

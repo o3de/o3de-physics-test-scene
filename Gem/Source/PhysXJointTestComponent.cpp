@@ -13,8 +13,10 @@
 #include <AzCore/Serialization/SerializeContext.h>
 #include <AzFramework/Components/TransformComponent.h>
 
+#include <HingeJointComponent.h>
+#include <PrismaticJointComponent.h>
+#include <PhysX/Joint/PhysXJointRequestsBus.h>
 #include <imgui/imgui.h>
-#include <PhysX/Joint/PhysXJointBus.h>
 
 namespace TestScene
 {
@@ -51,31 +53,44 @@ namespace TestScene
     float velocity{0};
     float position{0};
     AZStd::pair<float, float> limits{0,0};
-    PhysX::JointInterfaceRequestBus::EventResult(velocity,GetEntityId(), &PhysX::JointInterface::GetVelocity);
-    PhysX::JointInterfaceRequestBus::EventResult(position,GetEntityId(), &PhysX::JointInterface::GetPosition);
-    PhysX::JointInterfaceRequestBus::EventResult(limits,GetEntityId(), &PhysX::JointInterface::GetLimits);
-
-    ImGui::Begin("SimplePhysXJointDemo");
-
-    AZStd::string group_name = "Joint " +GetEntity()->GetName();
-
-    ImGui::Text("%s", GetEntity()->GetName().c_str());
-
-
-    ImGui::SliderFloat(AZStd::string("Position"+GetEntity()->GetName()).c_str()
-                           , &position, limits.first,limits.second);
-    ImGui::SliderFloat(AZStd::string("Velocity"+GetEntity()->GetName()).c_str()
-                           , &velocity, -5.f , 5.f);
-
-    ImGui::InputFloat(AZStd::string("Force"+GetEntity()->GetName()).c_str(), &m_forceSet);
-    ImGui::SliderFloat(AZStd::string("Command"+GetEntity()->GetName()).c_str(), &m_velocitySet, -5.f , 5.f);
-    ImGui::SameLine();
-    if (ImGui::Button(AZStd::string("Zero"+GetEntity()->GetName()).c_str())){
-      m_velocitySet = 0;
+    auto* component1 = GetEntity()->FindComponent<PhysX::HingeJointComponent>();
+    auto* component2 = GetEntity()->FindComponent<PhysX::PrismaticJointComponent>();
+    auto componentId (AZ::InvalidComponentId);
+    if (component1){
+      componentId = component1->GetId();
     }
+    if (component2){
+      componentId = component2->GetId();
+    }
+    if (componentId != AZ::InvalidComponentId){
+      const AZ::EntityComponentIdPair id(GetEntityId(), componentId);
+      PhysX::JointInterfaceRequestBus::EventResult(velocity, id, &PhysX::JointRequests::GetVelocity);
+      PhysX::JointInterfaceRequestBus::EventResult(position, id, &PhysX::JointRequests::GetPosition);
+      PhysX::JointInterfaceRequestBus::EventResult(limits, id, &PhysX::JointRequests::GetLimits);
 
-    PhysX::JointInterfaceRequestBus::Event(GetEntityId(), &PhysX::JointInterface::SetVelocity, m_velocitySet);
-    PhysX::JointInterfaceRequestBus::Event(GetEntityId(), &PhysX::JointInterface::SetMaximumForce, m_forceSet);
+      ImGui::Begin("SimplePhysXJointDemo");
+
+      AZStd::string group_name = "Joint " +GetEntity()->GetName();
+
+      ImGui::Text("%s", GetEntity()->GetName().c_str());
+
+
+      ImGui::SliderFloat(AZStd::string("Position"+GetEntity()->GetName()).c_str()
+                             , &position, limits.first,limits.second);
+      ImGui::SliderFloat(AZStd::string("Velocity"+GetEntity()->GetName()).c_str()
+                             , &velocity, -5.f , 5.f);
+
+      ImGui::InputFloat(AZStd::string("Force"+GetEntity()->GetName()).c_str(), &m_forceSet);
+      ImGui::SliderFloat(AZStd::string("Command"+GetEntity()->GetName()).c_str(), &m_velocitySet, -5.f , 5.f);
+      ImGui::SameLine();
+      if (ImGui::Button(AZStd::string("Zero"+GetEntity()->GetName()).c_str())){
+        m_velocitySet = 0;
+      }
+
+      PhysX::JointInterfaceRequestBus::Event(id, &PhysX::JointRequests::SetVelocity, m_velocitySet);
+      PhysX::JointInterfaceRequestBus::Event(id, &PhysX::JointRequests::SetMaximumForce, m_forceSet);
+
+    }
 
     ImGui::End();
 

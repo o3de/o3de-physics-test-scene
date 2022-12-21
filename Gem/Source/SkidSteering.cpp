@@ -13,14 +13,16 @@
 #include <AzCore/Serialization/SerializeContext.h>
 #include <AzFramework/Components/TransformComponent.h>
 
-#include <imgui/imgui.h>
-#include <PhysX/Joint/PhysXJointBus.h>
 #include <AzFramework/Physics/RigidBodyBus.h>
+#include <PhysX/Joint/PhysXJointRequestsBus.h>
+#include <imgui/imgui.h>
 namespace TestScene
 {
 void SkidSteeringDemo::Activate()
 {
   ImGui::ImGuiUpdateListenerBus::Handler::BusConnect();
+  m_rightJointsPairs.clear();
+  m_leftJointsPairs.clear();
 }
 
 void SkidSteeringDemo::Deactivate()
@@ -56,8 +58,9 @@ void SkidSteeringDemo::Reflect(AZ::ReflectContext* context)
   }
 }
 
-void setSpeedAndForce(AZ::EntityId id, float force, float speed){
-  PhysX::JointInterfaceRequestBus::Event(id, [&](PhysX::JointInterface * joint){
+void setSpeedAndForce(const AZ::EntityComponentIdPair& id, float force, float speed){
+
+  PhysX::JointInterfaceRequestBus::Event(id, [&](PhysX::JointRequests * joint){
         joint->SetMaximumForce(force);
         joint->SetVelocity(speed);
       });
@@ -66,7 +69,41 @@ void setSpeedAndForce(AZ::EntityId id, float force, float speed){
 void SkidSteeringDemo::OnImGuiUpdate()
 {
 
+  if (m_rightJointsPairs.empty() || m_leftJointsPairs.empty()){
+    m_rightJointsPairs.clear();
+    m_leftJointsPairs.clear();
+    auto getComponentIdPair = [&](AZ::EntityId entityId){
+      AZ::Entity * entity{nullptr};
+      PhysX::HingeJointComponent* component {nullptr};
+      AZ::ComponentApplicationBus::BroadcastResult(entity, &AZ::ComponentApplicationRequests::FindEntity, entityId);
+      if (entity){
+        AZ_Printf("SkidSteeringDemo", "Found entity %s", entity->GetName().c_str());
+        component = entity->FindComponent<PhysX::HingeJointComponent>();
+      }
+      if (component){
+        AZ_Printf("SkidSteeringDemo", "Found component %llu", component->GetId());
+        return AZ::EntityComponentIdPair(entityId, component->GetId());
+      }
+      AZ_Printf("SkidSteeringDemo::Activate",  "Nothing found : %s", entityId.ToString().c_str());
+      return AZ::EntityComponentIdPair();
+    };
+    for (const auto & entityId : m_rightJoints )
+    {
+      m_rightJointsPairs.emplace_back(getComponentIdPair(entityId));
+    }
+    for (const auto & entityId : m_leftJoints )
+    {
+      m_leftJointsPairs.emplace_back(getComponentIdPair(entityId));
+    }
+  }
+
   ImGui::Begin("SkidSteeringDemo");
+  for (auto id : m_leftJointsPairs){
+    ImGui::Text("%s %llu", id.GetEntityId().ToString().c_str(), (long long unsigned) id.GetComponentId());
+  }
+  for (auto id : m_rightJointsPairs){
+    ImGui::Text("%s %llu", id.GetEntityId().ToString().c_str(), (long long unsigned) id.GetComponentId());
+  }
 
   const float max_speed = 3;
   ImGui::Checkbox("BrickSkiedSteering", &m_brickSkidSteering);
@@ -76,19 +113,20 @@ void SkidSteeringDemo::OnImGuiUpdate()
   if(!m_brickSkidSteering){
       ImGui::InputFloat("MaxForce", &m_maxForce);
 
-      for (auto id : m_leftJoints){
+      for (auto id : m_leftJointsPairs){
+
         float command = m_linearVel + m_rotVel;
         setSpeedAndForce(id, m_maxForce ,command);
       }
-      for (auto id : m_rightJoints) {
+      for (auto id : m_rightJointsPairs) {
         float command = m_linearVel - m_rotVel;
         setSpeedAndForce(id, m_maxForce, command);
       }
   }else{
-    for (auto id : m_leftJoints){
+    for (auto id : m_leftJointsPairs){
       setSpeedAndForce(id, 0 ,0);
     }
-    for (auto id : m_rightJoints) {
+    for (auto id : m_rightJointsPairs) {
       setSpeedAndForce(id, 0, 0);
     }
     AZ::Vector3 linear{m_linearVel,0,0};
@@ -116,7 +154,7 @@ void SkidSteeringDemo::OnImGuiUpdate()
     // Reapply desired velocities
     Physics::RigidBodyRequestBus::Event(m_baseLink, &Physics::RigidBodyRequests::SetLinearVelocity, currentLinearVelocity);
     Physics::RigidBodyRequestBus::Event(m_baseLink, &Physics::RigidBodyRequests::SetAngularVelocity, transformedAngularVelocity);
-  }
+}
 
   ImGui::End();
 

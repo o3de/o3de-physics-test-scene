@@ -29,6 +29,10 @@ private:
   void OnImGuiUpdate() override;
   AZStd::vector<AZ::EntityId> m_leftJoints;
   AZStd::vector<AZ::EntityId> m_rightJoints;
+
+  AZStd::vector<AZ::EntityComponentIdPair> m_leftJointsPairs;
+  AZStd::vector<AZ::EntityComponentIdPair> m_rightJointsPairs;
+
   AZ::EntityId m_baseLink;
   float m_linearVel{0};
   float m_rotVel{0};
