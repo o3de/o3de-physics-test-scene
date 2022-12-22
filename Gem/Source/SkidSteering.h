@@ -33,11 +33,6 @@ private:
   AZStd::vector<AZ::EntityComponentIdPair> m_leftJointsPairs;
   AZStd::vector<AZ::EntityComponentIdPair> m_rightJointsPairs;
 
-  AZ::EntityId m_leftFront;
-  AZ::EntityId m_leftRear;
-  AZ::EntityId m_rightFront;
-  AZ::EntityId m_rightRear;
-
   AZ::EntityId m_baseLink;
   float m_linearVel{0};
   float m_sideVel{0};
