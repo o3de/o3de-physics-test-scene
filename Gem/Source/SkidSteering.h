@@ -35,6 +35,7 @@ private:
 
   AZ::EntityId m_baseLink;
   float m_linearVel{0};
+  float m_sideVel{0};
   float m_rotVel{0};
   float m_maxForce{1};
   bool m_brickSkidSteering{false};

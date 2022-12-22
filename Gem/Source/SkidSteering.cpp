@@ -15,6 +15,7 @@
 
 #include <AzFramework/Physics/RigidBodyBus.h>
 #include <PhysX/Joint/PhysXJointRequestsBus.h>
+#include <HingeJointComponent.h>
 #include <imgui/imgui.h>
 namespace TestScene
 {
@@ -105,14 +106,27 @@ void SkidSteeringDemo::OnImGuiUpdate()
     ImGui::Text("%s %llu", id.GetEntityId().ToString().c_str(), (long long unsigned) id.GetComponentId());
   }
 
-  const float max_speed = 3;
+  const float max_speed = 8;
   ImGui::Checkbox("BrickSkiedSteering", &m_brickSkidSteering);
   ImGui::SliderFloat("LinVel", &m_linearVel, -max_speed,max_speed);
+  ImGui::SliderFloat("SideVel", &m_sideVel, -max_speed,max_speed);
   ImGui::SliderFloat("RotVel", &m_rotVel, -max_speed,max_speed);
 
   if(!m_brickSkidSteering){
       ImGui::InputFloat("MaxForce", &m_maxForce);
 
+      float command;
+      
+
+      command = m_linearVel + m_rotVel;
+      setSpeedAndForce(m_leftJointsPairs.front(), m_maxForce ,command + m_sideVel);
+      setSpeedAndForce(m_leftJointsPairs.back(), m_maxForce ,command - m_sideVel);
+
+      command = m_linearVel - m_rotVel;
+      setSpeedAndForce(m_rightJointsPairs.front(), m_maxForce ,command - m_sideVel);
+      setSpeedAndForce(m_rightJointsPairs.back(), m_maxForce ,command + m_sideVel);
+
+      /*
       for (auto id : m_leftJointsPairs){
 
         float command = m_linearVel + m_rotVel;
@@ -122,6 +136,7 @@ void SkidSteeringDemo::OnImGuiUpdate()
         float command = m_linearVel - m_rotVel;
         setSpeedAndForce(id, m_maxForce, command);
       }
+      */
   }else{
     for (auto id : m_leftJointsPairs){
       setSpeedAndForce(id, 0 ,0);
@@ -129,7 +144,7 @@ void SkidSteeringDemo::OnImGuiUpdate()
     for (auto id : m_rightJointsPairs) {
       setSpeedAndForce(id, 0, 0);
     }
-    AZ::Vector3 linear{m_linearVel,0,0};
+    AZ::Vector3 linear{m_linearVel,m_sideVel,0};
     AZ::Vector3 angular{0,0,m_rotVel};
 
     AZ::Vector3 currentLinearVelocity;
