@@ -89,7 +89,26 @@ The goal of this level is to test how a manipulator can be created using physics
 
 
 # Robotic Arm
+Level name `robotic_arm.prefab`
+
 Test level with improted robot using URDF importer. The scene is used to test developed API to PhysX joints.
 It is using this experimental branch from O3DE: https://github.com/michalpelka/o3de/tree/add_physx_joint_control
 
 ![Robotic arm simulation](Doc/robotic_arm.gif)
+
+# Skid Steering
+Level name `skid_steering_test.prefab`
+
+Test level with improted robot using URDF importer. The scene is used to test developed API to PhysX joints.
+It is using this experimental branch from O3DE: https://github.com/michalpelka/o3de/tree/add_physx_joint_control
+
+![Robotic arm simulation](Doc/skid_steering.gif)
+
+# Mecanum
+Level name `mecanum_test.prefab`
+
+Test level with improted robot using URDF importer. The scene is used to test developed API to PhysX joints.
+It is using this experimental branch from O3DE: https://github.com/michalpelka/o3de/tree/add_physx_joint_control
+
+![Robotic arm simulation](Doc/mecanum.gif)
+
