@@ -24,4 +24,5 @@ set(ENABLED_GEMS
     WhiteBox
     PhysXDebug
     ImGui
+    ROS2
 )

@@ -17,5 +17,7 @@
         "Gem"
     ],
     "restricted": "o3de-physics-test-scene",
-    "gem_names": ["ROS2"]
+    "gem_names": [
+        "ROS2"
+    ]
 }

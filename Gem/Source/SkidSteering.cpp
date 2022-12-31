@@ -14,7 +14,11 @@
 #include <AzFramework/Components/TransformComponent.h>
 
 #include <AzFramework/Physics/RigidBodyBus.h>
+<<<<<<< Updated upstream
 #include <PhysX/Joint/PhysXJointRequestsBus.h>
+=======
+#include <PhysX/Joint/JointRequestsBus.h>
+>>>>>>> Stashed changes
 #include <HingeJointComponent.h>
 #include <imgui/imgui.h>
 namespace TestScene
@@ -111,6 +115,22 @@ void SkidSteeringDemo::OnImGuiUpdate()
   ImGui::SliderFloat("LinVel", &m_linearVel, -max_speed,max_speed);
   ImGui::SliderFloat("SideVel", &m_sideVel, -max_speed,max_speed);
   ImGui::SliderFloat("RotVel", &m_rotVel, -max_speed,max_speed);
+
+  auto almostZero = 0.5;
+
+  if (m_linearVel<almostZero && m_linearVel>-almostZero)
+  {
+    m_linearVel = 0.0f;
+  }
+  if (m_sideVel<almostZero && m_sideVel>-almostZero)
+  {
+    m_sideVel = 0.0f;
+  }
+  if (m_rotVel<almostZero && m_rotVel>-almostZero)
+  {
+    m_rotVel = 0.0f;
+  }
+
 
   if(!m_brickSkidSteering){
       ImGui::InputFloat("MaxForce", &m_maxForce);

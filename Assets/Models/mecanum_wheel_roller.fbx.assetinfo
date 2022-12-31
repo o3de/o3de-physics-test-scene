@@ -1,0 +1,85 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{BE60763D-AFAB-5F0E-A019-13ED69136F4C}",
+            "name": "mecanum_wheel_roller",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.Sphere",
+                    "RootNode.Sphere.transform",
+                    "RootNode.Sphere.custom_properties",
+                    "RootNode.Sphere.UVMap",
+                    "RootNode.Sphere.DefaultMaterial"
+                ]
+            },
+            "export method": 1,
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "DefaultMaterial",
+                        "MaterialAsset": {
+                            "assetId": {
+                                "guid": "{F1F11DDB-EA3F-5173-AF6B-36D3330DEB37}",
+                                "subId": 1
+                            },
+                            "assetHint": "assets/physics/mecanum_roler.physicsmaterial"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "mecanum_wheel_roller",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.Sphere",
+                    "RootNode.Sphere.transform",
+                    "RootNode.Sphere.custom_properties",
+                    "RootNode.Sphere.UVMap",
+                    "RootNode.Sphere.DefaultMaterial"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{F43EDBFD-69D0-57C1-AD1A-6B2AE6712728}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_mecanum_wheel_roller_40D70F59_3625_5CEF_97ED_C049B6001D75_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Sphere"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{40D70F59-3625-5CEF-97ED-C049B6001D75}"
+        },
+        {
+            "$type": "PrefabGroup",
+            "name": "Assets/Models/mecanum_wheel_roller_fbx.procprefab",
+            "id": "{1FFC159B-7BD1-5EC3-8422-92293B8ED2FA}"
+        }
+    ]
+}

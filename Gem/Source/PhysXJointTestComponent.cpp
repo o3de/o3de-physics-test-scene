@@ -15,7 +15,11 @@
 
 #include <HingeJointComponent.h>
 #include <PrismaticJointComponent.h>
+<<<<<<< Updated upstream
 #include <PhysX/Joint/PhysXJointRequestsBus.h>
+=======
+#include <PhysX/Joint/JointRequestsBus.h>
+>>>>>>> Stashed changes
 #include <imgui/imgui.h>
 
 namespace TestScene
