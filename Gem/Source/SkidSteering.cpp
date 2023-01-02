@@ -14,11 +14,7 @@
 #include <AzFramework/Components/TransformComponent.h>
 
 #include <AzFramework/Physics/RigidBodyBus.h>
-<<<<<<< Updated upstream
 #include <PhysX/Joint/PhysXJointRequestsBus.h>
-=======
-#include <PhysX/Joint/JointRequestsBus.h>
->>>>>>> Stashed changes
 #include <HingeJointComponent.h>
 #include <imgui/imgui.h>
 namespace TestScene
