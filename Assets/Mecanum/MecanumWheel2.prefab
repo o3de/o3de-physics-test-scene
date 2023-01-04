@@ -1,0 +1,1925 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "MecanumWheel2",
+        "Components": {
+            "Component_[12547226993733851076]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 12547226993733851076
+            },
+            "Component_[12974217866174323736]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 12974217866174323736
+            },
+            "Component_[13083856979652560091]": {
+                "$type": "EditorLockComponent",
+                "Id": 13083856979652560091
+            },
+            "Component_[13502675470704600864]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 13502675470704600864,
+                "Parent Entity": ""
+            },
+            "Component_[13889297721474014276]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 13889297721474014276
+            },
+            "Component_[1652244894536124686]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 1652244894536124686
+            },
+            "Component_[17768753000548231508]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 17768753000548231508
+            },
+            "Component_[17985290030818431948]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 17985290030818431948
+            },
+            "Component_[1992495096385834123]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 1992495096385834123,
+                "Child Entity Order": [
+                    "Entity_[25088326212827]"
+                ]
+            },
+            "Component_[7621549475843436074]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 7621549475843436074
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[25023901703387]": {
+            "Id": "Entity_[25023901703387]",
+            "Name": "roll",
+            "Components": {
+                "Component_[10009710377390809932]": {
+                    "$type": "EditorHingeJointComponent",
+                    "Id": 10009710377390809932,
+                    "Configuration": {
+                        "Local Rotation": [
+                            0.0,
+                            90.0,
+                            0.0
+                        ],
+                        "Parent Entity": "Entity_[25088326212827]",
+                        "Child Entity": "Entity_[25023901703387]"
+                    },
+                    "Angular Limit": {
+                        "Standard Limit Configuration": {
+                            "Is Limited": false
+                        }
+                    }
+                },
+                "Component_[1100883156590275479]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 1100883156590275479
+                },
+                "Component_[12726984519315397818]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12726984519315397818,
+                    "Parent Entity": "Entity_[25092621180123]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.03444838523864746,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotate": [
+                            -45.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[14327593709135895339]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 14327593709135895339
+                },
+                "Component_[15337551770710442074]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15337551770710442074
+                },
+                "Component_[16058488744294584166]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 16058488744294584166,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2084814471
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{750FB347-3B8B-58B2-8A85-BB922D3FA8F4}"
+                                            },
+                                            "assetHint": "assets/mecanum/mecanum_wheel_roller_defaultmaterial.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[3882770714071689606]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3882770714071689606
+                },
+                "Component_[5084376144334385025]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5084376144334385025
+                },
+                "Component_[5191277498366331043]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 5191277498366331043,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "DefaultMaterial",
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{F1F11DDB-EA3F-5173-AF6B-36D3330DEB37}",
+                                            "subId": 1
+                                        },
+                                        "assetHint": "assets/physics/mecanum_roler.physicsmaterial"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{B5539667-8A8D-522E-8907-37E3352D6D73}",
+                                    "subId": 3018309538
+                                },
+                                "assetHint": "assets/mecanum/mecanum_wheel_roller_small.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{B5539667-8A8D-522E-8907-37E3352D6D73}",
+                                        "subId": 3018309538
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "assets/mecanum/mecanum_wheel_roller_small.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[5254255782076530589]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 5254255782076530589
+                },
+                "Component_[5402748211935457524]": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 5402748211935457524,
+                    "Configuration": {
+                        "entityId": ""
+                    }
+                },
+                "Component_[8370639101524189966]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 8370639101524189966,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{B5539667-8A8D-522E-8907-37E3352D6D73}",
+                                    "subId": 274816009
+                                },
+                                "assetHint": "assets/mecanum/mecanum_wheel_roller_small.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[9472875427269232216]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 9472875427269232216
+                },
+                "Component_[9849682636679470056]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9849682636679470056
+                }
+            }
+        },
+        "Entity_[25028196670683]": {
+            "Id": "Entity_[25028196670683]",
+            "Name": "roll",
+            "Components": {
+                "Component_[10009710377390809932]": {
+                    "$type": "EditorHingeJointComponent",
+                    "Id": 10009710377390809932,
+                    "Configuration": {
+                        "Local Rotation": [
+                            0.0,
+                            90.0,
+                            0.0
+                        ],
+                        "Parent Entity": "Entity_[25088326212827]",
+                        "Child Entity": "Entity_[25028196670683]"
+                    },
+                    "Angular Limit": {
+                        "Standard Limit Configuration": {
+                            "Is Limited": false
+                        }
+                    }
+                },
+                "Component_[1100883156590275479]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 1100883156590275479
+                },
+                "Component_[12014666162974984747]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 12014666162974984747,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{B5539667-8A8D-522E-8907-37E3352D6D73}",
+                                    "subId": 274816009
+                                },
+                                "assetHint": "assets/mecanum/mecanum_wheel_roller_small.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[12726984519315397818]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12726984519315397818,
+                    "Parent Entity": "Entity_[25075441310939]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.03444838523864746,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotate": [
+                            -45.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[14327593709135895339]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 14327593709135895339
+                },
+                "Component_[15337551770710442074]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15337551770710442074
+                },
+                "Component_[3004129358694357692]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 3004129358694357692,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2084814471
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{750FB347-3B8B-58B2-8A85-BB922D3FA8F4}"
+                                            },
+                                            "assetHint": "assets/mecanum/mecanum_wheel_roller_defaultmaterial.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[3882770714071689606]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3882770714071689606
+                },
+                "Component_[5084376144334385025]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5084376144334385025
+                },
+                "Component_[5191277498366331043]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 5191277498366331043,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "DefaultMaterial",
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{F1F11DDB-EA3F-5173-AF6B-36D3330DEB37}",
+                                            "subId": 1
+                                        },
+                                        "assetHint": "assets/physics/mecanum_roler.physicsmaterial"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{B5539667-8A8D-522E-8907-37E3352D6D73}",
+                                    "subId": 3018309538
+                                },
+                                "assetHint": "assets/mecanum/mecanum_wheel_roller_small.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{B5539667-8A8D-522E-8907-37E3352D6D73}",
+                                        "subId": 3018309538
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "assets/mecanum/mecanum_wheel_roller_small.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[5254255782076530589]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 5254255782076530589
+                },
+                "Component_[5402748211935457524]": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 5402748211935457524,
+                    "Configuration": {
+                        "entityId": ""
+                    }
+                },
+                "Component_[9472875427269232216]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 9472875427269232216
+                },
+                "Component_[9849682636679470056]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9849682636679470056
+                }
+            }
+        },
+        "Entity_[25032491637979]": {
+            "Id": "Entity_[25032491637979]",
+            "Name": "roll",
+            "Components": {
+                "Component_[10009710377390809932]": {
+                    "$type": "EditorHingeJointComponent",
+                    "Id": 10009710377390809932,
+                    "Configuration": {
+                        "Local Rotation": [
+                            0.0,
+                            90.0,
+                            0.0
+                        ],
+                        "Parent Entity": "Entity_[25088326212827]",
+                        "Child Entity": "Entity_[25032491637979]"
+                    },
+                    "Angular Limit": {
+                        "Standard Limit Configuration": {
+                            "Is Limited": false
+                        }
+                    }
+                },
+                "Component_[1100883156590275479]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 1100883156590275479
+                },
+                "Component_[12726984519315397818]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12726984519315397818,
+                    "Parent Entity": "Entity_[25049671507163]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.03444838523864746,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotate": [
+                            -45.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[14327593709135895339]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 14327593709135895339
+                },
+                "Component_[14726373695062547844]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 14726373695062547844,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{B5539667-8A8D-522E-8907-37E3352D6D73}",
+                                    "subId": 274816009
+                                },
+                                "assetHint": "assets/mecanum/mecanum_wheel_roller_small.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[15337551770710442074]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15337551770710442074
+                },
+                "Component_[3882770714071689606]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3882770714071689606
+                },
+                "Component_[5084376144334385025]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5084376144334385025
+                },
+                "Component_[5191277498366331043]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 5191277498366331043,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "DefaultMaterial",
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{F1F11DDB-EA3F-5173-AF6B-36D3330DEB37}",
+                                            "subId": 1
+                                        },
+                                        "assetHint": "assets/physics/mecanum_roler.physicsmaterial"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{B5539667-8A8D-522E-8907-37E3352D6D73}",
+                                    "subId": 3018309538
+                                },
+                                "assetHint": "assets/mecanum/mecanum_wheel_roller_small.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{B5539667-8A8D-522E-8907-37E3352D6D73}",
+                                        "subId": 3018309538
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "assets/mecanum/mecanum_wheel_roller_small.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[5254255782076530589]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 5254255782076530589
+                },
+                "Component_[5402748211935457524]": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 5402748211935457524,
+                    "Configuration": {
+                        "entityId": ""
+                    }
+                },
+                "Component_[8758690629402046425]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 8758690629402046425,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2084814471
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{750FB347-3B8B-58B2-8A85-BB922D3FA8F4}"
+                                            },
+                                            "assetHint": "assets/mecanum/mecanum_wheel_roller_defaultmaterial.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[9472875427269232216]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 9472875427269232216
+                },
+                "Component_[9849682636679470056]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9849682636679470056
+                }
+            }
+        },
+        "Entity_[25036786605275]": {
+            "Id": "Entity_[25036786605275]",
+            "Name": "roll",
+            "Components": {
+                "Component_[10009710377390809932]": {
+                    "$type": "EditorHingeJointComponent",
+                    "Id": 10009710377390809932,
+                    "Configuration": {
+                        "Local Rotation": [
+                            0.0,
+                            90.0,
+                            0.0
+                        ],
+                        "Parent Entity": "Entity_[25088326212827]",
+                        "Child Entity": "Entity_[25036786605275]"
+                    },
+                    "Angular Limit": {
+                        "Standard Limit Configuration": {
+                            "Is Limited": false
+                        }
+                    }
+                },
+                "Component_[1100883156590275479]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 1100883156590275479
+                },
+                "Component_[12726984519315397818]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12726984519315397818,
+                    "Parent Entity": "Entity_[25053966474459]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.03444838523864746,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotate": [
+                            -45.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[14327593709135895339]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 14327593709135895339
+                },
+                "Component_[15337551770710442074]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15337551770710442074
+                },
+                "Component_[2142478222896452715]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 2142478222896452715,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{B5539667-8A8D-522E-8907-37E3352D6D73}",
+                                    "subId": 274816009
+                                },
+                                "assetHint": "assets/mecanum/mecanum_wheel_roller_small.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[3882770714071689606]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3882770714071689606
+                },
+                "Component_[5084376144334385025]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5084376144334385025
+                },
+                "Component_[5191277498366331043]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 5191277498366331043,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "DefaultMaterial",
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{F1F11DDB-EA3F-5173-AF6B-36D3330DEB37}",
+                                            "subId": 1
+                                        },
+                                        "assetHint": "assets/physics/mecanum_roler.physicsmaterial"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{B5539667-8A8D-522E-8907-37E3352D6D73}",
+                                    "subId": 3018309538
+                                },
+                                "assetHint": "assets/mecanum/mecanum_wheel_roller_small.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{B5539667-8A8D-522E-8907-37E3352D6D73}",
+                                        "subId": 3018309538
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "assets/mecanum/mecanum_wheel_roller_small.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[5254255782076530589]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 5254255782076530589
+                },
+                "Component_[5402748211935457524]": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 5402748211935457524,
+                    "Configuration": {
+                        "entityId": ""
+                    }
+                },
+                "Component_[5941491060848118676]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 5941491060848118676,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2084814471
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{750FB347-3B8B-58B2-8A85-BB922D3FA8F4}"
+                                            },
+                                            "assetHint": "assets/mecanum/mecanum_wheel_roller_defaultmaterial.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[9472875427269232216]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 9472875427269232216
+                },
+                "Component_[9849682636679470056]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9849682636679470056
+                }
+            }
+        },
+        "Entity_[25041081572571]": {
+            "Id": "Entity_[25041081572571]",
+            "Name": "Hub",
+            "Components": {
+                "Component_[10340550123336282866]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10340550123336282866
+                },
+                "Component_[12900867901743279509]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12900867901743279509
+                },
+                "Component_[13109048453045583935]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 13109048453045583935,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{2145D908-BAE0-505F-84AC-A7B39C89B401}",
+                                    "subId": 284150721
+                                },
+                                "assetHint": "assets/mecanum/mecanum_wheel_hub2_small.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[13253603841935512465]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13253603841935512465
+                },
+                "Component_[15648957885025691863]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 15648957885025691863,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2084814471
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{84F18A54-A126-5334-B87C-AA47B15F32CC}"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[17784001781196312026]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17784001781196312026,
+                    "Parent Entity": "Entity_[25088326212827]"
+                },
+                "Component_[3924563006986472330]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 3924563006986472330
+                },
+                "Component_[4775532407274500155]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 4775532407274500155
+                },
+                "Component_[5023428309576360446]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5023428309576360446
+                },
+                "Component_[8932681345862155243]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8932681345862155243
+                },
+                "Component_[9720248524841714890]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 9720248524841714890
+                }
+            }
+        },
+        "Entity_[25045376539867]": {
+            "Id": "Entity_[25045376539867]",
+            "Name": "roll",
+            "Components": {
+                "Component_[10009710377390809932]": {
+                    "$type": "EditorHingeJointComponent",
+                    "Id": 10009710377390809932,
+                    "Configuration": {
+                        "Local Rotation": [
+                            0.0,
+                            90.0,
+                            0.0
+                        ],
+                        "Parent Entity": "Entity_[25088326212827]",
+                        "Child Entity": "Entity_[25045376539867]"
+                    },
+                    "Angular Limit": {
+                        "Standard Limit Configuration": {
+                            "Is Limited": false
+                        }
+                    }
+                },
+                "Component_[1100883156590275479]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 1100883156590275479
+                },
+                "Component_[12726984519315397818]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12726984519315397818,
+                    "Parent Entity": "Entity_[25066851376347]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.03444838523864746,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotate": [
+                            -45.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[14327593709135895339]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 14327593709135895339
+                },
+                "Component_[15337551770710442074]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15337551770710442074
+                },
+                "Component_[17430851621373942219]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 17430851621373942219,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2084814471
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{750FB347-3B8B-58B2-8A85-BB922D3FA8F4}"
+                                            },
+                                            "assetHint": "assets/mecanum/mecanum_wheel_roller_defaultmaterial.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[17605398859587452458]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 17605398859587452458,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{B5539667-8A8D-522E-8907-37E3352D6D73}",
+                                    "subId": 274816009
+                                },
+                                "assetHint": "assets/mecanum/mecanum_wheel_roller_small.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[3882770714071689606]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3882770714071689606
+                },
+                "Component_[5084376144334385025]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5084376144334385025
+                },
+                "Component_[5191277498366331043]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 5191277498366331043,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "DefaultMaterial",
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{F1F11DDB-EA3F-5173-AF6B-36D3330DEB37}",
+                                            "subId": 1
+                                        },
+                                        "assetHint": "assets/physics/mecanum_roler.physicsmaterial"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{B5539667-8A8D-522E-8907-37E3352D6D73}",
+                                    "subId": 3018309538
+                                },
+                                "assetHint": "assets/mecanum/mecanum_wheel_roller_small.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{B5539667-8A8D-522E-8907-37E3352D6D73}",
+                                        "subId": 3018309538
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "assets/mecanum/mecanum_wheel_roller_small.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[5254255782076530589]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 5254255782076530589
+                },
+                "Component_[5402748211935457524]": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 5402748211935457524,
+                    "Configuration": {
+                        "entityId": ""
+                    }
+                },
+                "Component_[9472875427269232216]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 9472875427269232216
+                },
+                "Component_[9849682636679470056]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9849682636679470056
+                }
+            }
+        },
+        "Entity_[25049671507163]": {
+            "Id": "Entity_[25049671507163]",
+            "Name": "roll_axis",
+            "Components": {
+                "Component_[10471234695294152670]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10471234695294152670
+                },
+                "Component_[13471970267331737661]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13471970267331737661
+                },
+                "Component_[15460391984091777965]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15460391984091777965
+                },
+                "Component_[2544392570222070475]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 2544392570222070475
+                },
+                "Component_[4728601322062637555]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4728601322062637555
+                },
+                "Component_[5171346056379502450]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5171346056379502450
+                },
+                "Component_[5728608581112429755]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5728608581112429755
+                },
+                "Component_[5849829179644969595]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5849829179644969595,
+                    "Parent Entity": "Entity_[25088326212827]",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ]
+                    }
+                },
+                "Component_[9613465925868190856]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9613465925868190856,
+                    "Child Entity Order": [
+                        "Entity_[25032491637979]"
+                    ]
+                }
+            }
+        },
+        "Entity_[25053966474459]": {
+            "Id": "Entity_[25053966474459]",
+            "Name": "roll_axis",
+            "Components": {
+                "Component_[10471234695294152670]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10471234695294152670
+                },
+                "Component_[13471970267331737661]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13471970267331737661
+                },
+                "Component_[15460391984091777965]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15460391984091777965
+                },
+                "Component_[2544392570222070475]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 2544392570222070475
+                },
+                "Component_[4728601322062637555]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4728601322062637555
+                },
+                "Component_[5171346056379502450]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5171346056379502450
+                },
+                "Component_[5728608581112429755]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5728608581112429755
+                },
+                "Component_[5849829179644969595]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5849829179644969595,
+                    "Parent Entity": "Entity_[25088326212827]",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            90.0
+                        ]
+                    }
+                },
+                "Component_[9613465925868190856]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9613465925868190856,
+                    "Child Entity Order": [
+                        "Entity_[25036786605275]"
+                    ]
+                }
+            }
+        },
+        "Entity_[25058261441755]": {
+            "Id": "Entity_[25058261441755]",
+            "Name": "roll_axis",
+            "Components": {
+                "Component_[10471234695294152670]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10471234695294152670
+                },
+                "Component_[13471970267331737661]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13471970267331737661
+                },
+                "Component_[15460391984091777965]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15460391984091777965
+                },
+                "Component_[2544392570222070475]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 2544392570222070475
+                },
+                "Component_[4728601322062637555]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4728601322062637555
+                },
+                "Component_[5171346056379502450]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5171346056379502450
+                },
+                "Component_[5728608581112429755]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5728608581112429755
+                },
+                "Component_[5849829179644969595]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5849829179644969595,
+                    "Parent Entity": "Entity_[25088326212827]"
+                },
+                "Component_[9613465925868190856]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9613465925868190856,
+                    "Child Entity Order": [
+                        "Entity_[25096916147419]"
+                    ]
+                }
+            }
+        },
+        "Entity_[25062556409051]": {
+            "Id": "Entity_[25062556409051]",
+            "Name": "roll_axis",
+            "Components": {
+                "Component_[10471234695294152670]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10471234695294152670
+                },
+                "Component_[13471970267331737661]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13471970267331737661
+                },
+                "Component_[15460391984091777965]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15460391984091777965
+                },
+                "Component_[2544392570222070475]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 2544392570222070475
+                },
+                "Component_[4728601322062637555]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4728601322062637555
+                },
+                "Component_[5171346056379502450]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5171346056379502450
+                },
+                "Component_[5728608581112429755]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5728608581112429755
+                },
+                "Component_[5849829179644969595]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5849829179644969595,
+                    "Parent Entity": "Entity_[25088326212827]",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            315.0
+                        ]
+                    }
+                },
+                "Component_[9613465925868190856]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9613465925868190856,
+                    "Child Entity Order": [
+                        "Entity_[25071146343643]"
+                    ]
+                }
+            }
+        },
+        "Entity_[25066851376347]": {
+            "Id": "Entity_[25066851376347]",
+            "Name": "roll_axis",
+            "Components": {
+                "Component_[10471234695294152670]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10471234695294152670
+                },
+                "Component_[13471970267331737661]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13471970267331737661
+                },
+                "Component_[15460391984091777965]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15460391984091777965
+                },
+                "Component_[2544392570222070475]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 2544392570222070475
+                },
+                "Component_[4728601322062637555]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4728601322062637555
+                },
+                "Component_[5171346056379502450]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5171346056379502450
+                },
+                "Component_[5728608581112429755]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5728608581112429755
+                },
+                "Component_[5849829179644969595]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5849829179644969595,
+                    "Parent Entity": "Entity_[25088326212827]",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            45.0
+                        ]
+                    }
+                },
+                "Component_[9613465925868190856]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9613465925868190856,
+                    "Child Entity Order": [
+                        "Entity_[25045376539867]"
+                    ]
+                }
+            }
+        },
+        "Entity_[25071146343643]": {
+            "Id": "Entity_[25071146343643]",
+            "Name": "roll",
+            "Components": {
+                "Component_[10009710377390809932]": {
+                    "$type": "EditorHingeJointComponent",
+                    "Id": 10009710377390809932,
+                    "Configuration": {
+                        "Local Rotation": [
+                            0.0,
+                            90.0,
+                            0.0
+                        ],
+                        "Parent Entity": "Entity_[25088326212827]",
+                        "Child Entity": "Entity_[25071146343643]"
+                    },
+                    "Angular Limit": {
+                        "Standard Limit Configuration": {
+                            "Is Limited": false
+                        }
+                    }
+                },
+                "Component_[1100883156590275479]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 1100883156590275479
+                },
+                "Component_[12726984519315397818]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12726984519315397818,
+                    "Parent Entity": "Entity_[25062556409051]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.03444838523864746,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotate": [
+                            -45.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[13797675989950579543]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 13797675989950579543,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{B5539667-8A8D-522E-8907-37E3352D6D73}",
+                                    "subId": 274816009
+                                },
+                                "assetHint": "assets/mecanum/mecanum_wheel_roller_small.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[14327593709135895339]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 14327593709135895339
+                },
+                "Component_[15337551770710442074]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15337551770710442074
+                },
+                "Component_[2540892656162965180]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 2540892656162965180,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2084814471
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{750FB347-3B8B-58B2-8A85-BB922D3FA8F4}"
+                                            },
+                                            "assetHint": "assets/mecanum/mecanum_wheel_roller_defaultmaterial.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[3882770714071689606]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3882770714071689606
+                },
+                "Component_[5084376144334385025]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5084376144334385025
+                },
+                "Component_[5191277498366331043]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 5191277498366331043,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "DefaultMaterial",
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{F1F11DDB-EA3F-5173-AF6B-36D3330DEB37}",
+                                            "subId": 1
+                                        },
+                                        "assetHint": "assets/physics/mecanum_roler.physicsmaterial"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{B5539667-8A8D-522E-8907-37E3352D6D73}",
+                                    "subId": 3018309538
+                                },
+                                "assetHint": "assets/mecanum/mecanum_wheel_roller_small.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{B5539667-8A8D-522E-8907-37E3352D6D73}",
+                                        "subId": 3018309538
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "assets/mecanum/mecanum_wheel_roller_small.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[5254255782076530589]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 5254255782076530589
+                },
+                "Component_[5402748211935457524]": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 5402748211935457524,
+                    "Configuration": {
+                        "entityId": ""
+                    }
+                },
+                "Component_[9472875427269232216]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 9472875427269232216
+                },
+                "Component_[9849682636679470056]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9849682636679470056
+                }
+            }
+        },
+        "Entity_[25075441310939]": {
+            "Id": "Entity_[25075441310939]",
+            "Name": "roll_axis",
+            "Components": {
+                "Component_[10471234695294152670]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10471234695294152670
+                },
+                "Component_[13471970267331737661]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13471970267331737661
+                },
+                "Component_[15460391984091777965]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15460391984091777965
+                },
+                "Component_[2544392570222070475]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 2544392570222070475
+                },
+                "Component_[4728601322062637555]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4728601322062637555
+                },
+                "Component_[5171346056379502450]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5171346056379502450
+                },
+                "Component_[5728608581112429755]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5728608581112429755
+                },
+                "Component_[5849829179644969595]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5849829179644969595,
+                    "Parent Entity": "Entity_[25088326212827]",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            135.0
+                        ]
+                    }
+                },
+                "Component_[9613465925868190856]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9613465925868190856,
+                    "Child Entity Order": [
+                        "Entity_[25028196670683]"
+                    ]
+                }
+            }
+        },
+        "Entity_[25079736278235]": {
+            "Id": "Entity_[25079736278235]",
+            "Name": "roll_axis",
+            "Components": {
+                "Component_[10471234695294152670]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10471234695294152670
+                },
+                "Component_[13471970267331737661]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13471970267331737661
+                },
+                "Component_[15460391984091777965]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15460391984091777965
+                },
+                "Component_[2544392570222070475]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 2544392570222070475
+                },
+                "Component_[4728601322062637555]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4728601322062637555
+                },
+                "Component_[5171346056379502450]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5171346056379502450
+                },
+                "Component_[5728608581112429755]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5728608581112429755
+                },
+                "Component_[5849829179644969595]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5849829179644969595,
+                    "Parent Entity": "Entity_[25088326212827]",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            225.0
+                        ]
+                    }
+                },
+                "Component_[9613465925868190856]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9613465925868190856,
+                    "Child Entity Order": [
+                        "Entity_[25084031245531]"
+                    ]
+                }
+            }
+        },
+        "Entity_[25084031245531]": {
+            "Id": "Entity_[25084031245531]",
+            "Name": "roll",
+            "Components": {
+                "Component_[10009710377390809932]": {
+                    "$type": "EditorHingeJointComponent",
+                    "Id": 10009710377390809932,
+                    "Configuration": {
+                        "Local Rotation": [
+                            0.0,
+                            90.0,
+                            0.0
+                        ],
+                        "Parent Entity": "Entity_[25088326212827]",
+                        "Child Entity": "Entity_[25084031245531]"
+                    },
+                    "Angular Limit": {
+                        "Standard Limit Configuration": {
+                            "Is Limited": false
+                        }
+                    }
+                },
+                "Component_[1100883156590275479]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 1100883156590275479
+                },
+                "Component_[12726984519315397818]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12726984519315397818,
+                    "Parent Entity": "Entity_[25079736278235]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.03444838523864746,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotate": [
+                            -45.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[14327593709135895339]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 14327593709135895339
+                },
+                "Component_[15000877685233308347]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 15000877685233308347,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2084814471
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{750FB347-3B8B-58B2-8A85-BB922D3FA8F4}"
+                                            },
+                                            "assetHint": "assets/mecanum/mecanum_wheel_roller_defaultmaterial.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[15337551770710442074]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15337551770710442074
+                },
+                "Component_[3882770714071689606]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3882770714071689606
+                },
+                "Component_[5084376144334385025]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5084376144334385025
+                },
+                "Component_[5191277498366331043]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 5191277498366331043,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "DefaultMaterial",
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{F1F11DDB-EA3F-5173-AF6B-36D3330DEB37}",
+                                            "subId": 1
+                                        },
+                                        "assetHint": "assets/physics/mecanum_roler.physicsmaterial"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{B5539667-8A8D-522E-8907-37E3352D6D73}",
+                                    "subId": 3018309538
+                                },
+                                "assetHint": "assets/mecanum/mecanum_wheel_roller_small.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{B5539667-8A8D-522E-8907-37E3352D6D73}",
+                                        "subId": 3018309538
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "assets/mecanum/mecanum_wheel_roller_small.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[5254255782076530589]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 5254255782076530589
+                },
+                "Component_[5402748211935457524]": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 5402748211935457524,
+                    "Configuration": {
+                        "entityId": ""
+                    }
+                },
+                "Component_[8421145525894987036]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 8421145525894987036,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{B5539667-8A8D-522E-8907-37E3352D6D73}",
+                                    "subId": 274816009
+                                },
+                                "assetHint": "assets/mecanum/mecanum_wheel_roller_small.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[9472875427269232216]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 9472875427269232216
+                },
+                "Component_[9849682636679470056]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9849682636679470056
+                }
+            }
+        },
+        "Entity_[25088326212827]": {
+            "Id": "Entity_[25088326212827]",
+            "Name": "MecanumWheel2",
+            "Components": {
+                "Component_[100188281108862722]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 100188281108862722,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 10980844663075816952
+                        },
+                        {
+                            "ComponentId": 7668316026257059233,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "Component_[10980844663075816952]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10980844663075816952,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[14886487531293932371]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14886487531293932371
+                },
+                "Component_[15063796994754110954]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 15063796994754110954
+                },
+                "Component_[15922918026352939922]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15922918026352939922
+                },
+                "Component_[16271342988403295830]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 16271342988403295830
+                },
+                "Component_[16843830619185612884]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 16843830619185612884
+                },
+                "Component_[17650063035356831580]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 17650063035356831580
+                },
+                "Component_[7668316026257059233]": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 7668316026257059233,
+                    "Configuration": {
+                        "entityId": "",
+                        "Compute Mass": false,
+                        "Mass": 0.5,
+                        "Compute inertia": false,
+                        "Inertia tensor": [
+                            0.10000000149011612,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.10000000149011612,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.10000000149011612
+                        ]
+                    }
+                },
+                "Component_[7950895368643479714]": {
+                    "$type": "EditorHingeJointComponent",
+                    "Id": 7950895368643479714,
+                    "Configuration": {
+                        "Local Rotation": [
+                            0.0,
+                            90.0,
+                            0.0
+                        ],
+                        "Parent Entity": "",
+                        "Child Entity": "Entity_[25088326212827]"
+                    },
+                    "Angular Limit": {
+                        "Standard Limit Configuration": {
+                            "Is Limited": false
+                        }
+                    }
+                },
+                "Component_[8308045851611990137]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8308045851611990137,
+                    "Child Entity Order": [
+                        "Entity_[25041081572571]",
+                        "Entity_[25058261441755]",
+                        "Entity_[25066851376347]",
+                        "Entity_[25053966474459]",
+                        "Entity_[25075441310939]",
+                        "Entity_[25049671507163]",
+                        "Entity_[25079736278235]",
+                        "Entity_[25092621180123]",
+                        "Entity_[25062556409051]"
+                    ]
+                }
+            }
+        },
+        "Entity_[25092621180123]": {
+            "Id": "Entity_[25092621180123]",
+            "Name": "roll_axis",
+            "Components": {
+                "Component_[10471234695294152670]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10471234695294152670
+                },
+                "Component_[13471970267331737661]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13471970267331737661
+                },
+                "Component_[15460391984091777965]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15460391984091777965
+                },
+                "Component_[2544392570222070475]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 2544392570222070475
+                },
+                "Component_[4728601322062637555]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4728601322062637555
+                },
+                "Component_[5171346056379502450]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5171346056379502450
+                },
+                "Component_[5728608581112429755]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5728608581112429755
+                },
+                "Component_[5849829179644969595]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5849829179644969595,
+                    "Parent Entity": "Entity_[25088326212827]",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            270.0
+                        ]
+                    }
+                },
+                "Component_[9613465925868190856]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9613465925868190856,
+                    "Child Entity Order": [
+                        "Entity_[25023901703387]"
+                    ]
+                }
+            }
+        },
+        "Entity_[25096916147419]": {
+            "Id": "Entity_[25096916147419]",
+            "Name": "roll",
+            "Components": {
+                "Component_[10009710377390809932]": {
+                    "$type": "EditorHingeJointComponent",
+                    "Id": 10009710377390809932,
+                    "Configuration": {
+                        "Local Rotation": [
+                            0.0,
+                            90.0,
+                            0.0
+                        ],
+                        "Parent Entity": "Entity_[25088326212827]",
+                        "Child Entity": "Entity_[25096916147419]"
+                    },
+                    "Angular Limit": {
+                        "Standard Limit Configuration": {
+                            "Is Limited": false
+                        }
+                    }
+                },
+                "Component_[1100883156590275479]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 1100883156590275479
+                },
+                "Component_[12239783455591071084]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 12239783455591071084,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{B5539667-8A8D-522E-8907-37E3352D6D73}",
+                                    "subId": 274816009
+                                },
+                                "assetHint": "assets/mecanum/mecanum_wheel_roller_small.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[12726984519315397818]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12726984519315397818,
+                    "Parent Entity": "Entity_[25058261441755]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.03444838523864746,
+                            0.0,
+                            0.0
+                        ],
+                        "Rotate": [
+                            -45.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[14327593709135895339]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 14327593709135895339
+                },
+                "Component_[15337551770710442074]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15337551770710442074
+                },
+                "Component_[325594810253758419]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 325594810253758419,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2084814471
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{750FB347-3B8B-58B2-8A85-BB922D3FA8F4}"
+                                            },
+                                            "assetHint": "assets/mecanum/mecanum_wheel_roller_defaultmaterial.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[3882770714071689606]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3882770714071689606
+                },
+                "Component_[5084376144334385025]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5084376144334385025
+                },
+                "Component_[5191277498366331043]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 5191277498366331043,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "DefaultMaterial",
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{F1F11DDB-EA3F-5173-AF6B-36D3330DEB37}",
+                                            "subId": 1
+                                        },
+                                        "assetHint": "assets/physics/mecanum_roler.physicsmaterial"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{B5539667-8A8D-522E-8907-37E3352D6D73}",
+                                    "subId": 3018309538
+                                },
+                                "assetHint": "assets/mecanum/mecanum_wheel_roller_small.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{B5539667-8A8D-522E-8907-37E3352D6D73}",
+                                        "subId": 3018309538
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "assets/mecanum/mecanum_wheel_roller_small.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[5254255782076530589]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 5254255782076530589
+                },
+                "Component_[5402748211935457524]": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 5402748211935457524,
+                    "Configuration": {
+                        "entityId": ""
+                    }
+                },
+                "Component_[9472875427269232216]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 9472875427269232216
+                },
+                "Component_[9849682636679470056]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9849682636679470056
+                }
+            }
+        }
+    }
+}
