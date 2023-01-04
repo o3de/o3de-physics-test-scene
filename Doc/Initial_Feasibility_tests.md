@@ -23,18 +23,10 @@ Building the project using project manager on Windows:
 
 To build the project using the CLI interface on Windows or Linux follow [these instructions](https://docs.o3de.org/docs/welcome-guide/create/creating-projects-using-cli/). Before building the project on Linux register it with: `$O3DE_DIR_PATH/scripts/o3de.sh register -pp $PROJECT_DIR_PATH`.
 
-## Contents
-
-The project consists of the following levels:
-- [mobile_robot_physics](#robot_arm_test1)
-- [robot_arm_test1](Doc/Initial_Feasibility_tests.md#robot_arm_test1)
-- [robot_arm_test2](#robot_arm_test2)
-- [mobile_robot1](#mobile_robot1)
-
 
 ## <a name="robot_arm_test1"></a>Robot Arm Test
 
-![Robot arm simulation](Doc/robot_arm.png)
+![Robot arm simulation](robot_arm.png)
 
 ### Description
 
@@ -117,3 +109,52 @@ Swingarm (in the “spring suspension”):
     -	Stiffness: 999999.0 (max available)
     -	Damping: 1000.0
 
+
+
+
+## <a name="mobile_robot_physics"></a>Mobile Robot Physics PoC
+
+Level: **mobile_robot_physics**
+
+![Mobile robot simulation](mobile_robot_physics.png)
+
+The goal of this level is to test vehicle physics that can be applied to mobile robot. The scene contains a simple 4-wheels vehicle, with a spring-based suspension, which can be controlled using the keyboard. The vehicle can carry a payload, to test physics in different load conditions.
+
+### Instructions
+
+- Use keyboard arrows to control the vehicle (speed and steering).
+- Press `Enter` to drop the payload.
+- Use `WSAD` and mouse to move the camera around the vehicle.
+- To disable the payload (entity: `payload`), either set its rigid body to Kinematic or move it to the side.
+
+### Details
+
+|   | 
+| --| 
+|For a technical details refer to [this document](Mobile_Robot_Technical_Details.md) |
+|To read about issues and solutions/workarounds refer to [this document](Mobile_Robot_Issues.md) |
+
+## <a name="manipulator_physics"></a>Manipulator Physics PoC
+
+Level: **manipulator_physics**
+
+![Manipulator physics simulation](apple_robot_manipulator_with_mockup.gif)
+
+The goal of this level is to test how a manipulator can be created using physics implemented in O3DE. The scene contains a mock-up of an apple-picking robot with a fully functional 3 DOF manipulator. The manipulator performs linear movements in 3 directions:
+
+-   In X axis: horizontally, along the vehicle
+-   In Z axis: vertically
+-   In Y axis: horizontally, movement of the apple-gripper / suction tube 
+
+### Instructions
+
+-   Use `left` and `right` arrows to move along the X axis. The movement is performed between predefined points.
+-   Use `up` and `down` arrows to move along the Z axis. The movement is performed between predefined points.
+-   Use `space` to slide out/in the gripper.
+
+### Details
+
+|   | 
+| --| 
+|For a technical details refer to [this document](Manipulator_Technical_Details.md) |
+|To read about issues and solutions/workarounds refer to [this document](Manipulator_Issues.md) |
