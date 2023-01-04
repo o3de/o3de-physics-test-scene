@@ -3,6 +3,8 @@
 #include <AzCore/Module/Module.h>
 
 #include "Physics_TestSystemComponent.h"
+#include "PhysXJointTestComponent.h"
+#include "SkidSteering.h"
 
 namespace Physics_Test
 {
@@ -19,6 +21,8 @@ namespace Physics_Test
             // Push results of [MyComponent]::CreateDescriptor() into m_descriptors here.
             m_descriptors.insert(m_descriptors.end(), {
                 Physics_TestSystemComponent::CreateDescriptor(),
+                TestScene::ImGuiJointDemo::CreateDescriptor(),
+                TestScene::SkidSteeringDemo::CreateDescriptor()
             });
         }
 
