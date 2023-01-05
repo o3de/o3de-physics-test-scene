@@ -452,527 +452,497 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[10860105345896313502]/Transform Data/Translate/0",
-                    "value": 4.260960102081299
+                    "value": 4.0
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[10860105345896313502]/Transform Data/Translate/1",
-                    "value": -1.3358259201049805
+                    "value": -1.0
                 },
                 {
                     "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[10860105345896313502]/Transform Data/Translate/2",
-                    "value": 0.045898497104644775
+                    "path": "/ContainerEntity/Components/Component_[10860105345896313502]/Transform Data/Rotate/2",
+                    "value": 180.0
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[572013206191]/Components/Component_[15027139562825794518]/Configuration/Centre of mass offset/0",
-                    "value": 0.00003934470805688761
+                    "value": -4.698449629358947e-8
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[572013206191]/Components/Component_[15027139562825794518]/Configuration/Centre of mass offset/1",
-                    "value": 0.00005398670327849686
+                    "value": -0.0000033058897770388285
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[572013206191]/Components/Component_[15027139562825794518]/Configuration/Centre of mass offset/2",
-                    "value": 0.00003347243182361126
+                    "value": -0.000009961600881069899
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[576308173487]/Components/Component_[15673007239962882501]/Configuration/Centre of mass offset/0",
-                    "value": 0.00003934470805688761
+                    "value": -4.698449629358947e-8
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[576308173487]/Components/Component_[15673007239962882501]/Configuration/Centre of mass offset/1",
-                    "value": 0.00005398670327849686
+                    "value": -0.0000033058897770388285
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[576308173487]/Components/Component_[15673007239962882501]/Configuration/Centre of mass offset/2",
-                    "value": 0.00003347243182361126
+                    "value": -0.000009961600881069899
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[580603140783]/Components/Component_[1434608398888308503]/Configuration/Centre of mass offset/0",
-                    "value": 0.00003934470805688761
+                    "value": -4.698449629358947e-8
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[580603140783]/Components/Component_[1434608398888308503]/Configuration/Centre of mass offset/1",
-                    "value": 0.00005398670327849686
+                    "value": -0.0000033058897770388285
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[580603140783]/Components/Component_[1434608398888308503]/Configuration/Centre of mass offset/2",
-                    "value": 0.00003347243182361126
+                    "value": -0.000009961600881069899
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[584898108079]/Components/Component_[4928922164827514838]/Configuration/Centre of mass offset/0",
-                    "value": 0.00003934470805688761
+                    "value": -4.698449629358947e-8
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[584898108079]/Components/Component_[4928922164827514838]/Configuration/Centre of mass offset/1",
-                    "value": 0.00005398670327849686
+                    "value": -0.0000033058897770388285
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[584898108079]/Components/Component_[4928922164827514838]/Configuration/Centre of mass offset/2",
-                    "value": 0.00003347243182361126
+                    "value": -0.000009961600881069899
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[589193075375]/Components/Component_[16190682303951112372]/Configuration/Centre of mass offset/0",
-                    "value": 0.00003934470805688761
+                    "value": -4.698449629358947e-8
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[589193075375]/Components/Component_[16190682303951112372]/Configuration/Centre of mass offset/1",
-                    "value": 0.00005398670327849686
+                    "value": -0.0000033058897770388285
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[589193075375]/Components/Component_[16190682303951112372]/Configuration/Centre of mass offset/2",
-                    "value": 0.00003347243182361126
+                    "value": -0.000009961600881069899
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[593488042671]/Components/Component_[16297075138784570125]/Configuration/Centre of mass offset/0",
-                    "value": 0.00003934470805688761
+                    "value": -4.698449629358947e-8
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[593488042671]/Components/Component_[16297075138784570125]/Configuration/Centre of mass offset/1",
-                    "value": 0.00005398670327849686
+                    "value": -0.0000033058897770388285
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[593488042671]/Components/Component_[16297075138784570125]/Configuration/Centre of mass offset/2",
-                    "value": 0.00003347243182361126
+                    "value": -0.000009961600881069899
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[602077977263]/Components/Component_[16120924117054004554]/Configuration/Centre of mass offset/0",
-                    "value": 0.00003934470805688761
+                    "value": -4.698449629358947e-8
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[602077977263]/Components/Component_[16120924117054004554]/Configuration/Centre of mass offset/1",
-                    "value": 0.00005398670327849686
+                    "value": -0.0000033058897770388285
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[602077977263]/Components/Component_[16120924117054004554]/Configuration/Centre of mass offset/2",
-                    "value": 0.00003347243182361126
+                    "value": -0.000009961600881069899
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[606372944559]/Components/Component_[851020090805986812]/Configuration/Centre of mass offset/0",
-                    "value": 0.00003934470805688761
+                    "value": -4.698449629358947e-8
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[606372944559]/Components/Component_[851020090805986812]/Configuration/Centre of mass offset/1",
-                    "value": 0.00005398670327849686
+                    "value": -0.0000033058897770388285
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[606372944559]/Components/Component_[851020090805986812]/Configuration/Centre of mass offset/2",
-                    "value": 0.00003347243182361126
+                    "value": -0.000009961600881069899
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[619257846447]/Components/Component_[2984694356927983296]/Configuration/Centre of mass offset/0",
-                    "value": 0.00003934470805688761
+                    "value": -4.698449629358947e-8
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[619257846447]/Components/Component_[2984694356927983296]/Configuration/Centre of mass offset/1",
-                    "value": 0.00005398670327849686
+                    "value": -0.0000033058897770388285
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[619257846447]/Components/Component_[2984694356927983296]/Configuration/Centre of mass offset/2",
-                    "value": 0.00003347243182361126
+                    "value": -0.000009961600881069899
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[623552813743]/Components/Component_[12067666218707781731]/Configuration/Centre of mass offset/0",
-                    "value": 0.00003934470805688761
+                    "value": -4.698449629358947e-8
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[623552813743]/Components/Component_[12067666218707781731]/Configuration/Centre of mass offset/1",
-                    "value": 0.00005398670327849686
+                    "value": -0.0000033058897770388285
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[623552813743]/Components/Component_[12067666218707781731]/Configuration/Centre of mass offset/2",
-                    "value": 0.00003347243182361126
+                    "value": -0.000009961600881069899
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[640732682927]/Components/Component_[3653458546960513642]/Configuration/Centre of mass offset/0",
-                    "value": 0.00003934470805688761
+                    "value": -4.698449629358947e-8
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[640732682927]/Components/Component_[3653458546960513642]/Configuration/Centre of mass offset/1",
-                    "value": 0.00005398670327849686
+                    "value": -0.0000033058897770388285
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[640732682927]/Components/Component_[3653458546960513642]/Configuration/Centre of mass offset/2",
-                    "value": 0.00003347243182361126
+                    "value": -0.000009961600881069899
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[645027650223]/Components/Component_[7540978540808915638]/Configuration/Centre of mass offset/0",
-                    "value": 0.00003934470805688761
+                    "value": -4.698449629358947e-8
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[645027650223]/Components/Component_[7540978540808915638]/Configuration/Centre of mass offset/1",
-                    "value": 0.00005398670327849686
+                    "value": -0.0000033058897770388285
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[645027650223]/Components/Component_[7540978540808915638]/Configuration/Centre of mass offset/2",
-                    "value": 0.00003347243182361126
+                    "value": -0.000009961600881069899
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[657912552111]/Components/Component_[5568174314082489466]/Configuration/Centre of mass offset/0",
-                    "value": 0.00003934470805688761
+                    "value": -4.698449629358947e-8
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[657912552111]/Components/Component_[5568174314082489466]/Configuration/Centre of mass offset/1",
-                    "value": 0.00005398670327849686
+                    "value": -0.0000033058897770388285
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[657912552111]/Components/Component_[5568174314082489466]/Configuration/Centre of mass offset/2",
-                    "value": 0.00003347243182361126
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[662207519407]/Components/Component_[16056351394850261418]/Controller/Configuration/EditorEntityId",
-                    "value": 5146528922958341086
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[662207519407]/Components/Component_[6043040033160946649]/Transform Data/Translate/0",
-                    "value": 0.4328474998474121
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[662207519407]/Components/Component_[6043040033160946649]/Transform Data/Translate/2",
-                    "value": 0.41207218170166016
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[662207519407]/Components/Component_[6043040033160946649]/Transform Data/Rotate/0",
-                    "value": 18.74791145324707
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[662207519407]/Components/Component_[6043040033160946649]/Transform Data/Rotate/1",
-                    "value": -9.262968063354492
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[662207519407]/Components/Component_[6043040033160946649]/Transform Data/Rotate/2",
-                    "value": 154.6274871826172
+                    "value": -0.000009961600881069899
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[675092421295]/Components/Component_[2628358836378419769]/Configuration/Centre of mass offset/0",
-                    "value": 0.00003934470805688761
+                    "value": -4.698449629358947e-8
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[675092421295]/Components/Component_[2628358836378419769]/Configuration/Centre of mass offset/1",
-                    "value": 0.00005398670327849686
+                    "value": -0.0000033058897770388285
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[675092421295]/Components/Component_[2628358836378419769]/Configuration/Centre of mass offset/2",
-                    "value": 0.00003347243182361126
+                    "value": -0.000009961600881069899
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[700862225071]/Components/Component_[17702420322367755519]/Configuration/Centre of mass offset/0",
-                    "value": 0.00003934470805688761
+                    "value": -4.698449629358947e-8
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[700862225071]/Components/Component_[17702420322367755519]/Configuration/Centre of mass offset/1",
-                    "value": 0.00005398670327849686
+                    "value": -0.0000033058897770388285
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[700862225071]/Components/Component_[17702420322367755519]/Configuration/Centre of mass offset/2",
-                    "value": 0.00003347243182361126
+                    "value": -0.000009961600881069899
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[705157192367]/Components/Component_[617529775821012072]/Configuration/Centre of mass offset/0",
-                    "value": 0.00003934470805688761
+                    "value": -4.698449629358947e-8
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[705157192367]/Components/Component_[617529775821012072]/Configuration/Centre of mass offset/1",
-                    "value": 0.00005398670327849686
+                    "value": -0.0000033058897770388285
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[705157192367]/Components/Component_[617529775821012072]/Configuration/Centre of mass offset/2",
-                    "value": 0.00003347243182361126
+                    "value": -0.000009961600881069899
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[722337061551]/Components/Component_[15045738846778419713]/Configuration/Centre of mass offset/0",
-                    "value": 0.00003934470805688761
+                    "value": -4.698449629358947e-8
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[722337061551]/Components/Component_[15045738846778419713]/Configuration/Centre of mass offset/1",
-                    "value": 0.00005398670327849686
+                    "value": -0.0000033058897770388285
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[722337061551]/Components/Component_[15045738846778419713]/Configuration/Centre of mass offset/2",
-                    "value": 0.00003347243182361126
+                    "value": -0.000009961600881069899
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[739516930735]/Components/Component_[5402748211935457524]/Configuration/Centre of mass offset/0",
-                    "value": 0.00003934470805688761
+                    "value": -4.698449629358947e-8
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[739516930735]/Components/Component_[5402748211935457524]/Configuration/Centre of mass offset/1",
-                    "value": 0.00005398670327849686
+                    "value": -0.0000033058897770388285
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[739516930735]/Components/Component_[5402748211935457524]/Configuration/Centre of mass offset/2",
-                    "value": 0.00003347243182361126
+                    "value": -0.000009961600881069899
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[748106865327]/Components/Component_[15661964026709628616]/Configuration/Centre of mass offset/0",
-                    "value": 0.00003934470805688761
+                    "value": -4.698449629358947e-8
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[748106865327]/Components/Component_[15661964026709628616]/Configuration/Centre of mass offset/1",
-                    "value": 0.00005398670327849686
+                    "value": -0.0000033058897770388285
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[748106865327]/Components/Component_[15661964026709628616]/Configuration/Centre of mass offset/2",
-                    "value": 0.00003347243182361126
+                    "value": -0.000009961600881069899
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[752401832623]/Components/Component_[13503119073980453590]/Configuration/Centre of mass offset/0",
-                    "value": 0.00003934470805688761
+                    "value": -4.698449629358947e-8
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[752401832623]/Components/Component_[13503119073980453590]/Configuration/Centre of mass offset/1",
-                    "value": 0.00005398670327849686
+                    "value": -0.0000033058897770388285
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[752401832623]/Components/Component_[13503119073980453590]/Configuration/Centre of mass offset/2",
-                    "value": 0.00003347243182361126
+                    "value": -0.000009961600881069899
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[760991767215]/Components/Component_[5190457626468375299]/Configuration/Centre of mass offset/0",
-                    "value": 0.00003934470805688761
+                    "value": -4.698449629358947e-8
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[760991767215]/Components/Component_[5190457626468375299]/Configuration/Centre of mass offset/1",
-                    "value": 0.00005398670327849686
+                    "value": -0.0000033058897770388285
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[760991767215]/Components/Component_[5190457626468375299]/Configuration/Centre of mass offset/2",
-                    "value": 0.00003347243182361126
+                    "value": -0.000009961600881069899
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[765286734511]/Components/Component_[4305877170013845325]/Configuration/Centre of mass offset/0",
-                    "value": 0.00003934470805688761
+                    "value": -4.698449629358947e-8
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[765286734511]/Components/Component_[4305877170013845325]/Configuration/Centre of mass offset/1",
-                    "value": 0.00005398670327849686
+                    "value": -0.0000033058897770388285
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[765286734511]/Components/Component_[4305877170013845325]/Configuration/Centre of mass offset/2",
-                    "value": 0.00003347243182361126
+                    "value": -0.000009961600881069899
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[769581701807]/Components/Component_[16699704311559682375]/Configuration/Centre of mass offset/0",
-                    "value": 0.00003934470805688761
+                    "value": -4.698449629358947e-8
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[769581701807]/Components/Component_[16699704311559682375]/Configuration/Centre of mass offset/1",
-                    "value": 0.00005398670327849686
+                    "value": -0.0000033058897770388285
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[769581701807]/Components/Component_[16699704311559682375]/Configuration/Centre of mass offset/2",
-                    "value": 0.00003347243182361126
+                    "value": -0.000009961600881069899
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[782466603695]/Components/Component_[17728571738439377217]/Configuration/Centre of mass offset/0",
-                    "value": 0.00003934470805688761
+                    "value": -4.698449629358947e-8
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[782466603695]/Components/Component_[17728571738439377217]/Configuration/Centre of mass offset/1",
-                    "value": 0.00005398670327849686
+                    "value": -0.0000033058897770388285
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[782466603695]/Components/Component_[17728571738439377217]/Configuration/Centre of mass offset/2",
-                    "value": 0.00003347243182361126
+                    "value": -0.000009961600881069899
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[799646472879]/Components/Component_[16081876358064058215]/Configuration/Centre of mass offset/0",
-                    "value": 0.00003934470805688761
+                    "value": -4.698449629358947e-8
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[799646472879]/Components/Component_[16081876358064058215]/Configuration/Centre of mass offset/1",
-                    "value": 0.00005398670327849686
+                    "value": -0.0000033058897770388285
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[799646472879]/Components/Component_[16081876358064058215]/Configuration/Centre of mass offset/2",
-                    "value": 0.00003347243182361126
+                    "value": -0.000009961600881069899
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[821121309359]/Components/Component_[7674812990059567029]/Configuration/Centre of mass offset/0",
-                    "value": 0.00003934470805688761
+                    "value": -4.698449629358947e-8
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[821121309359]/Components/Component_[7674812990059567029]/Configuration/Centre of mass offset/1",
-                    "value": 0.00005398670327849686
+                    "value": -0.0000033058897770388285
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[821121309359]/Components/Component_[7674812990059567029]/Configuration/Centre of mass offset/2",
-                    "value": 0.00003347243182361126
+                    "value": -0.000009961600881069899
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[834006211247]/Components/Component_[16176290230878289429]/Configuration/Centre of mass offset/0",
-                    "value": 0.00003934470805688761
+                    "value": -4.698449629358947e-8
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[834006211247]/Components/Component_[16176290230878289429]/Configuration/Centre of mass offset/1",
-                    "value": 0.00005398670327849686
+                    "value": -0.0000033058897770388285
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[834006211247]/Components/Component_[16176290230878289429]/Configuration/Centre of mass offset/2",
-                    "value": 0.00003347243182361126
+                    "value": -0.000009961600881069899
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[855481047727]/Components/Component_[7036195445347331370]/Configuration/Centre of mass offset/0",
-                    "value": 0.00003934470805688761
+                    "value": -4.698449629358947e-8
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[855481047727]/Components/Component_[7036195445347331370]/Configuration/Centre of mass offset/1",
-                    "value": 0.00005398670327849686
+                    "value": -0.0000033058897770388285
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[855481047727]/Components/Component_[7036195445347331370]/Configuration/Centre of mass offset/2",
-                    "value": 0.00003347243182361126
+                    "value": -0.000009961600881069899
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[872660916911]/Components/Component_[3994780107227403204]/Configuration/Centre of mass offset/0",
-                    "value": 0.00003934470805688761
+                    "value": -4.698449629358947e-8
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[872660916911]/Components/Component_[3994780107227403204]/Configuration/Centre of mass offset/1",
-                    "value": 0.00005398670327849686
+                    "value": -0.0000033058897770388285
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[872660916911]/Components/Component_[3994780107227403204]/Configuration/Centre of mass offset/2",
-                    "value": 0.00003347243182361126
+                    "value": -0.000009961600881069899
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[894135753391]/Components/Component_[7479448042825842591]/Configuration/Centre of mass offset/0",
-                    "value": 0.00003934470805688761
+                    "value": -4.698449629358947e-8
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[894135753391]/Components/Component_[7479448042825842591]/Configuration/Centre of mass offset/1",
-                    "value": 0.00005398670327849686
+                    "value": -0.0000033058897770388285
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[894135753391]/Components/Component_[7479448042825842591]/Configuration/Centre of mass offset/2",
-                    "value": 0.00003347243182361126
+                    "value": -0.000009961600881069899
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[907020655279]/Components/Component_[12659740370001940357]/Configuration/Centre of mass offset/0",
-                    "value": 0.00003934470805688761
+                    "value": -4.698449629358947e-8
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[907020655279]/Components/Component_[12659740370001940357]/Configuration/Centre of mass offset/1",
-                    "value": 0.00005398670327849686
+                    "value": -0.0000033058897770388285
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[907020655279]/Components/Component_[12659740370001940357]/Configuration/Centre of mass offset/2",
-                    "value": 0.00003347243182361126
+                    "value": -0.000009961600881069899
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[924200524463]/Components/Component_[9984444447111220835]/Configuration/Centre of mass offset/0",
-                    "value": 0.00003934470805688761
+                    "value": -4.698449629358947e-8
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[924200524463]/Components/Component_[9984444447111220835]/Configuration/Centre of mass offset/1",
-                    "value": 0.00005398670327849686
+                    "value": -0.0000033058897770388285
                 },
                 {
                     "op": "replace",
                     "path": "/Entities/Entity_[924200524463]/Components/Component_[9984444447111220835]/Configuration/Centre of mass offset/2",
-                    "value": 0.00003347243182361126
+                    "value": -0.000009961600881069899
                 }
             ]
         }

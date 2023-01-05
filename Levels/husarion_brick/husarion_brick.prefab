@@ -21,7 +21,7 @@
                 "Child Entity Order": [
                     "Entity_[1176639161715]",
                     "Instance_[387076023822]/ContainerEntity",
-                    "Instance_[2636724816056]/ContainerEntity"
+                    "Instance_[26495598072381]/ContainerEntity"
                 ]
             },
             "Component_[14311724654890661878]": {
@@ -431,53 +431,28 @@
         }
     },
     "Instances": {
-        "Instance_[2636724816056]": {
-            "Source": "ROSBotSkidSteering.prefab",
+        "Instance_[26495598072381]": {
+            "Source": "ROSbotSimple.prefab",
             "Patches": [
                 {
                     "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[1258474389347419349]/Parent Entity",
+                    "path": "/ContainerEntity/Components/Component_[18358065267338696147]/Parent Entity",
                     "value": "../Entity_[1146574390643]"
                 },
                 {
                     "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[1258474389347419349]/Transform Data/Translate/0",
+                    "path": "/ContainerEntity/Components/Component_[18358065267338696147]/Transform Data/Translate/0",
                     "value": 4.0
                 },
                 {
                     "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[1258474389347419349]/Transform Data/Translate/1",
+                    "path": "/ContainerEntity/Components/Component_[18358065267338696147]/Transform Data/Translate/1",
                     "value": -1.0
                 },
                 {
                     "op": "replace",
-                    "path": "/ContainerEntity/Components/Component_[1258474389347419349]/Transform Data/Rotate/2",
+                    "path": "/ContainerEntity/Components/Component_[18358065267338696147]/Transform Data/Rotate/2",
                     "value": 180.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[969892482106]/Components/Component_[16056351394850261418]/Controller/Configuration/EditorEntityId",
-                    "value": 15547744729927429594
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[969892482106]/Components/Component_[6043040033160946649]/Transform Data/Translate/0",
-                    "value": 1.8933954238891602
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[969892482106]/Components/Component_[6043040033160946649]/Transform Data/Translate/1",
-                    "value": 4.379879951477051
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[969892482106]/Components/Component_[6043040033160946649]/Transform Data/Translate/2",
-                    "value": 2.2751402854919434
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[969892482106]/Components/Component_[6043040033160946649]/Transform Data/Rotate/1",
-                    "value": -9.661478042602539
                 }
             ]
         },

@@ -50,6 +50,114 @@
         }
     },
     "Entities": {
+        "Entity_[4543121961038]": {
+            "Id": "Entity_[4543121961038]",
+            "Name": "Camera",
+            "Components": {
+                "Component_[10143755442992599586]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 10143755442992599586
+                },
+                "Component_[11306411469260811649]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 11306411469260811649,
+                    "m_template": {
+                        "$type": "FlyCameraInputComponent",
+                        "Move Speed": 1.0
+                    }
+                },
+                "Component_[12507120300627178116]": {
+                    "$type": "{CA11DA46-29FF-4083-B5F6-E02C3A8C3A3D} EditorCameraComponent",
+                    "Id": 12507120300627178116,
+                    "Controller": {
+                        "Configuration": {
+                            "Field of View": 60.0,
+                            "Near Clip Plane Distance": 0.0020000000949949026,
+                            "EditorEntityId": 8185099448680240152
+                        }
+                    }
+                },
+                "Component_[16143396594063826128]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 16143396594063826128
+                },
+                "Component_[18241847942397131008]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 18241847942397131008
+                },
+                "Component_[3028735514260897503]": {
+                    "$type": "AZ::Render::EditorPostFxLayerComponent",
+                    "Id": 3028735514260897503
+                },
+                "Component_[3365239686876547562]": {
+                    "$type": "AZ::Render::EditorSsaoComponent",
+                    "Id": 3365239686876547562,
+                    "Controller": {
+                        "Configuration": {
+                            "Strength": 0.8199999928474426,
+                            "SamplingRadius": 0.06800000369548798,
+                            "BlurConstFalloff": 0.7599999904632568,
+                            "BlurDepthFalloffStrength": 256.0
+                        }
+                    }
+                },
+                "Component_[4567872854444942048]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 4567872854444942048
+                },
+                "Component_[6437896772956787885]": {
+                    "$type": "EditorLookAtComponent",
+                    "Id": 6437896772956787885,
+                    "Target": "Entity_[666502486703]",
+                    "ForwardAxis": 2
+                },
+                "Component_[6941675379973107272]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6941675379973107272
+                },
+                "Component_[6994046465108476130]": {
+                    "$type": "AZ::Render::EditorBloomComponent",
+                    "Id": 6994046465108476130,
+                    "Controller": {
+                        "Configuration": {
+                            "Enabled": true,
+                            "Threshold": 0.4000000059604645,
+                            "Knee": 0.4399999976158142,
+                            "Intensity": 0.20000000298023224
+                        }
+                    }
+                },
+                "Component_[7170782153768981547]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 7170782153768981547
+                },
+                "Component_[8305817266361638010]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 8305817266361638010,
+                    "Parent Entity": "Entity_[846891113135]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            2.346379041671753,
+                            1.1829012632369995
+                        ],
+                        "Rotate": [
+                            25.812219619750977,
+                            0.0,
+                            180.0
+                        ]
+                    }
+                },
+                "Component_[8626349209010798330]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 8626349209010798330
+                },
+                "Component_[9586037056673940430]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 9586037056673940430
+                }
+            }
+        },
         "Entity_[572013206191]": {
             "Id": "Entity_[572013206191]",
             "Name": "roll",
@@ -105,9 +213,9 @@
                         "Compute Mass": false,
                         "Mass": 0.4000000059604645,
                         "Centre of mass offset": [
-                            -0.00004459090996533632,
-                            0.000010318966815248132,
-                            -0.00006386911263689399
+                            0.00003934470805688761,
+                            0.00005398670327849686,
+                            0.00003347243182361126
                         ],
                         "Compute inertia": false,
                         "Inertia tensor": [
@@ -302,9 +410,9 @@
                         "Compute Mass": false,
                         "Mass": 0.4000000059604645,
                         "Centre of mass offset": [
-                            -0.00004459090996533632,
-                            0.000010318966815248132,
-                            -0.00006386911263689399
+                            0.00003934470805688761,
+                            0.00005398670327849686,
+                            0.00003347243182361126
                         ],
                         "Compute inertia": false,
                         "Inertia tensor": [
@@ -480,9 +588,9 @@
                         "Compute Mass": false,
                         "Mass": 0.4000000059604645,
                         "Centre of mass offset": [
-                            -0.00004459090996533632,
-                            0.000010318966815248132,
-                            -0.00006386911263689399
+                            0.00003934470805688761,
+                            0.00005398670327849686,
+                            0.00003347243182361126
                         ],
                         "Compute inertia": false,
                         "Inertia tensor": [
@@ -708,9 +816,9 @@
                         "Compute Mass": false,
                         "Mass": 0.4000000059604645,
                         "Centre of mass offset": [
-                            -0.00004459090996533632,
-                            0.000010318966815248132,
-                            -0.00006386911263689399
+                            0.00003934470805688761,
+                            0.00005398670327849686,
+                            0.00003347243182361126
                         ],
                         "Compute inertia": false,
                         "Inertia tensor": [
@@ -878,9 +986,9 @@
                         "Compute Mass": false,
                         "Mass": 0.4000000059604645,
                         "Centre of mass offset": [
-                            -0.00004459090996533632,
-                            0.000010318966815248132,
-                            -0.00006386911263689399
+                            0.00003934470805688761,
+                            0.00005398670327849686,
+                            0.00003347243182361126
                         ],
                         "Compute inertia": false,
                         "Inertia tensor": [
@@ -1086,9 +1194,9 @@
                         "Compute Mass": false,
                         "Mass": 0.4000000059604645,
                         "Centre of mass offset": [
-                            -0.00004459090996533632,
-                            0.000010318966815248132,
-                            -0.00006386911263689399
+                            0.00003934470805688761,
+                            0.00005398670327849686,
+                            0.00003347243182361126
                         ],
                         "Compute inertia": false,
                         "Inertia tensor": [
@@ -1283,9 +1391,9 @@
                         "Compute Mass": false,
                         "Mass": 0.4000000059604645,
                         "Centre of mass offset": [
-                            -0.00004459090996533632,
-                            0.000010318966815248132,
-                            -0.00006386911263689399
+                            0.00003934470805688761,
+                            0.00005398670327849686,
+                            0.00003347243182361126
                         ],
                         "Compute inertia": false,
                         "Inertia tensor": [
@@ -1529,9 +1637,9 @@
                         "Compute Mass": false,
                         "Mass": 0.4000000059604645,
                         "Centre of mass offset": [
-                            -0.00004459090996533632,
-                            0.000010318966815248132,
-                            -0.00006386911263689399
+                            0.00003934470805688761,
+                            0.00005398670327849686,
+                            0.00003347243182361126
                         ],
                         "Compute inertia": false,
                         "Inertia tensor": [
@@ -1868,9 +1976,9 @@
                         "Compute Mass": false,
                         "Mass": 0.4000000059604645,
                         "Centre of mass offset": [
-                            -0.00004459090996533632,
-                            0.000010318966815248132,
-                            -0.00006386911263689399
+                            0.00003934470805688761,
+                            0.00005398670327849686,
+                            0.00003347243182361126
                         ],
                         "Compute inertia": false,
                         "Inertia tensor": [
@@ -2010,9 +2118,9 @@
                         "Compute Mass": false,
                         "Mass": 0.4000000059604645,
                         "Centre of mass offset": [
-                            -0.00004459090996533632,
-                            0.000010318966815248132,
-                            -0.00006386911263689399
+                            0.00003934470805688761,
+                            0.00005398670327849686,
+                            0.00003347243182361126
                         ],
                         "Compute inertia": false,
                         "Inertia tensor": [
@@ -2222,6 +2330,14 @@
                 "Component_[16843830619185612884]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 16843830619185612884
+                },
+                "Component_[17449819945368615770]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 17449819945368615770,
+                    "m_template": {
+                        "$type": "ROS2FrameComponent",
+                        "Frame Name": "rl_wheel_link"
+                    }
                 },
                 "Component_[17650063035356831580]": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -2517,9 +2633,9 @@
                         "Compute Mass": false,
                         "Mass": 0.4000000059604645,
                         "Centre of mass offset": [
-                            -0.00004459090996533632,
-                            0.000010318966815248132,
-                            -0.00006386911263689399
+                            0.00003934470805688761,
+                            0.00005398670327849686,
+                            0.00003347243182361126
                         ],
                         "Compute inertia": false,
                         "Inertia tensor": [
@@ -2763,9 +2879,9 @@
                         "Compute Mass": false,
                         "Mass": 0.4000000059604645,
                         "Centre of mass offset": [
-                            -0.00004459090996533632,
-                            0.000010318966815248132,
-                            -0.00006386911263689399
+                            0.00003934470805688761,
+                            0.00005398670327849686,
+                            0.00003347243182361126
                         ],
                         "Compute inertia": false,
                         "Inertia tensor": [
@@ -3013,9 +3129,9 @@
                         "Compute Mass": false,
                         "Mass": 0.4000000059604645,
                         "Centre of mass offset": [
-                            -0.00004459090996533632,
-                            0.000010318966815248132,
-                            -0.00006386911263689399
+                            0.00003934470805688761,
+                            0.00005398670327849686,
+                            0.00003347243182361126
                         ],
                         "Compute inertia": false,
                         "Inertia tensor": [
@@ -3091,86 +3207,6 @@
                 "Component_[9849682636679470056]": {
                     "$type": "EditorLockComponent",
                     "Id": 9849682636679470056
-                }
-            }
-        },
-        "Entity_[662207519407]": {
-            "Id": "Entity_[662207519407]",
-            "Name": "Camera",
-            "Components": {
-                "Component_[12369258732578569179]": {
-                    "$type": "EditorLookAtComponent",
-                    "Id": 12369258732578569179,
-                    "Target": "Entity_[666502486703]",
-                    "ForwardAxis": 2
-                },
-                "Component_[1291672724187347980]": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 1291672724187347980
-                },
-                "Component_[13771251219813049113]": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 13771251219813049113
-                },
-                "Component_[16056351394850261418]": {
-                    "$type": "{CA11DA46-29FF-4083-B5F6-E02C3A8C3A3D} EditorCameraComponent",
-                    "Id": 16056351394850261418,
-                    "Controller": {
-                        "Configuration": {
-                            "Field of View": 60.0,
-                            "Near Clip Plane Distance": 0.0020000000949949026,
-                            "EditorEntityId": 3475591696954474809
-                        }
-                    }
-                },
-                "Component_[17888993838659103780]": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 17888993838659103780
-                },
-                "Component_[3061973831692188742]": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 3061973831692188742
-                },
-                "Component_[6043040033160946649]": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 6043040033160946649,
-                    "Parent Entity": "Entity_[846891113135]",
-                    "Transform Data": {
-                        "Translate": [
-                            0.3676905632019043,
-                            0.8530077934265137,
-                            0.45535075664520264
-                        ],
-                        "Rotate": [
-                            21.935577392578125,
-                            -9.147551536560059,
-                            158.45785522460938
-                        ]
-                    }
-                },
-                "Component_[6057101959434384773]": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 6057101959434384773
-                },
-                "Component_[8276014897978534172]": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 8276014897978534172,
-                    "m_template": {
-                        "$type": "FlyCameraInputComponent",
-                        "Move Speed": 1.0
-                    }
-                },
-                "Component_[8286674845726845305]": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 8286674845726845305
-                },
-                "Component_[8439386561662610041]": {
-                    "$type": "EditorLockComponent",
-                    "Id": 8439386561662610041
-                },
-                "Component_[924627516581689800]": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 924627516581689800
                 }
             }
         },
@@ -3477,9 +3513,9 @@
                         "Compute Mass": false,
                         "Mass": 0.4000000059604645,
                         "Centre of mass offset": [
-                            -0.00004459090996533632,
-                            0.000010318966815248132,
-                            -0.00006386911263689399
+                            0.00003934470805688761,
+                            0.00005398670327849686,
+                            0.00003347243182361126
                         ],
                         "Compute inertia": false,
                         "Inertia tensor": [
@@ -3946,9 +3982,9 @@
                         "Compute Mass": false,
                         "Mass": 0.4000000059604645,
                         "Centre of mass offset": [
-                            -0.00004459090996533632,
-                            0.000010318966815248132,
-                            -0.00006386911263689399
+                            0.00003934470805688761,
+                            0.00005398670327849686,
+                            0.00003347243182361126
                         ],
                         "Compute inertia": false,
                         "Inertia tensor": [
@@ -4196,9 +4232,9 @@
                         "Compute Mass": false,
                         "Mass": 0.4000000059604645,
                         "Centre of mass offset": [
-                            -0.00004459090996533632,
-                            0.000010318966815248132,
-                            -0.00006386911263689399
+                            0.00003934470805688761,
+                            0.00005398670327849686,
+                            0.00003347243182361126
                         ],
                         "Compute inertia": false,
                         "Inertia tensor": [
@@ -4506,9 +4542,9 @@
                         "Compute Mass": false,
                         "Mass": 0.4000000059604645,
                         "Centre of mass offset": [
-                            -0.00004459090996533632,
-                            0.000010318966815248132,
-                            -0.00006386911263689399
+                            0.00003934470805688761,
+                            0.00005398670327849686,
+                            0.00003347243182361126
                         ],
                         "Compute inertia": false,
                         "Inertia tensor": [
@@ -4932,9 +4968,9 @@
                         "Compute Mass": false,
                         "Mass": 0.4000000059604645,
                         "Centre of mass offset": [
-                            -0.00004459090996533632,
-                            0.000010318966815248132,
-                            -0.00006386911263689399
+                            0.00003934470805688761,
+                            0.00005398670327849686,
+                            0.00003347243182361126
                         ],
                         "Compute inertia": false,
                         "Inertia tensor": [
@@ -5091,9 +5127,9 @@
                         "Compute Mass": false,
                         "Mass": 0.4000000059604645,
                         "Centre of mass offset": [
-                            -0.00004459090996533632,
-                            0.000010318966815248132,
-                            -0.00006386911263689399
+                            0.00003934470805688761,
+                            0.00005398670327849686,
+                            0.00003347243182361126
                         ],
                         "Compute inertia": false,
                         "Inertia tensor": [
@@ -5250,9 +5286,9 @@
                         "Compute Mass": false,
                         "Mass": 0.4000000059604645,
                         "Centre of mass offset": [
-                            -0.00004459090996533632,
-                            0.000010318966815248132,
-                            -0.00006386911263689399
+                            0.00003934470805688761,
+                            0.00005398670327849686,
+                            0.00003347243182361126
                         ],
                         "Compute inertia": false,
                         "Inertia tensor": [
@@ -5527,9 +5563,9 @@
                         "Compute Mass": false,
                         "Mass": 0.4000000059604645,
                         "Centre of mass offset": [
-                            -0.00004459090996533632,
-                            0.000010318966815248132,
-                            -0.00006386911263689399
+                            0.00003934470805688761,
+                            0.00005398670327849686,
+                            0.00003347243182361126
                         ],
                         "Compute inertia": false,
                         "Inertia tensor": [
@@ -5713,9 +5749,9 @@
                         "Compute Mass": false,
                         "Mass": 0.4000000059604645,
                         "Centre of mass offset": [
-                            -0.00004459090996533632,
-                            0.000010318966815248132,
-                            -0.00006386911263689399
+                            0.00003934470805688761,
+                            0.00005398670327849686,
+                            0.00003347243182361126
                         ],
                         "Compute inertia": false,
                         "Inertia tensor": [
@@ -5883,9 +5919,9 @@
                         "Compute Mass": false,
                         "Mass": 0.4000000059604645,
                         "Centre of mass offset": [
-                            -0.00004459090996533632,
-                            0.000010318966815248132,
-                            -0.00006386911263689399
+                            0.00003934470805688761,
+                            0.00005398670327849686,
+                            0.00003347243182361126
                         ],
                         "Compute inertia": false,
                         "Inertia tensor": [
@@ -6182,9 +6218,9 @@
                         "Compute Mass": false,
                         "Mass": 0.4000000059604645,
                         "Centre of mass offset": [
-                            -0.00004459090996533632,
-                            0.000010318966815248132,
-                            -0.00006386911263689399
+                            0.00003934470805688761,
+                            0.00005398670327849686,
+                            0.00003347243182361126
                         ],
                         "Compute inertia": false,
                         "Inertia tensor": [
@@ -6318,6 +6354,14 @@
                         }
                     ]
                 },
+                "Component_[100851599471373407]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 100851599471373407,
+                    "m_template": {
+                        "$type": "ROS2FrameComponent",
+                        "Frame Name": "rr_wheel_link"
+                    }
+                },
                 "Component_[10980844663075816952]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 10980844663075816952,
@@ -6450,6 +6494,14 @@
                             0.0,
                             0.0
                         ]
+                    }
+                },
+                "Component_[14087560467690428874]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 14087560467690428874,
+                    "m_template": {
+                        "$type": "ROS2FrameComponent",
+                        "Frame Name": "fl_wheel_link"
                     }
                 },
                 "Component_[14886487531293932371]": {
@@ -6685,9 +6737,9 @@
                         "Compute Mass": false,
                         "Mass": 0.4000000059604645,
                         "Centre of mass offset": [
-                            -0.00004459090996533632,
-                            0.000010318966815248132,
-                            -0.00006386911263689399
+                            0.00003934470805688761,
+                            0.00005398670327849686,
+                            0.00003347243182361126
                         ],
                         "Compute inertia": false,
                         "Inertia tensor": [
@@ -7216,9 +7268,9 @@
                         "Compute Mass": false,
                         "Mass": 0.4000000059604645,
                         "Centre of mass offset": [
-                            -0.00004459090996533632,
-                            0.000010318966815248132,
-                            -0.00006386911263689399
+                            0.00003934470805688761,
+                            0.00005398670327849686,
+                            0.00003347243182361126
                         ],
                         "Compute inertia": false,
                         "Inertia tensor": [
@@ -7485,9 +7537,9 @@
                         "Compute Mass": false,
                         "Mass": 0.4000000059604645,
                         "Centre of mass offset": [
-                            -0.00004459090996533632,
-                            0.000010318966815248132,
-                            -0.00006386911263689399
+                            0.00003934470805688761,
+                            0.00005398670327849686,
+                            0.00003347243182361126
                         ],
                         "Compute inertia": false,
                         "Inertia tensor": [
@@ -7650,6 +7702,14 @@
                 "Component_[17650063035356831580]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 17650063035356831580
+                },
+                "Component_[17686886558691740557]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 17686886558691740557,
+                    "m_template": {
+                        "$type": "ROS2FrameComponent",
+                        "Frame Name": "fr_wheel_link"
+                    }
                 },
                 "Component_[7668316026257059233]": {
                     "$type": "EditorRigidBodyComponent",
@@ -7840,8 +7900,8 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 8528718155145124799,
                     "Child Entity Order": [
-                        "Entity_[662207519407]",
-                        "Entity_[666502486703]"
+                        "Entity_[666502486703]",
+                        "Entity_[4543121961038]"
                     ]
                 },
                 "Component_[9718373459528689579]": {
@@ -8064,9 +8124,9 @@
                         "Compute Mass": false,
                         "Mass": 0.4000000059604645,
                         "Centre of mass offset": [
-                            -0.00004459090996533632,
-                            0.000010318966815248132,
-                            -0.00006386911263689399
+                            0.00003934470805688761,
+                            0.00005398670327849686,
+                            0.00003347243182361126
                         ],
                         "Compute inertia": false,
                         "Inertia tensor": [
@@ -8360,9 +8420,9 @@
                         "Compute Mass": false,
                         "Mass": 0.4000000059604645,
                         "Centre of mass offset": [
-                            -0.00004459090996533632,
-                            0.000010318966815248132,
-                            -0.00006386911263689399
+                            0.00003934470805688761,
+                            0.00005398670327849686,
+                            0.00003347243182361126
                         ],
                         "Compute inertia": false,
                         "Inertia tensor": [
@@ -8827,9 +8887,9 @@
                         "Compute Mass": false,
                         "Mass": 0.4000000059604645,
                         "Centre of mass offset": [
-                            -0.00004459090996533632,
-                            0.000010318966815248132,
-                            -0.00006386911263689399
+                            0.00003934470805688761,
+                            0.00005398670327849686,
+                            0.00003347243182361126
                         ],
                         "Compute inertia": false,
                         "Inertia tensor": [
@@ -9014,9 +9074,9 @@
                         "Compute Mass": false,
                         "Mass": 0.4000000059604645,
                         "Centre of mass offset": [
-                            -0.00004459090996533632,
-                            0.000010318966815248132,
-                            -0.00006386911263689399
+                            0.00003934470805688761,
+                            0.00005398670327849686,
+                            0.00003347243182361126
                         ],
                         "Compute inertia": false,
                         "Inertia tensor": [
@@ -9490,9 +9550,9 @@
                         "Compute Mass": false,
                         "Mass": 0.4000000059604645,
                         "Centre of mass offset": [
-                            -0.00004459090996533632,
-                            0.000010318966815248132,
-                            -0.00006386911263689399
+                            0.00003934470805688761,
+                            0.00005398670327849686,
+                            0.00003347243182361126
                         ],
                         "Compute inertia": false,
                         "Inertia tensor": [
