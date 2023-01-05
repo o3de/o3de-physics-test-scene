@@ -1587,10 +1587,10 @@
                                     "Name": "Concrete",
                                     "MaterialAsset": {
                                         "assetId": {
-                                            "guid": "{EF76347C-319F-584E-9DDE-A06D328F4304}",
+                                            "guid": "{AEFC12E4-B92E-5473-9B09-C6CDEC23EC7E}",
                                             "subId": 1
                                         },
-                                        "assetHint": "physx/glass.physicsmaterial"
+                                        "assetHint": "physx/concrete.physicsmaterial"
                                     }
                                 },
                                 {

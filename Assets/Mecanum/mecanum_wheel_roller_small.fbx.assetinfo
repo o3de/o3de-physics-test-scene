@@ -17,6 +17,10 @@
                 ]
             },
             "export method": 1,
+            "ConvexAssetParams": {
+                "PlaneTolerance": 0.0008999999845400453,
+                "BuildGpuData": true
+            },
             "PhysicsMaterialSlots": {
                 "Slots": [
                     {
@@ -66,6 +70,9 @@
                 "rules": [
                     {
                         "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
                     },
                     {
                         "$type": "CoordinateSystemRule",
