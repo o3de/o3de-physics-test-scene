@@ -9,7 +9,6 @@ The purpose of this project is to test the O3DE physics capabilities in the cont
 
 - O3DE [from this repository/branch](https://github.com/michalpelka/o3de/tree/add_physx_joint_control_old)
 - O3DE ROS Gem [from this repository/branch](https://github.com/RobotecAI/o3de-ros2-gem/tree/mecanum_control)
-- 
 
 ## Running the demo
 
