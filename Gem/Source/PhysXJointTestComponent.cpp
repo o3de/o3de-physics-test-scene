@@ -64,9 +64,9 @@ namespace TestScene
     }
     if (componentId != AZ::InvalidComponentId){
       const AZ::EntityComponentIdPair id(GetEntityId(), componentId);
-      PhysX::JointInterfaceRequestBus::EventResult(velocity, id, &PhysX::JointRequests::GetVelocity);
-      PhysX::JointInterfaceRequestBus::EventResult(position, id, &PhysX::JointRequests::GetPosition);
-      PhysX::JointInterfaceRequestBus::EventResult(limits, id, &PhysX::JointRequests::GetLimits);
+      PhysX::JointRequestBus::EventResult(velocity, id, &PhysX::JointRequests::GetVelocity);
+      PhysX::JointRequestBus::EventResult(position, id, &PhysX::JointRequests::GetPosition);
+      PhysX::JointRequestBus::EventResult(limits, id, &PhysX::JointRequests::GetLimits);
 
       ImGui::Begin("SimplePhysXJointDemo");
 
@@ -87,8 +87,8 @@ namespace TestScene
         m_velocitySet = 0;
       }
 
-      PhysX::JointInterfaceRequestBus::Event(id, &PhysX::JointRequests::SetVelocity, m_velocitySet);
-      PhysX::JointInterfaceRequestBus::Event(id, &PhysX::JointRequests::SetMaximumForce, m_forceSet);
+      PhysX::JointRequestBus::Event(id, &PhysX::JointRequests::SetVelocity, m_velocitySet);
+      PhysX::JointRequestBus::Event(id, &PhysX::JointRequests::SetMaximumForce, m_forceSet);
 
     }
 

@@ -61,7 +61,7 @@ void SkidSteeringDemo::Reflect(AZ::ReflectContext* context)
 
 void setSpeedAndForce(const AZ::EntityComponentIdPair& id, float force, float speed){
 
-  PhysX::JointInterfaceRequestBus::Event(id, [&](PhysX::JointRequests * joint){
+  PhysX::JointRequestBus::Event(id, [&](PhysX::JointRequests * joint){
         joint->SetMaximumForce(force);
         joint->SetVelocity(speed);
       });

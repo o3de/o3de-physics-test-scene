@@ -1,0 +1,88 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{0FB08971-D41B-59B8-A5FA-FE195FFD0FA8}",
+            "name": "husarion_mecanum_wheel_roller",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.roller_larger",
+                    "RootNode.roller_larger.transform",
+                    "RootNode.roller_larger.custom_properties",
+                    "RootNode.roller_larger.UVMap",
+                    "RootNode.roller_larger.DefaultMaterial"
+                ]
+            },
+            "export method": 1,
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "DefaultMaterial",
+                        "MaterialAsset": {
+                            "assetId": {
+                                "guid": "{6F3B982F-1967-5166-B4E5-325CB42BED9A}",
+                                "subId": 1
+                            },
+                            "assetHint": "assets/mecanum/mecanum_roler.physicsmaterial"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "husarion_mecanum_wheel_roller",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.roller_larger",
+                    "RootNode.roller_larger.transform",
+                    "RootNode.roller_larger.custom_properties",
+                    "RootNode.roller_larger.UVMap",
+                    "RootNode.roller_larger.DefaultMaterial"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{FA43D86F-999E-5E6B-B218-4697F8E76BC6}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_husarion_mecanum_wheel_roller_9FAF7C39_6D4A_55B1_A93F_2D5DFC575A19_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.roller_larger"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{9FAF7C39-6D4A-55B1-A93F-2D5DFC575A19}"
+        },
+        {
+            "$type": "PrefabGroup",
+            "name": "Assets/Mecanum/husarion_mecanum_wheel_roller_fbx.procprefab",
+            "id": "{BE2AEB30-3C33-5DC4-BDDA-9BFF653B7837}"
+        }
+    ]
+}

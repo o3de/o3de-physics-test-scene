@@ -1,0 +1,98 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{033D136E-BF3E-5EA1-86E6-13DAA9087C44}",
+            "name": "mecanum_wheel_roller_small",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.roller_small_010",
+                    "RootNode.roller_small_010.transform",
+                    "RootNode.roller_small_010.custom_properties",
+                    "RootNode.roller_small_010.UVMap",
+                    "RootNode.roller_small_010.DefaultMaterial"
+                ]
+            },
+            "export method": 1,
+            "ConvexAssetParams": {
+                "PlaneTolerance": 0.00009999999747378752,
+                "GaussMapLimit": 48,
+                "BuildGpuData": true
+            },
+            "DecomposeMeshes": true,
+            "ConvexDecompositionParams": {
+                "PlaneDownsampling": 2,
+                "ConvexHullDownsampling": 2
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "DefaultMaterial",
+                        "MaterialAsset": {
+                            "assetId": {
+                                "guid": "{6F3B982F-1967-5166-B4E5-325CB42BED9A}",
+                                "subId": 1
+                            },
+                            "assetHint": "assets/mecanum/mecanum_roler.physicsmaterial"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "mecanum_wheel_roller_small",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.roller_small_010",
+                    "RootNode.roller_small_010.transform",
+                    "RootNode.roller_small_010.custom_properties",
+                    "RootNode.roller_small_010.UVMap",
+                    "RootNode.roller_small_010.DefaultMaterial"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{6A8AB33C-5AE7-5088-B2AE-B08AFFC09008}"
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "default_mecanum_wheel_roller_small_1B5C8820_D709_59BD_A968_869CC85E43C2_",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.roller_small_010"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "ProceduralMeshGroupRule"
+                    },
+                    {
+                        "$type": "UnmodifiableRule"
+                    },
+                    {
+                        "$type": "CoordinateSystemRule",
+                        "useAdvancedData": true
+                    },
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
+                    }
+                ]
+            },
+            "id": "{1B5C8820-D709-59BD-A968-869CC85E43C2}"
+        },
+        {
+            "$type": "PrefabGroup",
+            "name": "Assets/Mecanum/mecanum_wheel_roller_small_fbx.procprefab",
+            "id": "{532BD771-EDB7-55D4-A8A4-B3CE1285912D}"
+        }
+    ]
+}
