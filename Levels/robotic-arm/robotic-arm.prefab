@@ -138,6 +138,10 @@
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 138002849734991713
                 },
+                "Component_[13883352761969014787]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 13883352761969014787
+                },
                 "Component_[16578565737331764849]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 16578565737331764849,

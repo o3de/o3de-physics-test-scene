@@ -82,6 +82,10 @@
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 12271054571961146875
                 },
+                "Component_[12631259312532477039]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 12631259312532477039
+                },
                 "Component_[16616440410168978878]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 16616440410168978878,
@@ -122,11 +126,6 @@
                                 {
                                     "Name": "Entire object"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },
@@ -337,11 +336,6 @@
                                 }
                             ]
                         },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
-                            ]
-                        },
                         "propertyVisibilityFlags": 235
                     },
                     "ShapeConfigs": [
@@ -378,6 +372,10 @@
                 "Component_[16919232076966545697]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 16919232076966545697
+                },
+                "Component_[1920854084114185009]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 1920854084114185009
                 },
                 "Component_[4313406717160387852]": {
                     "$type": "LmbrCentral::EditorQuadShapeComponent",
@@ -486,6 +484,10 @@
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 12271054571961146875
                 },
+                "Component_[13647076779828372829]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 13647076779828372829
+                },
                 "Component_[16616440410168978878]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 16616440410168978878,
@@ -531,11 +533,6 @@
                                 {
                                     "Name": "Entire object"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },
@@ -680,6 +677,10 @@
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 12271054571961146875
                 },
+                "Component_[14498765397538423777]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 14498765397538423777
+                },
                 "Component_[16616440410168978878]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 16616440410168978878,
@@ -725,11 +726,6 @@
                                 {
                                     "Name": "Entire object"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },
@@ -898,6 +894,10 @@
                         ]
                     }
                 },
+                "Component_[18115594451195591891]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 18115594451195591891
+                },
                 "Component_[5609115821002756754]": {
                     "$type": "EditorLockComponent",
                     "Id": 5609115821002756754
@@ -919,11 +919,6 @@
                                 {
                                     "Name": "Entire object"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },
@@ -1068,6 +1063,10 @@
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 12271054571961146875
                 },
+                "Component_[14663327300699219111]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 14663327300699219111
+                },
                 "Component_[16616440410168978878]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 16616440410168978878,
@@ -1113,11 +1112,6 @@
                                 {
                                     "Name": "Entire object"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },
@@ -1254,6 +1248,10 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 11116578058423845630
                 },
+                "Component_[11588615590713790421]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 11588615590713790421
+                },
                 "Component_[11836507567374440610]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 11836507567374440610
@@ -1307,11 +1305,6 @@
                                 {
                                     "Name": "Entire object"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },
@@ -1463,6 +1456,10 @@
                         "Entity_[153742235699190]"
                     ]
                 },
+                "Component_[17224602196969539541]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 17224602196969539541
+                },
                 "Component_[1807931960527701319]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 1807931960527701319,
@@ -1496,11 +1493,6 @@
                                 {
                                     "Name": "Entire object"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },
@@ -1645,6 +1637,10 @@
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 12271054571961146875
                 },
+                "Component_[13233948155575844525]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 13233948155575844525
+                },
                 "Component_[16616440410168978878]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 16616440410168978878,
@@ -1685,11 +1681,6 @@
                                 {
                                     "Name": "Entire object"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },
@@ -1972,11 +1963,6 @@
                                     "Name": "Entire object"
                                 }
                             ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
-                            ]
                         }
                     },
                     "ShapeConfigs": [
@@ -2162,11 +2148,6 @@
                                 {
                                     "Name": "Entire object"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },
@@ -2359,11 +2340,6 @@
                                     "Name": "Entire object"
                                 }
                             ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
-                            ]
                         }
                     },
                     "ShapeConfigs": [
@@ -2550,11 +2526,6 @@
                                     "Name": "Entire object"
                                 }
                             ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
-                            ]
                         }
                     },
                     "ShapeConfigs": [
@@ -2698,6 +2669,10 @@
                         ]
                     }
                 },
+                "Component_[5385761195490754935]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 5385761195490754935
+                },
                 "Component_[5609115821002756754]": {
                     "$type": "EditorLockComponent",
                     "Id": 5609115821002756754
@@ -2719,11 +2694,6 @@
                                 {
                                     "Name": "Entire object"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },
@@ -2914,11 +2884,6 @@
                                     "Name": "Entire object"
                                 }
                             ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
-                            ]
                         }
                     },
                     "ShapeConfigs": [
@@ -2944,6 +2909,10 @@
                             ]
                         }
                     }
+                },
+                "Component_[9494584845637811339]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 9494584845637811339
                 }
             }
         },
@@ -3104,7 +3073,7 @@
                     "Configuration": {
                         "entityId": "",
                         "Compute Mass": false,
-                        "Mass": 0.1,
+                        "Mass": 0.10000000149011612,
                         "Inertia tensor": [
                             0.0010658798273652792,
                             0.0,
@@ -3249,7 +3218,7 @@
                     "Configuration": {
                         "entityId": "",
                         "Compute Mass": false,
-                        "Mass": 0.1,
+                        "Mass": 0.10000000149011612,
                         "Inertia tensor": [
                             0.0010658798273652792,
                             0.0,
@@ -3452,7 +3421,7 @@
                     "Configuration": {
                         "entityId": "",
                         "Compute Mass": false,
-                        "Mass": 0.1,
+                        "Mass": 0.10000000149011612,
                         "Inertia tensor": [
                             0.0010658798273652792,
                             0.0,
@@ -3713,7 +3682,7 @@
                     "Configuration": {
                         "entityId": "",
                         "Compute Mass": false,
-                        "Mass": 0.1,
+                        "Mass": 0.10000000149011612,
                         "Inertia tensor": [
                             0.0010658798273652792,
                             0.0,
@@ -3916,7 +3885,7 @@
                     "Configuration": {
                         "entityId": "",
                         "Compute Mass": false,
-                        "Mass": 0.1,
+                        "Mass": 0.10000000149011612,
                         "Inertia tensor": [
                             0.0010658798273652792,
                             0.0,
@@ -4114,7 +4083,7 @@
                     "Configuration": {
                         "entityId": "",
                         "Compute Mass": false,
-                        "Mass": 0.1,
+                        "Mass": 0.10000000149011612,
                         "Inertia tensor": [
                             0.0010658798273652792,
                             0.0,
@@ -4451,7 +4420,7 @@
                     "Configuration": {
                         "entityId": "",
                         "Compute Mass": false,
-                        "Mass": 0.1,
+                        "Mass": 0.10000000149011612,
                         "Inertia tensor": [
                             0.0010658798273652792,
                             0.0,
@@ -4625,7 +4594,6 @@
                         "Negative Limit": -360.0
                     },
                     "Motor": {
-                        "UseMotor": true,
                         "UseMotor": true
                     }
                 },
@@ -4879,7 +4847,7 @@
                     "Configuration": {
                         "entityId": "",
                         "Compute Mass": false,
-                        "Mass": 0.1,
+                        "Mass": 0.10000000149011612,
                         "Inertia tensor": [
                             0.0010658798273652792,
                             0.0,
@@ -5024,7 +4992,7 @@
                     "Configuration": {
                         "entityId": "",
                         "Compute Mass": false,
-                        "Mass": 0.1,
+                        "Mass": 0.10000000149011612,
                         "Inertia tensor": [
                             0.0010658798273652792,
                             0.0,
@@ -5227,7 +5195,7 @@
                     "Configuration": {
                         "entityId": "",
                         "Compute Mass": false,
-                        "Mass": 0.1,
+                        "Mass": 0.10000000149011612,
                         "Inertia tensor": [
                             0.0010658798273652792,
                             0.0,
@@ -5372,7 +5340,7 @@
                     "Configuration": {
                         "entityId": "",
                         "Compute Mass": false,
-                        "Mass": 0.1,
+                        "Mass": 0.10000000149011612,
                         "Inertia tensor": [
                             0.0010658798273652792,
                             0.0,
@@ -5517,7 +5485,7 @@
                     "Configuration": {
                         "entityId": "",
                         "Compute Mass": false,
-                        "Mass": 0.1,
+                        "Mass": 0.10000000149011612,
                         "Inertia tensor": [
                             0.0010658798273652792,
                             0.0,
@@ -5709,7 +5677,7 @@
                     "Configuration": {
                         "entityId": "",
                         "Compute Mass": false,
-                        "Mass": 0.1,
+                        "Mass": 0.10000000149011612,
                         "Inertia tensor": [
                             0.0010658798273652792,
                             0.0,
@@ -5923,7 +5891,7 @@
                     "Configuration": {
                         "entityId": "",
                         "Compute Mass": false,
-                        "Mass": 0.1,
+                        "Mass": 0.10000000149011612,
                         "Inertia tensor": [
                             0.0010658798273652792,
                             0.0,
@@ -6184,7 +6152,7 @@
                     "Configuration": {
                         "entityId": "",
                         "Compute Mass": false,
-                        "Mass": 0.1,
+                        "Mass": 0.10000000149011612,
                         "Inertia tensor": [
                             0.0010658798273652792,
                             0.0,
@@ -6516,7 +6484,6 @@
                         "Negative Limit": -360.0
                     },
                     "Motor": {
-                        "UseMotor": true,
                         "UseMotor": true
                     }
                 },
@@ -7826,7 +7793,6 @@
                         "Negative Limit": -360.0
                     },
                     "Motor": {
-                        "UseMotor": true,
                         "UseMotor": true
                     }
                 },
@@ -8104,7 +8070,7 @@
                     "Configuration": {
                         "entityId": "",
                         "Compute Mass": false,
-                        "Mass": 0.1,
+                        "Mass": 0.10000000149011612,
                         "Inertia tensor": [
                             0.0010658798273652792,
                             0.0,
@@ -8348,7 +8314,7 @@
                     "Configuration": {
                         "entityId": "",
                         "Compute Mass": false,
-                        "Mass": 0.1,
+                        "Mass": 0.10000000149011612,
                         "Inertia tensor": [
                             0.0010658798273652792,
                             0.0,
@@ -8546,7 +8512,7 @@
                     "Configuration": {
                         "entityId": "",
                         "Compute Mass": false,
-                        "Mass": 0.1,
+                        "Mass": 0.10000000149011612,
                         "Inertia tensor": [
                             0.0010658798273652792,
                             0.0,
@@ -8744,7 +8710,7 @@
                     "Configuration": {
                         "entityId": "",
                         "Compute Mass": false,
-                        "Mass": 0.1,
+                        "Mass": 0.10000000149011612,
                         "Inertia tensor": [
                             0.0010658798273652792,
                             0.0,
@@ -8942,7 +8908,7 @@
                     "Configuration": {
                         "entityId": "",
                         "Compute Mass": false,
-                        "Mass": 0.1,
+                        "Mass": 0.10000000149011612,
                         "Inertia tensor": [
                             0.0010658798273652792,
                             0.0,
@@ -9140,7 +9106,7 @@
                     "Configuration": {
                         "entityId": "",
                         "Compute Mass": false,
-                        "Mass": 0.1,
+                        "Mass": 0.10000000149011612,
                         "Inertia tensor": [
                             0.0010658798273652792,
                             0.0,
@@ -9327,7 +9293,7 @@
                     "Configuration": {
                         "entityId": "",
                         "Compute Mass": false,
-                        "Mass": 0.1,
+                        "Mass": 0.10000000149011612,
                         "Inertia tensor": [
                             0.0010658798273652792,
                             0.0,
@@ -9536,7 +9502,7 @@
                     "Configuration": {
                         "entityId": "",
                         "Compute Mass": false,
-                        "Mass": 0.1,
+                        "Mass": 0.10000000149011612,
                         "Inertia tensor": [
                             0.0010658798273652792,
                             0.0,
@@ -9681,7 +9647,7 @@
                     "Configuration": {
                         "entityId": "",
                         "Compute Mass": false,
-                        "Mass": 0.1,
+                        "Mass": 0.10000000149011612,
                         "Inertia tensor": [
                             0.0010658798273652792,
                             0.0,
@@ -9826,7 +9792,7 @@
                     "Configuration": {
                         "entityId": "",
                         "Compute Mass": false,
-                        "Mass": 0.1,
+                        "Mass": 0.10000000149011612,
                         "Inertia tensor": [
                             0.0010658798273652792,
                             0.0,
@@ -10024,7 +9990,7 @@
                     "Configuration": {
                         "entityId": "",
                         "Compute Mass": false,
-                        "Mass": 0.1,
+                        "Mass": 0.10000000149011612,
                         "Inertia tensor": [
                             0.0010658798273652792,
                             0.0,
@@ -10275,7 +10241,7 @@
                     "Configuration": {
                         "entityId": "",
                         "Compute Mass": false,
-                        "Mass": 0.1,
+                        "Mass": 0.10000000149011612,
                         "Inertia tensor": [
                             0.0010658798273652792,
                             0.0,
@@ -10473,7 +10439,7 @@
                     "Configuration": {
                         "entityId": "",
                         "Compute Mass": false,
-                        "Mass": 0.1,
+                        "Mass": 0.10000000149011612,
                         "Inertia tensor": [
                             0.0010658798273652792,
                             0.0,
@@ -10653,7 +10619,7 @@
                     "Configuration": {
                         "entityId": "",
                         "Compute Mass": false,
-                        "Mass": 0.1,
+                        "Mass": 0.10000000149011612,
                         "Inertia tensor": [
                             0.0010658798273652792,
                             0.0,
@@ -11007,7 +10973,7 @@
                     "Configuration": {
                         "entityId": "",
                         "Compute Mass": false,
-                        "Mass": 0.1,
+                        "Mass": 0.10000000149011612,
                         "Inertia tensor": [
                             0.0010658798273652792,
                             0.0,
@@ -11170,7 +11136,6 @@
                         "Negative Limit": -360.0
                     },
                     "Motor": {
-                        "UseMotor": true,
                         "UseMotor": true
                     }
                 },
