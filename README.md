@@ -34,7 +34,6 @@ In addition, the project includes following initial feasibility tests:
 Level name `robotic_arm.prefab`
 
 Test level with improted robot using URDF importer. The scene is used to test developed API to PhysX joints.
-It is using this experimental branch from O3DE: https://github.com/michalpelka/o3de/tree/add_physx_joint_control
 
 ![Robotic arm simulation](Doc/robotic_arm.gif)
 
@@ -42,7 +41,6 @@ It is using this experimental branch from O3DE: https://github.com/michalpelka/o
 Level name `skid_steering_test.prefab`
 
 Test level with improted robot using URDF importer. The scene is used to test developed API to PhysX joints.
-It is using this experimental branch from O3DE: https://github.com/michalpelka/o3de/tree/add_physx_joint_control
 
 ![Robotic arm simulation](Doc/skid_steering.gif)
 
@@ -50,9 +48,14 @@ It is using this experimental branch from O3DE: https://github.com/michalpelka/o
 Level name `mecanum_test.prefab`
 
 Test level with improted robot using URDF importer. The scene is used to test developed API to PhysX joints.
-It is using this experimental branch from O3DE: https://github.com/michalpelka/o3de/tree/add_physx_joint_control
 
 ![Robotic arm simulation](Doc/mecanum.gif)
+
+# <a name="mecanum_test"></a>Gripper Test
+Level name `GripperTest.prefab`
+
+![Gripper Simulation simulation](Doc/gripper.gif)
+
 
 
 

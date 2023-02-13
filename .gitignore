@@ -3,3 +3,6 @@
 [Uu]ser/
 [Uu]ser_test*/
 _savebackup/
+.idea/
+.vscode/
+cmake-*/

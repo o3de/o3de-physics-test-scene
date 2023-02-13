@@ -62,34 +62,54 @@ namespace TestScene
     if (component2){
       componentId = component2->GetId();
     }
-    if (componentId != AZ::InvalidComponentId){
+    if (componentId != AZ::InvalidComponentId) {
       const AZ::EntityComponentIdPair id(GetEntityId(), componentId);
-      PhysX::JointInterfaceRequestBus::EventResult(velocity, id, &PhysX::JointRequests::GetVelocity);
-      PhysX::JointInterfaceRequestBus::EventResult(position, id, &PhysX::JointRequests::GetPosition);
-      PhysX::JointInterfaceRequestBus::EventResult(limits, id, &PhysX::JointRequests::GetLimits);
+      PhysX::JointRequestBus::EventResult(velocity, id,
+                                          &PhysX::JointRequests::GetVelocity);
+      PhysX::JointRequestBus::EventResult(position, id,
+                                          &PhysX::JointRequests::GetPosition);
+      PhysX::JointRequestBus::EventResult(limits, id,
+                                          &PhysX::JointRequests::GetLimits);
 
       ImGui::Begin("SimplePhysXJointDemo");
 
-      AZStd::string group_name = "Joint " +GetEntity()->GetName();
+      AZStd::string group_name = "Joint " + GetEntity()->GetName();
 
       ImGui::Text("%s", GetEntity()->GetName().c_str());
 
+      ImGui::SliderFloat(
+          AZStd::string("Position##" + GetEntity()->GetName()).c_str(),
+          &position, limits.first, limits.second);
+      ImGui::SliderFloat(
+          AZStd::string("Velocity##" + GetEntity()->GetName()).c_str(),
+          &velocity, -0.5f, 0.5f);
 
-      ImGui::SliderFloat(AZStd::string("Position"+GetEntity()->GetName()).c_str()
-                             , &position, limits.first,limits.second);
-      ImGui::SliderFloat(AZStd::string("Velocity"+GetEntity()->GetName()).c_str()
-                             , &velocity, -5.f , 5.f);
+      ImGui::InputFloat(
+          AZStd::string("Force##" + GetEntity()->GetName()).c_str(),
+          &m_forceSet);
+      ImGui::SliderFloat(
+          AZStd::string("Speed##" + GetEntity()->GetName()).c_str(),
+          &m_velocitySet, -1.5f, 1.5f);
 
-      ImGui::InputFloat(AZStd::string("Force"+GetEntity()->GetName()).c_str(), &m_forceSet);
-      ImGui::SliderFloat(AZStd::string("Command"+GetEntity()->GetName()).c_str(), &m_velocitySet, -5.f , 5.f);
-      ImGui::SameLine();
-      if (ImGui::Button(AZStd::string("Zero"+GetEntity()->GetName()).c_str())){
-        m_velocitySet = 0;
+      float spacing = ImGui::GetStyle().ItemInnerSpacing.x;
+      ImGui::PushButtonRepeat(true);
+      float commandVel = 0;
+      if (ImGui::ArrowButton(
+              AZStd::string("##left" + GetEntity()->GetName()).c_str(),
+              ImGuiDir_Left)) {
+        commandVel = -m_velocitySet;
       }
-
-      PhysX::JointInterfaceRequestBus::Event(id, &PhysX::JointRequests::SetVelocity, m_velocitySet);
-      PhysX::JointInterfaceRequestBus::Event(id, &PhysX::JointRequests::SetMaximumForce, m_forceSet);
-
+      ImGui::SameLine(0.0f, spacing);
+      if (ImGui::ArrowButton(
+              AZStd::string("##right" + GetEntity()->GetName()).c_str(),
+              ImGuiDir_Right)) {
+        commandVel = m_velocitySet;
+      }
+      ImGui::Text("----------------------------------------------------------");
+      PhysX::JointRequestBus::Event(id, &PhysX::JointRequests::SetVelocity,
+                                    commandVel);
+      PhysX::JointRequestBus::Event(id, &PhysX::JointRequests::SetMaximumForce,
+                                    m_forceSet);
     }
 
     ImGui::End();

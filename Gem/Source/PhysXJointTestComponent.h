@@ -28,9 +28,7 @@ public:
 private:
   void OnImGuiUpdate() override;
 
-  float m_velocitySet {0};
-  float m_forceSet {5000};
-
-
+  float m_velocitySet{0.2};
+  float m_forceSet{5};
 };
 } // namespace AppleKraken
