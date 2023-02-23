@@ -7,7 +7,7 @@ The purpose of this project is to test the O3DE physics capabilities in the cont
 
 ## Requirements 
 
-- O3DE [from this repository/branch](https://github.com/michalpelka/o3de/tree/add_physx_joint_control_old)
+- O3DE [from this repository/branch](https://github.com/o3de/o3de)
 
 ## Running the demo
 
