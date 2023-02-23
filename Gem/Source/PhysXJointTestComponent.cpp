@@ -50,9 +50,9 @@ namespace TestScene
 
   void ImGuiJointDemo::OnImGuiUpdate()
   {
-    float velocity{0};
-    float position{0};
-    AZStd::pair<float, float> limits{0,0};
+    float velocity{0.0f};
+    float position{0.0f};
+    AZStd::pair<float, float> limits{0.0f,0.0f};
     auto* component1 = GetEntity()->FindComponent<PhysX::HingeJointComponent>();
     auto* component2 = GetEntity()->FindComponent<PhysX::PrismaticJointComponent>();
     auto componentId (AZ::InvalidComponentId);
