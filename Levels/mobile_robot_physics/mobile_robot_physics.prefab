@@ -1441,47 +1441,6 @@
                         ]
                     }
                 },
-                "Component_[13632494578845322196]": {
-                    "$type": "EditorColliderComponent",
-                    "Id": 13632494578845322196,
-                    "ColliderConfiguration": {
-                        "MaterialSlots": {
-                            "Slots": [
-                                {
-                                    "Name": "DefaultMaterial",
-                                    "MaterialAsset": {
-                                        "assetId": {
-                                            "guid": "{2BA01013-2D78-57FA-8D6D-A1D5C978A32B}",
-                                            "subId": 1
-                                        },
-                                        "assetHint": "assets/physics/tire_rubber.physicsmaterial"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    "ShapeConfiguration": {
-                        "PhysicsAsset": {
-                            "Asset": {
-                                "assetId": {
-                                    "guid": "{D1647581-66D3-5BDF-9C6C-19FFB4338101}",
-                                    "subId": 1339250261
-                                },
-                                "assetHint": "assets/models/wheel_collision.pxmesh"
-                            },
-                            "Configuration": {
-                                "PhysicsAsset": {
-                                    "assetId": {
-                                        "guid": "{D1647581-66D3-5BDF-9C6C-19FFB4338101}",
-                                        "subId": 1339250261
-                                    },
-                                    "loadBehavior": "QueueLoad",
-                                    "assetHint": "assets/models/wheel_collision.pxmesh"
-                                }
-                            }
-                        }
-                    }
-                },
                 "Component_[16787872766302325326]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 16787872766302325326
@@ -1532,6 +1491,45 @@
                             0.0,
                             0.03220491111278534
                         ]
+                    }
+                },
+                "Component_[9480667314929012201]": {
+                    "$type": "EditorMeshColliderComponent",
+                    "Id": 9480667314929012201,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "DefaultMaterial",
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{2BA01013-2D78-57FA-8D6D-A1D5C978A32B}",
+                                            "subId": 1
+                                        },
+                                        "assetHint": "assets/physics/tire_rubber.physicsmaterial"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "PhysicsAssetShapeConfiguration": {
+                        "Asset": {
+                            "assetId": {
+                                "guid": "{D1647581-66D3-5BDF-9C6C-19FFB4338101}",
+                                "subId": 1339250261
+                            },
+                            "assetHint": "assets/models/wheel_collision.pxmesh"
+                        },
+                        "Configuration": {
+                            "PhysicsAsset": {
+                                "assetId": {
+                                    "guid": "{D1647581-66D3-5BDF-9C6C-19FFB4338101}",
+                                    "subId": 1339250261
+                                },
+                                "loadBehavior": "QueueLoad",
+                                "assetHint": "assets/models/wheel_collision.pxmesh"
+                            }
+                        }
                     }
                 }
             }
@@ -4373,47 +4371,6 @@
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 16787872766302325326
                 },
-                "Component_[17319527509850424042]": {
-                    "$type": "EditorColliderComponent",
-                    "Id": 17319527509850424042,
-                    "ColliderConfiguration": {
-                        "MaterialSlots": {
-                            "Slots": [
-                                {
-                                    "Name": "DefaultMaterial",
-                                    "MaterialAsset": {
-                                        "assetId": {
-                                            "guid": "{2BA01013-2D78-57FA-8D6D-A1D5C978A32B}",
-                                            "subId": 1
-                                        },
-                                        "assetHint": "assets/physics/tire_rubber.physicsmaterial"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    "ShapeConfiguration": {
-                        "PhysicsAsset": {
-                            "Asset": {
-                                "assetId": {
-                                    "guid": "{D1647581-66D3-5BDF-9C6C-19FFB4338101}",
-                                    "subId": 1339250261
-                                },
-                                "assetHint": "assets/models/wheel_collision.pxmesh"
-                            },
-                            "Configuration": {
-                                "PhysicsAsset": {
-                                    "assetId": {
-                                        "guid": "{D1647581-66D3-5BDF-9C6C-19FFB4338101}",
-                                        "subId": 1339250261
-                                    },
-                                    "loadBehavior": "QueueLoad",
-                                    "assetHint": "assets/models/wheel_collision.pxmesh"
-                                }
-                            }
-                        }
-                    }
-                },
                 "Component_[2736669661172033782]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 2736669661172033782
@@ -4436,6 +4393,45 @@
                 "Component_[5154916986803806312]": {
                     "$type": "EditorLockComponent",
                     "Id": 5154916986803806312
+                },
+                "Component_[581510130031076276]": {
+                    "$type": "EditorMeshColliderComponent",
+                    "Id": 581510130031076276,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "DefaultMaterial",
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{2BA01013-2D78-57FA-8D6D-A1D5C978A32B}",
+                                            "subId": 1
+                                        },
+                                        "assetHint": "assets/physics/tire_rubber.physicsmaterial"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "PhysicsAssetShapeConfiguration": {
+                        "Asset": {
+                            "assetId": {
+                                "guid": "{D1647581-66D3-5BDF-9C6C-19FFB4338101}",
+                                "subId": 1339250261
+                            },
+                            "assetHint": "assets/models/wheel_collision.pxmesh"
+                        },
+                        "Configuration": {
+                            "PhysicsAsset": {
+                                "assetId": {
+                                    "guid": "{D1647581-66D3-5BDF-9C6C-19FFB4338101}",
+                                    "subId": 1339250261
+                                },
+                                "loadBehavior": "QueueLoad",
+                                "assetHint": "assets/models/wheel_collision.pxmesh"
+                            }
+                        }
+                    }
                 },
                 "Component_[7615127150075669899]": {
                     "$type": "EditorRigidBodyComponent",
@@ -4799,6 +4795,45 @@
                         ]
                     }
                 },
+                "Component_[13266191995285894838]": {
+                    "$type": "EditorMeshColliderComponent",
+                    "Id": 13266191995285894838,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "DefaultMaterial",
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{2BA01013-2D78-57FA-8D6D-A1D5C978A32B}",
+                                            "subId": 1
+                                        },
+                                        "assetHint": "assets/physics/tire_rubber.physicsmaterial"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "PhysicsAssetShapeConfiguration": {
+                        "Asset": {
+                            "assetId": {
+                                "guid": "{D1647581-66D3-5BDF-9C6C-19FFB4338101}",
+                                "subId": 1339250261
+                            },
+                            "assetHint": "assets/models/wheel_collision.pxmesh"
+                        },
+                        "Configuration": {
+                            "PhysicsAsset": {
+                                "assetId": {
+                                    "guid": "{D1647581-66D3-5BDF-9C6C-19FFB4338101}",
+                                    "subId": 1339250261
+                                },
+                                "loadBehavior": "QueueLoad",
+                                "assetHint": "assets/models/wheel_collision.pxmesh"
+                            }
+                        }
+                    }
+                },
                 "Component_[16787872766302325326]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 16787872766302325326
@@ -4825,47 +4860,6 @@
                 "Component_[5154916986803806312]": {
                     "$type": "EditorLockComponent",
                     "Id": 5154916986803806312
-                },
-                "Component_[6345713874119317736]": {
-                    "$type": "EditorColliderComponent",
-                    "Id": 6345713874119317736,
-                    "ColliderConfiguration": {
-                        "MaterialSlots": {
-                            "Slots": [
-                                {
-                                    "Name": "DefaultMaterial",
-                                    "MaterialAsset": {
-                                        "assetId": {
-                                            "guid": "{2BA01013-2D78-57FA-8D6D-A1D5C978A32B}",
-                                            "subId": 1
-                                        },
-                                        "assetHint": "assets/physics/tire_rubber.physicsmaterial"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    "ShapeConfiguration": {
-                        "PhysicsAsset": {
-                            "Asset": {
-                                "assetId": {
-                                    "guid": "{D1647581-66D3-5BDF-9C6C-19FFB4338101}",
-                                    "subId": 1339250261
-                                },
-                                "assetHint": "assets/models/wheel_collision.pxmesh"
-                            },
-                            "Configuration": {
-                                "PhysicsAsset": {
-                                    "assetId": {
-                                        "guid": "{D1647581-66D3-5BDF-9C6C-19FFB4338101}",
-                                        "subId": 1339250261
-                                    },
-                                    "loadBehavior": "QueueLoad",
-                                    "assetHint": "assets/models/wheel_collision.pxmesh"
-                                }
-                            }
-                        }
-                    }
                 },
                 "Component_[7615127150075669899]": {
                     "$type": "EditorRigidBodyComponent",
@@ -4956,9 +4950,17 @@
                         "Entity_[12231758424952]"
                     ]
                 },
-                "Component_[3933878623927137301]": {
-                    "$type": "EditorColliderComponent",
-                    "Id": 3933878623927137301,
+                "Component_[4075984941854223527]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 4075984941854223527
+                },
+                "Component_[4722292719061268377]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4722292719061268377
+                },
+                "Component_[4784370927259109068]": {
+                    "$type": "EditorMeshColliderComponent",
+                    "Id": 4784370927259109068,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
                             "Slots": [
@@ -4975,35 +4977,25 @@
                             ]
                         }
                     },
-                    "ShapeConfiguration": {
-                        "PhysicsAsset": {
-                            "Asset": {
+                    "PhysicsAssetShapeConfiguration": {
+                        "Asset": {
+                            "assetId": {
+                                "guid": "{D1647581-66D3-5BDF-9C6C-19FFB4338101}",
+                                "subId": 1339250261
+                            },
+                            "assetHint": "assets/models/wheel_collision.pxmesh"
+                        },
+                        "Configuration": {
+                            "PhysicsAsset": {
                                 "assetId": {
                                     "guid": "{D1647581-66D3-5BDF-9C6C-19FFB4338101}",
                                     "subId": 1339250261
                                 },
+                                "loadBehavior": "QueueLoad",
                                 "assetHint": "assets/models/wheel_collision.pxmesh"
-                            },
-                            "Configuration": {
-                                "PhysicsAsset": {
-                                    "assetId": {
-                                        "guid": "{D1647581-66D3-5BDF-9C6C-19FFB4338101}",
-                                        "subId": 1339250261
-                                    },
-                                    "loadBehavior": "QueueLoad",
-                                    "assetHint": "assets/models/wheel_collision.pxmesh"
-                                }
                             }
                         }
                     }
-                },
-                "Component_[4075984941854223527]": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 4075984941854223527
-                },
-                "Component_[4722292719061268377]": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 4722292719061268377
                 },
                 "Component_[5154916986803806312]": {
                     "$type": "EditorLockComponent",

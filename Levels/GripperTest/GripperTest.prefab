@@ -669,9 +669,17 @@
                     "$type": "EditorMaterialComponent",
                     "Id": 16645264286634162051
                 },
-                "Component_[5282319161955034077]": {
-                    "$type": "EditorColliderComponent",
-                    "Id": 5282319161955034077,
+                "Component_[6312341883022463660]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 6312341883022463660
+                },
+                "Component_[6780155024401207865]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 6780155024401207865
+                },
+                "Component_[7363871883378270143]": {
+                    "$type": "EditorMeshColliderComponent",
+                    "Id": 7363871883378270143,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
                             "Slots": [
@@ -681,40 +689,30 @@
                             ]
                         }
                     },
-                    "ShapeConfiguration": {
-                        "PhysicsAsset": {
-                            "Asset": {
+                    "PhysicsAssetShapeConfiguration": {
+                        "Asset": {
+                            "assetId": {
+                                "guid": "{C15CD465-9589-56ED-945F-8416FA4798A3}",
+                                "subId": 858390244
+                            },
+                            "assetHint": "objects/_primitives/_box_1x1.pxmesh"
+                        },
+                        "Configuration": {
+                            "Scale": [
+                                0.05000000074505806,
+                                0.05000000074505806,
+                                0.05000000074505806
+                            ],
+                            "PhysicsAsset": {
                                 "assetId": {
                                     "guid": "{C15CD465-9589-56ED-945F-8416FA4798A3}",
                                     "subId": 858390244
                                 },
+                                "loadBehavior": "QueueLoad",
                                 "assetHint": "objects/_primitives/_box_1x1.pxmesh"
-                            },
-                            "Configuration": {
-                                "Scale": [
-                                    0.05000000074505806,
-                                    0.05000000074505806,
-                                    0.05000000074505806
-                                ],
-                                "PhysicsAsset": {
-                                    "assetId": {
-                                        "guid": "{C15CD465-9589-56ED-945F-8416FA4798A3}",
-                                        "subId": 858390244
-                                    },
-                                    "loadBehavior": "QueueLoad",
-                                    "assetHint": "objects/_primitives/_box_1x1.pxmesh"
-                                }
                             }
                         }
                     }
-                },
-                "Component_[6312341883022463660]": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 6312341883022463660
-                },
-                "Component_[6780155024401207865]": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 6780155024401207865
                 },
                 "Component_[8927748789465851276]": {
                     "$type": "EditorPendingCompositionComponent",
@@ -743,41 +741,6 @@
             "Id": "Entity_[8947461201303]",
             "Name": "panda_hand",
             "Components": {
-                "Component_[12527173394158692186]": {
-                    "$type": "EditorColliderComponent",
-                    "Id": 12527173394158692186,
-                    "ColliderConfiguration": {
-                        "MaterialSlots": {
-                            "Slots": [
-                                {
-                                    "Name": "DefaultMaterial"
-                                }
-                            ]
-                        }
-                    },
-                    "ShapeConfiguration": {
-                        "PhysicsAsset": {
-                            "Asset": {
-                                "assetId": {
-                                    "guid": "{0F8D8030-40D0-50BC-AE6D-DBFDB1423A01}",
-                                    "subId": 3467673227
-                                },
-                                "assetHint": "assets/urdf/panda_description/panda_description/meshes/collision/hand.pxmesh"
-                            },
-                            "Configuration": {
-                                "PhysicsAsset": {
-                                    "assetId": {
-                                        "guid": "{0F8D8030-40D0-50BC-AE6D-DBFDB1423A01}",
-                                        "subId": 3467673227
-                                    },
-                                    "loadBehavior": "QueueLoad",
-                                    "assetHint": "assets/urdf/panda_description/panda_description/meshes/collision/hand.pxmesh"
-                                },
-                                "UseMaterialsFromAsset": false
-                            }
-                        }
-                    }
-                },
                 "Component_[12551621526998967469]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 12551621526998967469
@@ -871,6 +834,39 @@
                     "PhysXSpecificConfiguration": {
                         "SolverPositionIterations": 40,
                         "SolverVelocityIterations": 10
+                    }
+                },
+                "Component_[7500000183533962484]": {
+                    "$type": "EditorMeshColliderComponent",
+                    "Id": 7500000183533962484,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "DefaultMaterial"
+                                }
+                            ]
+                        }
+                    },
+                    "PhysicsAssetShapeConfiguration": {
+                        "Asset": {
+                            "assetId": {
+                                "guid": "{0F8D8030-40D0-50BC-AE6D-DBFDB1423A01}",
+                                "subId": 3467673227
+                            },
+                            "assetHint": "assets/urdf/panda_description/panda_description/meshes/collision/hand.pxmesh"
+                        },
+                        "Configuration": {
+                            "PhysicsAsset": {
+                                "assetId": {
+                                    "guid": "{0F8D8030-40D0-50BC-AE6D-DBFDB1423A01}",
+                                    "subId": 3467673227
+                                },
+                                "loadBehavior": "QueueLoad",
+                                "assetHint": "assets/urdf/panda_description/panda_description/meshes/collision/hand.pxmesh"
+                            },
+                            "UseMaterialsFromAsset": false
+                        }
                     }
                 },
                 "Component_[9156404775394516739]": {
@@ -1129,47 +1125,6 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 1903930015834931168
                 },
-                "Component_[2188957055815424499]": {
-                    "$type": "EditorColliderComponent",
-                    "Id": 2188957055815424499,
-                    "ColliderConfiguration": {
-                        "Rotation": [
-                            0.0,
-                            0.0,
-                            1.0,
-                            6.123234262925839e-17
-                        ],
-                        "MaterialSlots": {
-                            "Slots": [
-                                {
-                                    "Name": "DefaultMaterial"
-                                }
-                            ]
-                        }
-                    },
-                    "ShapeConfiguration": {
-                        "PhysicsAsset": {
-                            "Asset": {
-                                "assetId": {
-                                    "guid": "{DFAC8757-EC4A-5885-AAB8-F7E86593D73E}",
-                                    "subId": 4167574034
-                                },
-                                "assetHint": "assets/urdf/panda_description/panda_description/meshes/collision/finger.pxmesh"
-                            },
-                            "Configuration": {
-                                "PhysicsAsset": {
-                                    "assetId": {
-                                        "guid": "{DFAC8757-EC4A-5885-AAB8-F7E86593D73E}",
-                                        "subId": 4167574034
-                                    },
-                                    "loadBehavior": "QueueLoad",
-                                    "assetHint": "assets/urdf/panda_description/panda_description/meshes/collision/finger.pxmesh"
-                                },
-                                "UseMaterialsFromAsset": false
-                            }
-                        }
-                    }
-                },
                 "Component_[2310690044688145497]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 2310690044688145497
@@ -1214,6 +1169,45 @@
                     "PhysXSpecificConfiguration": {
                         "SolverPositionIterations": 40,
                         "SolverVelocityIterations": 10
+                    }
+                },
+                "Component_[9497923644843622208]": {
+                    "$type": "EditorMeshColliderComponent",
+                    "Id": 9497923644843622208,
+                    "ColliderConfiguration": {
+                        "Rotation": [
+                            0.0,
+                            0.0,
+                            1.0,
+                            6.123234262925839e-17
+                        ],
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "DefaultMaterial"
+                                }
+                            ]
+                        }
+                    },
+                    "PhysicsAssetShapeConfiguration": {
+                        "Asset": {
+                            "assetId": {
+                                "guid": "{DFAC8757-EC4A-5885-AAB8-F7E86593D73E}",
+                                "subId": 4167574034
+                            },
+                            "assetHint": "assets/urdf/panda_description/panda_description/meshes/collision/finger.pxmesh"
+                        },
+                        "Configuration": {
+                            "PhysicsAsset": {
+                                "assetId": {
+                                    "guid": "{DFAC8757-EC4A-5885-AAB8-F7E86593D73E}",
+                                    "subId": 4167574034
+                                },
+                                "loadBehavior": "QueueLoad",
+                                "assetHint": "assets/urdf/panda_description/panda_description/meshes/collision/finger.pxmesh"
+                            },
+                            "UseMaterialsFromAsset": false
+                        }
                     }
                 },
                 "Component_[9780676025675487972]": {
@@ -1314,41 +1308,6 @@
                     "$type": "EditorInspectorComponent",
                     "Id": 12542366717714580296
                 },
-                "Component_[1642651622480229913]": {
-                    "$type": "EditorColliderComponent",
-                    "Id": 1642651622480229913,
-                    "ColliderConfiguration": {
-                        "MaterialSlots": {
-                            "Slots": [
-                                {
-                                    "Name": "DefaultMaterial"
-                                }
-                            ]
-                        }
-                    },
-                    "ShapeConfiguration": {
-                        "PhysicsAsset": {
-                            "Asset": {
-                                "assetId": {
-                                    "guid": "{DFAC8757-EC4A-5885-AAB8-F7E86593D73E}",
-                                    "subId": 4167574034
-                                },
-                                "assetHint": "assets/urdf/panda_description/panda_description/meshes/collision/finger.pxmesh"
-                            },
-                            "Configuration": {
-                                "PhysicsAsset": {
-                                    "assetId": {
-                                        "guid": "{DFAC8757-EC4A-5885-AAB8-F7E86593D73E}",
-                                        "subId": 4167574034
-                                    },
-                                    "loadBehavior": "QueueLoad",
-                                    "assetHint": "assets/urdf/panda_description/panda_description/meshes/collision/finger.pxmesh"
-                                },
-                                "UseMaterialsFromAsset": false
-                            }
-                        }
-                    }
-                },
                 "Component_[18095480052002538812]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 18095480052002538812,
@@ -1359,6 +1318,39 @@
                             0.0,
                             0.05840003490447998
                         ]
+                    }
+                },
+                "Component_[3830864565058555356]": {
+                    "$type": "EditorMeshColliderComponent",
+                    "Id": 3830864565058555356,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "DefaultMaterial"
+                                }
+                            ]
+                        }
+                    },
+                    "PhysicsAssetShapeConfiguration": {
+                        "Asset": {
+                            "assetId": {
+                                "guid": "{DFAC8757-EC4A-5885-AAB8-F7E86593D73E}",
+                                "subId": 4167574034
+                            },
+                            "assetHint": "assets/urdf/panda_description/panda_description/meshes/collision/finger.pxmesh"
+                        },
+                        "Configuration": {
+                            "PhysicsAsset": {
+                                "assetId": {
+                                    "guid": "{DFAC8757-EC4A-5885-AAB8-F7E86593D73E}",
+                                    "subId": 4167574034
+                                },
+                                "loadBehavior": "QueueLoad",
+                                "assetHint": "assets/urdf/panda_description/panda_description/meshes/collision/finger.pxmesh"
+                            },
+                            "UseMaterialsFromAsset": false
+                        }
                     }
                 },
                 "Component_[4530903244721043167]": {
