@@ -17,17 +17,42 @@
 #include <PhysX/Joint/PhysXJointRequestsBus.h>
 #include <HingeJointComponent.h>
 #include <imgui/imgui.h>
+
 namespace TestScene
 {
 void SkidSteeringDemo::Activate()
 {
+  m_registered = false;
+  AZ::TickBus::Handler::BusConnect();
   ImGui::ImGuiUpdateListenerBus::Handler::BusConnect();
   m_rightJointsPairs.clear();
   m_leftJointsPairs.clear();
+
+  m_onSceneActiveSimulatedBodiesEvent = AzPhysics::SceneEvents::OnSceneActiveSimulatedBodiesEvent::Handler(
+      [](AzPhysics::SceneHandle sceneHandle, const AzPhysics::SimulatedBodyHandleList& activeBodyList, float deltaTime)
+      {
+        AZ_Printf("SkidSteeringDemo::OnSceneActiveSimulatedBodiesEvent", "activeBodyList count %d delta time %f", activeBodyList.size(),deltaTime);
+        auto* sceneInterface = AZ::Interface<AzPhysics::SceneInterface>::Get();
+        for (auto bodyHandle : activeBodyList){
+          auto * body = sceneInterface->GetSimulatedBodyFromHandle(sceneHandle,bodyHandle);
+          AZ_Printf("SkidSteeringDemo::OnSceneActiveSimulatedBodiesEvent", "\t %f",body->GetPosition().GetZ())
+        }
+      });
+
+  m_onPostsimulateEvent = AzPhysics::SystemEvents::OnPostsimulateEvent::Handler (
+      [ ](float deltaTime)
+      {
+        AZ_Printf("SkidSteeringDemo::OnPostsimulateEvent", "delta time %f %f",deltaTime);
+      });
+
+
+
+
 }
 
 void SkidSteeringDemo::Deactivate()
 {
+  AZ::TickBus::Handler::BusDisconnect();
   ImGui::ImGuiUpdateListenerBus::Handler::BusDisconnect();
 }
 
@@ -58,6 +83,21 @@ void SkidSteeringDemo::Reflect(AZ::ReflectContext* context)
     }
   }
 }
+void SkidSteeringDemo::OnTick(float deltaTime, [[maybe_unused]] AZ::ScriptTimePoint time)
+{
+  AZ_Printf("SkidSteeringDemo::OnTick", "ontick");
+  if (!m_registered)
+  {
+    m_registered = true;
+    auto* sceneInterface = AZ::Interface<AzPhysics::SceneInterface>::Get();
+    auto* systemInterface = AZ::Interface<AzPhysics::SystemInterface>::Get();
+    AzPhysics::SceneHandle sceneHandle = sceneInterface->GetSceneHandle(AzPhysics::DefaultPhysicsSceneName);
+    sceneInterface->RegisterSceneActiveSimulatedBodiesHandler(sceneHandle, m_onSceneActiveSimulatedBodiesEvent);
+    systemInterface->RegisterPreSimulateEvent(m_onPostsimulateEvent);
+
+  }
+
+}
 
 void setSpeedAndForce(const AZ::EntityComponentIdPair& id, float force, float speed){
 
@@ -68,6 +108,7 @@ void setSpeedAndForce(const AZ::EntityComponentIdPair& id, float force, float sp
 }
 void SkidSteeringDemo::OnImGuiUpdate()
 {
+  AZ_Printf("SkidSteeringDemo", "OnImGuiUpdate");
 
   if (m_rightJointsPairs.empty() || m_leftJointsPairs.empty()){
     m_rightJointsPairs.clear();

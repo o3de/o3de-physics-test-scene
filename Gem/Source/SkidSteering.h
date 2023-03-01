@@ -10,11 +10,17 @@
 #include <AzCore/Component/Component.h>
 
 #include <ImGuiBus.h>
+
+#include <AzCore/Component/TickBus.h>
+#include <AzFramework/Physics/PhysicsSystem.h>
+#include <AzFramework/Physics/Common/PhysicsEvents.h>
+
 namespace TestScene
 {
 //! Component responsible for storing counters of apples gathered by Kraken.
 class SkidSteeringDemo
     : public AZ::Component
+    , protected AZ::TickBus::Handler
     , public ImGui::ImGuiUpdateListenerBus::Handler
 {
 public:
@@ -25,6 +31,8 @@ public:
   void Deactivate() override;
   static void Reflect(AZ::ReflectContext* context);
 
+
+  void OnTick(float deltaTime, AZ::ScriptTimePoint time) override;
 private:
   void OnImGuiUpdate() override;
   AZStd::vector<AZ::EntityId> m_leftJoints;
@@ -39,6 +47,10 @@ private:
   float m_rotVel{0};
   float m_maxForce{1};
   bool m_brickSkidSteering{false};
+  bool m_registered{false};
+  AzPhysics::SceneEvents::OnSceneActiveSimulatedBodiesEvent::Handler m_onSceneActiveSimulatedBodiesEvent;
+  AzPhysics::SystemEvents::OnPostsimulateEvent::Handler m_onPostsimulateEvent;
+
 
 
 };
