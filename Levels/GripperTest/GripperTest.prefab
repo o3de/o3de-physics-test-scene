@@ -670,7 +670,7 @@
                     "Id": 16645264286634162051
                 },
                 "Component_[5282319161955034077]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 5282319161955034077,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
@@ -744,7 +744,7 @@
             "Name": "panda_hand",
             "Components": {
                 "Component_[12527173394158692186]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 12527173394158692186,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
@@ -1130,7 +1130,7 @@
                     "Id": 1903930015834931168
                 },
                 "Component_[2188957055815424499]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 2188957055815424499,
                     "ColliderConfiguration": {
                         "Rotation": [
@@ -1315,7 +1315,7 @@
                     "Id": 12542366717714580296
                 },
                 "Component_[1642651622480229913]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 1642651622480229913,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
