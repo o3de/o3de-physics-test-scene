@@ -20,7 +20,8 @@
                 "Id": 14126657869720434043,
                 "Child Entity Order": [
                     "Entity_[1176639161715]",
-                    "Entity_[1443068190329]"
+                    "Entity_[1443068190329]",
+                    "Entity_[7108245315893]"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -417,6 +418,72 @@
                 }
             }
         },
+        "Entity_[12300860776757]": {
+            "Id": "Entity_[12300860776757]",
+            "Name": "Entity3",
+            "Components": {
+                "Component_[10599652984721259201]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10599652984721259201
+                },
+                "Component_[10873580334608025058]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 10873580334608025058
+                },
+                "Component_[14516298301245484106]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14516298301245484106,
+                    "Parent Entity": "Entity_[7108245315893]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            -0.25
+                        ],
+                        "UniformScale": 0.5
+                    }
+                },
+                "Component_[16043861395438714233]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16043861395438714233,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{2C665021-133A-538F-AEE3-97DE948C4D6D}",
+                                    "subId": 280367037
+                                },
+                                "assetHint": "materialeditor/viewportmodels/quadsphere.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[18378588926305965509]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 18378588926305965509
+                },
+                "Component_[265869214074783415]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 265869214074783415
+                },
+                "Component_[6684616699237320901]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 6684616699237320901
+                },
+                "Component_[7257967356664362935]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 7257967356664362935
+                },
+                "Component_[741739219332490538]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 741739219332490538
+                },
+                "Component_[9091181902352673221]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9091181902352673221
+                }
+            }
+        },
         "Entity_[1443068190329]": {
             "Id": "Entity_[1443068190329]",
             "Name": "panda",
@@ -473,7 +540,10 @@
                 },
                 "Component_[13154810072353919898]": {
                     "$type": "EditorArticulationLinkComponent",
-                    "Id": 13154810072353919898
+                    "Id": 13154810072353919898,
+                    "ArticulationConfiguration": {
+                        "entityId": ""
+                    }
                 },
                 "Component_[13402524642038966171]": {
                     "$type": "EditorEntitySortComponent",
@@ -636,6 +706,7 @@
                     "$type": "EditorArticulationLinkComponent",
                     "Id": 2954374947364955573,
                     "ArticulationConfiguration": {
+                        "entityId": "",
                         "Mass": 2.6226420402526855,
                         "Centre of mass offset": [
                             0.0,
@@ -649,7 +720,13 @@
                             0.0
                         ],
                         "Angular Limit Negative": -166.0,
-                        "Angular Limit Positive": 166.0
+                        "Angular Limit Positive": 166.0,
+                        "Motor configuration": {
+                            "UseMotor": true,
+                            "ForceLimit": 100.0,
+                            "Stiffness": 500.0,
+                            "Damping": 300.0
+                        }
                     }
                 },
                 "Component_[5101381396165317109]": {
@@ -770,6 +847,7 @@
                     "$type": "EditorArticulationLinkComponent",
                     "Id": 14601021287347470989,
                     "ArticulationConfiguration": {
+                        "entityId": "",
                         "Mass": 2.6433169841766357,
                         "Centre of mass offset": [
                             0.0,
@@ -783,7 +861,13 @@
                             0.0
                         ],
                         "Angular Limit Negative": -166.0,
-                        "Angular Limit Positive": 166.0
+                        "Angular Limit Positive": 166.0,
+                        "Motor configuration": {
+                            "UseMotor": true,
+                            "ForceLimit": 100.0,
+                            "Stiffness": 5000.0,
+                            "Damping": 500.0
+                        }
                     }
                 },
                 "Component_[15902421467411022820]": {
@@ -1160,6 +1244,7 @@
                     "$type": "EditorArticulationLinkComponent",
                     "Id": 11069307272851201575,
                     "ArticulationConfiguration": {
+                        "entityId": "",
                         "Mass": 2.3293709754943848,
                         "Centre of mass offset": [
                             0.04698000103235245,
@@ -1173,7 +1258,13 @@
                             0.0
                         ],
                         "Angular Limit Negative": -166.0,
-                        "Angular Limit Positive": 166.0
+                        "Angular Limit Positive": 166.0,
+                        "Motor configuration": {
+                            "UseMotor": true,
+                            "ForceLimit": 100.0,
+                            "Stiffness": 500.0,
+                            "Damping": 250.0
+                        }
                     }
                 },
                 "Component_[11727172097126435982]": {
@@ -1451,6 +1542,7 @@
                     "$type": "EditorArticulationLinkComponent",
                     "Id": 7713128066166086009,
                     "ArticulationConfiguration": {
+                        "entityId": "",
                         "Mass": 0.22383999824523926,
                         "Centre of mass offset": [
                             0.0,
@@ -1643,6 +1735,7 @@
                     "$type": "EditorArticulationLinkComponent",
                     "Id": 18421050458150573996,
                     "ArticulationConfiguration": {
+                        "entityId": "",
                         "Mass": 2.310476303100586,
                         "Centre of mass offset": [
                             -0.03604999929666519,
@@ -1656,7 +1749,13 @@
                             0.0
                         ],
                         "Angular Limit Negative": -176.0,
-                        "Angular Limit Positive": 0.0
+                        "Angular Limit Positive": 0.0,
+                        "Motor configuration": {
+                            "UseMotor": true,
+                            "ForceLimit": 5000.0,
+                            "Stiffness": 10000.0,
+                            "Damping": 2500.0
+                        }
                     }
                 },
                 "Component_[400097927689277130]": {
@@ -1734,6 +1833,7 @@
                     "$type": "EditorArticulationLinkComponent",
                     "Id": 16418524905077799266,
                     "ArticulationConfiguration": {
+                        "entityId": "",
                         "Mass": 1.5025800466537476,
                         "Centre of mass offset": [
                             0.050999999046325684,
@@ -1747,7 +1847,13 @@
                             0.0
                         ],
                         "Angular Limit Negative": -1.0,
-                        "Angular Limit Positive": 215.0
+                        "Angular Limit Positive": 215.0,
+                        "Motor configuration": {
+                            "UseMotor": true,
+                            "ForceLimit": 50.0,
+                            "Stiffness": 500.0,
+                            "Damping": 500.0
+                        }
                     }
                 },
                 "Component_[17139042666337948529]": {
@@ -1820,7 +1926,10 @@
             "Components": {
                 "Component_[10447452102746744943]": {
                     "$type": "EditorArticulationLinkComponent",
-                    "Id": 10447452102746744943
+                    "Id": 10447452102746744943,
+                    "ArticulationConfiguration": {
+                        "entityId": ""
+                    }
                 },
                 "Component_[11435467948483981588]": {
                     "$type": "EditorEntityIconComponent",
@@ -1903,6 +2012,7 @@
                     "$type": "EditorArticulationLinkComponent",
                     "Id": 17760086963186234771,
                     "ArticulationConfiguration": {
+                        "entityId": "",
                         "Mass": 0.5237600207328796,
                         "Centre of mass offset": [
                             0.01095999963581562,
@@ -1916,7 +2026,13 @@
                             0.0
                         ],
                         "Angular Limit Negative": -166.0,
-                        "Angular Limit Positive": 166.0
+                        "Angular Limit Positive": 166.0,
+                        "Motor configuration": {
+                            "UseMotor": true,
+                            "ForceLimit": 50.0,
+                            "Stiffness": 500.0,
+                            "Damping": 500.0
+                        }
                     }
                 },
                 "Component_[17957063234535786630]": {
@@ -2022,6 +2138,7 @@
                     "$type": "EditorArticulationLinkComponent",
                     "Id": 14555473105827020152,
                     "ArticulationConfiguration": {
+                        "entityId": "",
                         "Fixed Base": true,
                         "Mass": 2.813999891281128,
                         "Centre of mass offset": [
@@ -2184,6 +2301,7 @@
                     "$type": "EditorArticulationLinkComponent",
                     "Id": 3875768617368381718,
                     "ArticulationConfiguration": {
+                        "entityId": "",
                         "Mass": 0.2238450050354004,
                         "Centre of mass offset": [
                             0.0,
@@ -2369,6 +2487,7 @@
                     "$type": "EditorArticulationLinkComponent",
                     "Id": 16370684070430199569,
                     "ArticulationConfiguration": {
+                        "entityId": "",
                         "Mass": 2.6652700901031494,
                         "Centre of mass offset": [
                             0.0,
@@ -2382,7 +2501,13 @@
                             0.0
                         ],
                         "Angular Limit Negative": -101.0,
-                        "Angular Limit Positive": 101.0
+                        "Angular Limit Positive": 101.0,
+                        "Motor configuration": {
+                            "UseMotor": true,
+                            "ForceLimit": 1000.0,
+                            "Stiffness": 5000.0,
+                            "Damping": 500.0
+                        }
                     }
                 },
                 "Component_[17263294978659087417]": {
@@ -2642,6 +2767,102 @@
                 "Component_[9003720906380897961]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 9003720906380897961
+                }
+            }
+        },
+        "Entity_[7108245315893]": {
+            "Id": "Entity_[7108245315893]",
+            "Name": "cannonbal",
+            "Components": {
+                "Component_[12521665589933451823]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 12521665589933451823
+                },
+                "Component_[12801124500965266500]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 12801124500965266500
+                },
+                "Component_[13028112813177399181]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 13028112813177399181,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            6.038597583770752,
+                            0.0,
+                            2.5571861267089844
+                        ]
+                    }
+                },
+                "Component_[14667755317181153560]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 14667755317181153560
+                },
+                "Component_[14843107895049574378]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 14843107895049574378,
+                    "Child Entity Order": [
+                        "Entity_[12300860776757]"
+                    ]
+                },
+                "Component_[18191250776310096727]": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 18191250776310096727,
+                    "Configuration": {
+                        "entityId": "",
+                        "Initial linear velocity": [
+                            -15.0,
+                            0.0,
+                            0.0
+                        ],
+                        "Mass": 65.4498519897461,
+                        "Inertia tensor": [
+                            1.6362462043762207,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.6362462043762207,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.6362462043762207
+                        ]
+                    }
+                },
+                "Component_[3576465546589377461]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 3576465546589377461
+                },
+                "Component_[6342440757426197628]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 6342440757426197628
+                },
+                "Component_[7078990255908301907]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 7078990255908301907,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 0,
+                        "Sphere": {
+                            "Radius": 0.25
+                        }
+                    }
+                },
+                "Component_[8021411201509732084]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8021411201509732084
+                },
+                "Component_[8643314992889756416]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8643314992889756416
                 }
             }
         }
