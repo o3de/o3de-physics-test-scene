@@ -610,24 +610,6 @@
             "Id": "Entity_[19756536765743775]",
             "Name": "PalletLine",
             "Components": {
-                "ConveyorBeltComponentKinematic": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 9137921931842085098,
-                    "m_template": {
-                        "$type": "ConveyorBeltComponentKinematic",
-                        "BeltEntityId": "",
-                        "Speed": 0.0,
-                        "BeltWidth": 0.8999999761581421,
-                        "SegmentLength": 0.30000001192092896,
-                        "MaterialAsset": {
-                            "assetId": {
-                                "guid": "{74E18EC9-8759-5A0C-81ED-6CB2F20916A2}",
-                                "subId": 1
-                            },
-                            "assetHint": "assets/factory/conveyorline/conveyor_belt.physicsmaterial"
-                        }
-                    }
-                },
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 5251021685342533484
@@ -1491,24 +1473,6 @@
             "Id": "Entity_[3809646685282186]",
             "Name": "ShortLine",
             "Components": {
-                "ConveyorBeltComponentKinematic": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 9137921931842085098,
-                    "m_template": {
-                        "$type": "ConveyorBeltComponentKinematic",
-                        "BeltEntityId": "",
-                        "Speed": 0.20000000298023224,
-                        "BeltWidth": 0.699999988079071,
-                        "SegmentLength": 0.30000001192092896,
-                        "MaterialAsset": {
-                            "assetId": {
-                                "guid": "{74E18EC9-8759-5A0C-81ED-6CB2F20916A2}",
-                                "subId": 1
-                            },
-                            "assetHint": "assets/factory/conveyorline/conveyor_belt.physicsmaterial"
-                        }
-                    }
-                },
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 5251021685342533484
@@ -1862,25 +1826,6 @@
             "Id": "Entity_[3809771239333770]",
             "Name": "L-line",
             "Components": {
-                "ConveyorBeltComponentKinematic": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 9137921931842085098,
-                    "m_template": {
-                        "$type": "ConveyorBeltComponentKinematic",
-                        "BeltEntityId": "Entity_[64587679144501]",
-                        "Speed": 0.20000000298023224,
-                        "BeltWidth": 0.699999988079071,
-                        "SegmentLength": 0.30000001192092896,
-                        "TextureScale": 1.600000023841858,
-                        "MaterialAsset": {
-                            "assetId": {
-                                "guid": "{74E18EC9-8759-5A0C-81ED-6CB2F20916A2}",
-                                "subId": 1
-                            },
-                            "assetHint": "assets/factory/conveyorline/conveyor_belt.physicsmaterial"
-                        }
-                    }
-                },
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 5251021685342533484
@@ -3910,41 +3855,6 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/1",
                     "value": -89.99991607666016
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Mass",
-                    "value": 1.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/0",
-                    "value": 0.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/1",
-                    "value": 0.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Centre of mass offset/2",
-                    "value": 0.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/0",
-                    "value": 1.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/4",
-                    "value": 1.0
-                },
-                {
-                    "op": "replace",
-                    "path": "/Entities/Entity_[7675435439647121]/Components/EditorRigidBodyComponent/Configuration/Inertia tensor/8",
-                    "value": 1.0
                 }
             ]
         },

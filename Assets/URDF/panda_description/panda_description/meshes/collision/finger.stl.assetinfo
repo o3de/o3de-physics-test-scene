@@ -2,7 +2,7 @@
     "values": [
         {
             "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
-            "id": "{F946D4CD-EE7F-5596-9D3D-0457DC30229C}",
+            "id": "{975F654B-ECFB-4D5D-870F-89B6CCBE7867}",
             "name": "finger",
             "NodeSelectionList": {
                 "selectedNodes": [
@@ -13,73 +13,14 @@
                 ]
             },
             "export method": 1,
+            "DecomposeMeshes": true,
             "PhysicsMaterialSlots": {
                 "Slots": [
                     {
                         "Name": "DefaultMaterial"
                     }
                 ]
-            },
-            "export method": "1"
-        },
-        {
-            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
-            "name": "finger",
-            "nodeSelectionList": {
-                "selectedNodes": [
-                    "<STL_BINARY>",
-                    "<STL_BINARY>.unnamed",
-                    "<STL_BINARY>.unnamed.transform",
-                    "<STL_BINARY>.unnamed.DefaultMaterial"
-                ]
-            },
-            "rules": {
-                "rules": [
-                    {
-                        "$type": "MaterialRule"
-                    }
-                ]
-            },
-            "id": "{C886482A-1AC6-5625-9E27-D8E90CC78E2E}"
-        },
-        {
-            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
-            "name": "default_finger_3A8FBEBF_6090_5E41_B7ED_870372833C84_",
-            "nodeSelectionList": {
-                "selectedNodes": [
-                    "<STL_BINARY>",
-                    "<STL_BINARY>.unnamed",
-                    "<STL_BINARY>.unnamed.transform",
-                    "<STL_BINARY>.unnamed.DefaultMaterial"
-                ]
-            },
-            "rules": {
-                "rules": [
-                    {
-                        "$type": "ProceduralMeshGroupRule"
-                    },
-                    {
-                        "$type": "CoordinateSystemRule",
-                        "useAdvancedData": true
-                    },
-                    {
-                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
-                    }
-                ]
-            },
-            "id": "{3A8FBEBF-6090-5E41-B7ED-870372833C84}"
-        },
-        {
-            "$type": "PrefabGroup",
-            "name": "Assets/URDF/panda_description/panda_description/meshes/collision/finger_stl.procprefab",
-            "nodeSelectionList": {
-                "selectedNodes": [
-                    {},
-                    "<STL_BINARY>",
-                    "<STL_BINARY>.unnamed"
-                ]
-            },
-            "id": "{019755D8-1FF2-5590-A35A-68FF928CD4C7}"
+            }
         }
     ]
 }

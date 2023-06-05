@@ -1,0 +1,25 @@
+{
+    "values": [
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "top_plate",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "Scene",
+                    "Scene.top_plate",
+                    "Scene.top_plate.transform",
+                    "Scene.top_plate.UV0",
+                    "Scene.top_plate.DefaultMaterial"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "UVsRule"
+                    }
+                ]
+            },
+            "id": "{F3C0C8B4-94ED-4CC9-A1A6-3ACBAF79EDB6}"
+        }
+    ]
+}

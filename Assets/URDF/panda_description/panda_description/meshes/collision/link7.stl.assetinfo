@@ -2,7 +2,7 @@
     "values": [
         {
             "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
-            "id": "{73B445A1-F2CB-5E80-B075-4D5E606D2749}",
+            "id": "{10DE952B-802D-4EF2-A56E-122298B8F23B}",
             "name": "link7",
             "NodeSelectionList": {
                 "selectedNodes": [
@@ -13,73 +13,14 @@
                 ]
             },
             "export method": 1,
+            "DecomposeMeshes": true,
             "PhysicsMaterialSlots": {
                 "Slots": [
                     {
                         "Name": "DefaultMaterial"
                     }
                 ]
-            },
-            "export method": "1"
-        },
-        {
-            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
-            "name": "link7",
-            "nodeSelectionList": {
-                "selectedNodes": [
-                    "<STL_BINARY>",
-                    "<STL_BINARY>.unnamed",
-                    "<STL_BINARY>.unnamed.transform",
-                    "<STL_BINARY>.unnamed.DefaultMaterial"
-                ]
-            },
-            "rules": {
-                "rules": [
-                    {
-                        "$type": "MaterialRule"
-                    }
-                ]
-            },
-            "id": "{1D637271-CDCB-5674-97CB-598C5721A420}"
-        },
-        {
-            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
-            "name": "default_link7_E3C6C544_51C2_53F3_993E_954D19F1CC73_",
-            "nodeSelectionList": {
-                "selectedNodes": [
-                    "<STL_BINARY>",
-                    "<STL_BINARY>.unnamed",
-                    "<STL_BINARY>.unnamed.transform",
-                    "<STL_BINARY>.unnamed.DefaultMaterial"
-                ]
-            },
-            "rules": {
-                "rules": [
-                    {
-                        "$type": "ProceduralMeshGroupRule"
-                    },
-                    {
-                        "$type": "CoordinateSystemRule",
-                        "useAdvancedData": true
-                    },
-                    {
-                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule"
-                    }
-                ]
-            },
-            "id": "{E3C6C544-51C2-53F3-993E-954D19F1CC73}"
-        },
-        {
-            "$type": "PrefabGroup",
-            "name": "Assets/URDF/panda_description/panda_description/meshes/collision/link7_stl.procprefab",
-            "nodeSelectionList": {
-                "selectedNodes": [
-                    {},
-                    "<STL_BINARY>",
-                    "<STL_BINARY>.unnamed"
-                ]
-            },
-            "id": "{8E64601A-F58E-52EA-A9D6-6CCBA40C8BCB}"
+            }
         }
     ]
 }
