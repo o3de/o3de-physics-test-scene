@@ -1,0 +1,37 @@
+{
+    "values": [
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "link3",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "Scene",
+                    "Scene.node3",
+                    "Scene.node2",
+                    "Scene.node1",
+                    "Scene.node0_001",
+                    "Scene.node3.transform",
+                    "Scene.node3.UV0",
+                    "Scene.node3.Part__Feature003_004_001_002_001",
+                    "Scene.node2.transform",
+                    "Scene.node2.UV0",
+                    "Scene.node2.Part__Feature002_007_001_002_001",
+                    "Scene.node1.transform",
+                    "Scene.node1.UV0",
+                    "Scene.node1.Part__Feature001_010_001_002_001",
+                    "Scene.node0_001.transform",
+                    "Scene.node0_001.UV0",
+                    "Scene.node0_001.Part__Feature_001_001_001_002_001"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "UVsRule"
+                    }
+                ]
+            },
+            "id": "{AC6188B4-A221-4A49-BB7C-9E605019456C}"
+        }
+    ]
+}

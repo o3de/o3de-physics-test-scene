@@ -2,8 +2,8 @@
     "values": [
         {
             "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
-            "id": "{F66D10DC-915B-4E61-853E-E5D9AE2D3436}",
-            "name": "link4",
+            "id": "{8E5D2B97-CDCD-45FD-B9B6-45B95776ADE3}",
+            "name": "link3",
             "NodeSelectionList": {
                 "selectedNodes": [
                     "<STL_BINARY>",
