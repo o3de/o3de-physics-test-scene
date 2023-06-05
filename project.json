@@ -16,5 +16,10 @@
     "external_subdirectories": [
         "Gem"
     ],
-    "restricted": "o3de-physics-test-scene"
+    "restricted": "o3de-physics-test-scene",
+    "gem_names": [
+        "WarehouseAssets==1.0.0",
+        "WarehouseSample==1.0.0",
+        "ROS2==1.0.0"
+    ]
 }
