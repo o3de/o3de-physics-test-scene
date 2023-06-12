@@ -1,0 +1,25 @@
+{
+    "values": [
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "link1",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "Scene",
+                    "Scene.node0",
+                    "Scene.node0.transform",
+                    "Scene.node0.UV0",
+                    "Scene.node0.Part__Feature_001"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "UVsRule"
+                    }
+                ]
+            },
+            "id": "{6E2F9F80-2328-4112-8DBB-5DEF0AE8357A}"
+        }
+    ]
+}

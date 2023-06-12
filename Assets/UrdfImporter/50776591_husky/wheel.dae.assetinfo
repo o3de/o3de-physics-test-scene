@@ -1,0 +1,27 @@
+{
+    "values": [
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "wheel",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "Scene",
+                    "Scene.wheel",
+                    "Scene.Camera",
+                    "Scene.Light",
+                    "Scene.wheel.transform",
+                    "Scene.wheel.UV0",
+                    "Scene.wheel.DefaultMaterial"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "UVsRule"
+                    }
+                ]
+            },
+            "id": "{BFBA880F-BBA6-4D82-AC42-32A623664A56}"
+        }
+    ]
+}
