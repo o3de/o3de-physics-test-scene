@@ -6,7 +6,7 @@
 #include "PhysXJointTestComponent.h"
 #include "PhysXTestGripper.h"
 #include "SkidSteering.h"
-
+#include "PhysXTestVaccumGripper.h"
 namespace Physics_Test
 {
     class Physics_TestModule
@@ -24,7 +24,8 @@ namespace Physics_Test
                 Physics_TestSystemComponent::CreateDescriptor(),
                 TestScene::ImGuiJointDemo::CreateDescriptor(),
                 TestScene::SkidSteeringDemo::CreateDescriptor(),
-                TestScene::ImGuiGripperTest::CreateDescriptor()
+                TestScene::ImGuiGripperTest::CreateDescriptor(),
+                TestScene::ImGuiVaccumGripperTest::CreateDescriptor(),
             });
         }
 

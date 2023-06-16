@@ -11,5 +11,7 @@ set(FILES
     Source/PhysXTestGripper.cpp
     Source/SkidSteering.cpp
     Source/SkidSteering.h
+    Source/PhysXTestVaccumGripper.cpp
+    Source/PhysXTestVaccumGripper.h
     enabled_gems.cmake
 )

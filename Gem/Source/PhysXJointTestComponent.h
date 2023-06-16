@@ -10,6 +10,7 @@
 #include <AzCore/Component/Component.h>
 
 #include <ImGuiBus.h>
+#include "AzFramework/Physics/Common/PhysicsTypes.h"
 namespace TestScene
 {
 //! Component responsible for storing counters of apples gathered by Kraken.
@@ -30,5 +31,6 @@ private:
 
   float m_velocitySet{0.2};
   float m_forceSet{5};
+
 };
 } // namespace AppleKraken

@@ -58,13 +58,27 @@ namespace TestScene
     float position{0.0f};
     AZStd::pair<float, float> limits{0.0f,0.0f};
     auto* componentArticulation = GetEntity()->FindComponent<PhysX::ArticulationLinkComponent>();
+
     if (componentArticulation)
     {
+
       ImGui::Begin("SimplePhysXJointDemo-Articulation");
 
       AZStd::string sectionName = AZStd::string::format("Test ArticulationJointRequests for %s ", GetEntity()->GetName().c_str());
       if (ImGui::CollapsingHeader(sectionName.c_str()))
       {
+        AZStd::string sensorSectionName = AZStd::string::format("sensors for %s ", GetEntity()->GetName().c_str());
+        for (int i =0; i < 32; i++) {
+          AZStd::string forceSensorId = AZStd::string::format("force_%s_%d", GetEntity()->GetName().c_str(),i);
+          AZStd::string torqueSensorId = AZStd::string::format("torque_%s_%d ", GetEntity()->GetName().c_str(),i);
+          AZ::Vector3 torque{0};
+          AZ::Vector3 force{0};
+          PhysX::ArticulationSensorRequestBus::EventResult(torque, GetEntityId(), &PhysX::ArticulationSensorRequests::GetTorque, i);
+          PhysX::ArticulationSensorRequestBus::EventResult(force, GetEntityId(), &PhysX::ArticulationSensorRequests::GetForce, i);
+          ImGui::Text("%s : %f %f %f",torqueSensorId.c_str(), torque.GetX(),torque.GetY(),torque.GetZ());
+          ImGui::Text("%s : %f %f %f",forceSensorId.c_str(), force.GetX(),force.GetY(),force.GetZ());
+
+        }
 
         const char* items[] = { "Twist", "SwingX", "SwingY", "X", "Y", "Z"};
         static int axis = 0;
