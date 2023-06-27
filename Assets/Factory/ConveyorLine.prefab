@@ -3141,15 +3141,15 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 7179105188930176937,
                     "Child Entity Order": [
-                        "Entity_[406058016970836]",
-                        "Entity_[405645700110420]",
                         "Entity_[405821793769556]",
                         "Entity_[405727304489044]",
                         "Entity_[405959232723028]",
                         "Entity_[405581275600980]",
                         "Entity_[405783139063892]",
                         "Entity_[405967822657620]",
-                        "Entity_[224168419053988]"
+                        "Entity_[224168419053988]",
+                        "Instance_[64250519576458]/ContainerEntity",
+                        "Instance_[64332123955082]/ContainerEntity"
                     ]
                 },
                 "EditorInspectorComponent": {
@@ -3460,77 +3460,6 @@
                             0.000013660377589985728,
                             89.99998474121094
                         ]
-                    }
-                }
-            }
-        },
-        "Entity_[405645700110420]": {
-            "Id": "Entity_[405645700110420]",
-            "Name": "TableUnderRobot_001",
-            "Components": {
-                "AZ::Render::EditorMeshComponent": {
-                    "$type": "AZ::Render::EditorMeshComponent",
-                    "Id": 10536319579158981175,
-                    "Controller": {
-                        "Configuration": {
-                            "ModelAsset": {
-                                "assetId": {
-                                    "guid": "{1885D5D6-F450-582C-ACE6-5811911664A5}",
-                                    "subId": 284975694
-                                },
-                                "assetHint": "assets/factory/conveyorline/default_conveyorline_2abf858f_2897_576b_8bc7_2114b12e748a_.azmodel"
-                            }
-                        }
-                    }
-                },
-                "EditorDisabledCompositionComponent": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 1134142812419891609
-                },
-                "EditorEntityIconComponent": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 12679804207559868903
-                },
-                "EditorEntitySortComponent": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 7033540918787539452
-                },
-                "EditorInspectorComponent": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 17384829039570900913
-                },
-                "EditorLockComponent": {
-                    "$type": "EditorLockComponent",
-                    "Id": 15598819977696625231
-                },
-                "EditorOnlyEntityComponent": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 2691390460053459990
-                },
-                "EditorPendingCompositionComponent": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 3980585913070664015
-                },
-                "EditorVisibilityComponent": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 18066101847198088924
-                },
-                "TransformComponent": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 16815969645397740434,
-                    "Parent Entity": "Entity_[405624225273940]",
-                    "Transform Data": {
-                        "Translate": [
-                            -5.484382152557373,
-                            -0.6008647680282593,
-                            0.0
-                        ],
-                        "Rotate": [
-                            89.99998474121094,
-                            0.0,
-                            0.0
-                        ],
-                        "UniformScale": 100.0
                     }
                 }
             }
@@ -6533,7 +6462,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{11CD5088-806D-5578-B223-960DAD18A0C3}"
-                                            }
+                                            },
+                                            "assetHint": "assets/factory/conveyorline/conveyorline_electricboxes.azmaterial"
                                         }
                                     }
                                 }
@@ -8796,7 +8726,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{11CD5088-806D-5578-B223-960DAD18A0C3}"
-                                            }
+                                            },
+                                            "assetHint": "assets/factory/conveyorline/conveyorline_electricboxes.azmaterial"
                                         }
                                     }
                                 }
@@ -10406,77 +10337,73 @@
                     }
                 }
             }
-        },
-        "Entity_[406058016970836]": {
-            "Id": "Entity_[406058016970836]",
-            "Name": "TableUnderRobot",
-            "Components": {
-                "AZ::Render::EditorMeshComponent": {
-                    "$type": "AZ::Render::EditorMeshComponent",
-                    "Id": 14981838387652956823,
-                    "Controller": {
-                        "Configuration": {
-                            "ModelAsset": {
-                                "assetId": {
-                                    "guid": "{1885D5D6-F450-582C-ACE6-5811911664A5}",
-                                    "subId": 271390735
-                                },
-                                "assetHint": "assets/factory/conveyorline/default_conveyorline_5ac77714_e9c3_58f4_bcd9_874cc3da7207_.azmodel"
-                            }
-                        }
-                    }
+        }
+    },
+    "Instances": {
+        "Instance_[64250519576458]": {
+            "Source": "Assets/Factory/TableUnderRobot.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[405624225273940]"
                 },
-                "EditorDisabledCompositionComponent": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 10019440303406780395
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -5.518049716949463
                 },
-                "EditorEntityIconComponent": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 12463310723641886087
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -2.5956637859344482
                 },
-                "EditorEntitySortComponent": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 6114305503065029518
-                },
-                "EditorInspectorComponent": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 11731044433430607578
-                },
-                "EditorLockComponent": {
-                    "$type": "EditorLockComponent",
-                    "Id": 9696541566159010402
-                },
-                "EditorOnlyEntityComponent": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 3213173775605856821
-                },
-                "EditorPendingCompositionComponent": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 9842332651900103712
-                },
-                "EditorVisibilityComponent": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 8309314683002465185
-                },
-                "TransformComponent": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 12598568636997106256,
-                    "Parent Entity": "Entity_[405624225273940]",
-                    "Transform Data": {
-                        "Translate": [
-                            -5.518049716949463,
-                            -2.5956637859344482,
-                            0.0
-                        ],
-                        "Rotate": [
-                            89.99998474121094,
-                            0.0,
-                            0.0
-                        ],
-                        "UniformScale": 100.0
-                    }
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/0",
+                    "value": 89.9999771118164
                 }
-            }
+            ]
+        },
+        "Instance_[64332123955082]": {
+            "Source": "Assets/Factory/TableUnderRobot.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[405624225273940]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -5.5180487632751465
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": -0.5804710388183594
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": -0.0000016816077277326258
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/0",
+                    "value": 89.99994659423828
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/1",
+                    "value": -0.000004829676981898956
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
+                    "value": 0.00000965934304986149
+                }
+            ]
         }
     }
 }
