@@ -7,14 +7,25 @@
             "NodeSelectionList": {
                 "selectedNodes": [
                     "RootNode",
-                    "RootNode.ConveyorBelt_guards_segment"
+                    "RootNode.ConveyorBelt_guards_segment",
+                    "RootNode.ConveyorBelt_guards_segment.transform",
+                    "RootNode.ConveyorBelt_guards_segment.custom_properties",
+                    "RootNode.ConveyorBelt_guards_segment.UVMap",
+                    "RootNode.ConveyorBelt_guards_segment.MFrame"
                 ]
             },
             "export method": 1,
             "PhysicsMaterialSlots": {
                 "Slots": [
                     {
-                        "Name": "MFrame"
+                        "Name": "MFrame",
+                        "MaterialAsset": {
+                            "assetId": {
+                                "guid": "{F27B41FB-6066-56C7-8822-000E467A448A}",
+                                "subId": 1
+                            },
+                            "assetHint": "assets/factory/conveyorline/conveyor_guards.physicsmaterial"
+                        }
                     }
                 ]
             }
@@ -24,9 +35,12 @@
             "name": "ConveyorBelt_guards_segment",
             "nodeSelectionList": {
                 "selectedNodes": [
-                    {},
                     "RootNode",
-                    "RootNode.ConveyorBelt_guards_segment"
+                    "RootNode.ConveyorBelt_guards_segment",
+                    "RootNode.ConveyorBelt_guards_segment.transform",
+                    "RootNode.ConveyorBelt_guards_segment.custom_properties",
+                    "RootNode.ConveyorBelt_guards_segment.UVMap",
+                    "RootNode.ConveyorBelt_guards_segment.MFrame"
                 ]
             },
             "rules": {
