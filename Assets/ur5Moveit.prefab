@@ -77,40 +77,7 @@
                 },
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
-                    "Id": 10398996226318864671,
-                    "DisabledComponents": {
-                        "EditorRigidBodyComponent": {
-                            "$type": "EditorRigidBodyComponent",
-                            "Id": 2516350535976444155,
-                            "Configuration": {
-                                "entityId": "",
-                                "Compute Mass": false,
-                                "Mass": 2.2750000953674316,
-                                "Compute COM": false,
-                                "Centre of mass offset": [
-                                    -0.19612500071525574,
-                                    0.0,
-                                    0.016499999910593033
-                                ],
-                                "Compute inertia": false,
-                                "Inertia tensor": [
-                                    0.03121679089963436,
-                                    0.0,
-                                    0.0,
-                                    0.0,
-                                    0.03121679089963436,
-                                    0.0,
-                                    0.0,
-                                    0.0,
-                                    0.004095000214874744
-                                ]
-                            },
-                            "PhysXSpecificConfiguration": {
-                                "SolverPositionIterations": 40,
-                                "SolverVelocityIterations": 10
-                            }
-                        }
-                    }
+                    "Id": 10398996226318864671
                 },
                 "EditorEntityIconComponent": {
                     "$type": "EditorEntityIconComponent",
@@ -184,26 +151,7 @@
                 },
                 "EditorPendingCompositionComponent": {
                     "$type": "EditorPendingCompositionComponent",
-                    "Id": 7487096221790961974,
-                    "PendingComponents": {
-                        "EditorHingeJointComponent": {
-                            "$type": "EditorHingeJointComponent",
-                            "Id": 15804288157601571380,
-                            "Configuration": {
-                                "Local Rotation": [
-                                    0.0,
-                                    -89.99999237060547,
-                                    0.0
-                                ],
-                                "Parent Entity": "Entity_[625972557463]",
-                                "Child Entity": "Entity_[617382622871]"
-                            },
-                            "Angular Limit": {
-                                "Positive Limit": 180.0,
-                                "Negative Limit": -180.0
-                            }
-                        }
-                    }
+                    "Id": 7487096221790961974
                 },
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
@@ -338,40 +286,7 @@
                 },
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
-                    "Id": 15721472470196073362,
-                    "DisabledComponents": {
-                        "EditorRigidBodyComponent": {
-                            "$type": "EditorRigidBodyComponent",
-                            "Id": 13411689545511788138,
-                            "Configuration": {
-                                "entityId": "",
-                                "Compute Mass": false,
-                                "Mass": 8.392999649047852,
-                                "Compute COM": false,
-                                "Centre of mass offset": [
-                                    -0.21250000596046448,
-                                    0.0,
-                                    0.13600000739097595
-                                ],
-                                "Compute inertia": false,
-                                "Inertia tensor": [
-                                    0.13388578593730927,
-                                    0.0,
-                                    0.0,
-                                    0.0,
-                                    0.13388578593730927,
-                                    0.0,
-                                    0.0,
-                                    0.0,
-                                    0.01510739978402853
-                                ]
-                            },
-                            "PhysXSpecificConfiguration": {
-                                "SolverPositionIterations": 40,
-                                "SolverVelocityIterations": 10
-                            }
-                        }
-                    }
+                    "Id": 15721472470196073362
                 },
                 "EditorEntityIconComponent": {
                     "$type": "EditorEntityIconComponent",
@@ -445,26 +360,7 @@
                 },
                 "EditorPendingCompositionComponent": {
                     "$type": "EditorPendingCompositionComponent",
-                    "Id": 14425183701703761385,
-                    "PendingComponents": {
-                        "EditorHingeJointComponent": {
-                            "$type": "EditorHingeJointComponent",
-                            "Id": 3987400519655772359,
-                            "Configuration": {
-                                "Local Rotation": [
-                                    0.0,
-                                    -89.99999237060547,
-                                    0.0
-                                ],
-                                "Parent Entity": "Entity_[698987001495]",
-                                "Child Entity": "Entity_[625972557463]"
-                            },
-                            "Angular Limit": {
-                                "Positive Limit": 360.0,
-                                "Negative Limit": -360.0
-                            }
-                        }
-                    }
+                    "Id": 14425183701703761385
                 },
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
@@ -530,17 +426,7 @@
                 },
                 "EditorPendingCompositionComponent": {
                     "$type": "EditorPendingCompositionComponent",
-                    "Id": 14307318628094693385,
-                    "PendingComponents": {
-                        "EditorFixedJointComponent": {
-                            "$type": "EditorFixedJointComponent",
-                            "Id": 2661907883375729967,
-                            "Configuration": {
-                                "Parent Entity": "",
-                                "Child Entity": ""
-                            }
-                        }
-                    }
+                    "Id": 14307318628094693385
                 },
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
@@ -603,17 +489,7 @@
                 },
                 "EditorPendingCompositionComponent": {
                     "$type": "EditorPendingCompositionComponent",
-                    "Id": 17171151966305139016,
-                    "PendingComponents": {
-                        "EditorFixedJointComponent": {
-                            "$type": "EditorFixedJointComponent",
-                            "Id": 7046635627295538536,
-                            "Configuration": {
-                                "Parent Entity": "",
-                                "Child Entity": ""
-                            }
-                        }
-                    }
+                    "Id": 17171151966305139016
                 },
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
@@ -859,35 +735,7 @@
                 },
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
-                    "Id": 13678366325942524724,
-                    "DisabledComponents": {
-                        "EditorRigidBodyComponent": {
-                            "$type": "EditorRigidBodyComponent",
-                            "Id": 11316019482129754262,
-                            "Configuration": {
-                                "entityId": "",
-                                "Compute Mass": false,
-                                "Mass": 4.0,
-                                "Compute COM": false,
-                                "Compute inertia": false,
-                                "Inertia tensor": [
-                                    0.004433331545442343,
-                                    0.0,
-                                    0.0,
-                                    0.0,
-                                    0.004433331545442343,
-                                    0.0,
-                                    0.0,
-                                    0.0,
-                                    0.007200000341981649
-                                ]
-                            },
-                            "PhysXSpecificConfiguration": {
-                                "SolverPositionIterations": 40,
-                                "SolverVelocityIterations": 10
-                            }
-                        }
-                    }
+                    "Id": 13678366325942524724
                 },
                 "EditorEntityIconComponent": {
                     "$type": "EditorEntityIconComponent",
@@ -956,17 +804,7 @@
                 },
                 "EditorPendingCompositionComponent": {
                     "$type": "EditorPendingCompositionComponent",
-                    "Id": 13046724823623780661,
-                    "PendingComponents": {
-                        "EditorFixedJointComponent": {
-                            "$type": "EditorFixedJointComponent",
-                            "Id": 2942888710629582036,
-                            "Configuration": {
-                                "Parent Entity": "Entity_[664627263127]",
-                                "Child Entity": "Entity_[651742361239]"
-                            }
-                        }
-                    }
+                    "Id": 13046724823623780661
                 },
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
@@ -1026,35 +864,7 @@
                 },
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
-                    "Id": 6283366667922547963,
-                    "DisabledComponents": {
-                        "EditorRigidBodyComponent": {
-                            "$type": "EditorRigidBodyComponent",
-                            "Id": 9083091634387490518,
-                            "Configuration": {
-                                "entityId": "",
-                                "Compute Mass": false,
-                                "Mass": 1.218999981880188,
-                                "Compute COM": false,
-                                "Compute inertia": false,
-                                "Inertia tensor": [
-                                    0.0020138886757194996,
-                                    0.0,
-                                    0.0,
-                                    0.0,
-                                    0.0020138886757194996,
-                                    0.0,
-                                    0.0,
-                                    0.0,
-                                    0.0021941999439150095
-                                ]
-                            },
-                            "PhysXSpecificConfiguration": {
-                                "SolverPositionIterations": 40,
-                                "SolverVelocityIterations": 10
-                            }
-                        }
-                    }
+                    "Id": 6283366667922547963
                 },
                 "EditorEntityIconComponent": {
                     "$type": "EditorEntityIconComponent",
@@ -1128,26 +938,7 @@
                 },
                 "EditorPendingCompositionComponent": {
                     "$type": "EditorPendingCompositionComponent",
-                    "Id": 4974049491368840350,
-                    "PendingComponents": {
-                        "EditorHingeJointComponent": {
-                            "$type": "EditorHingeJointComponent",
-                            "Id": 15082905903567508890,
-                            "Configuration": {
-                                "Local Rotation": [
-                                    0.0,
-                                    -89.99999237060547,
-                                    0.0
-                                ],
-                                "Parent Entity": "Entity_[617382622871]",
-                                "Child Entity": "Entity_[656037328535]"
-                            },
-                            "Angular Limit": {
-                                "Positive Limit": 360.0,
-                                "Negative Limit": -360.0
-                            }
-                        }
-                    }
+                    "Id": 4974049491368840350
                 },
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
@@ -1292,17 +1083,7 @@
                 },
                 "EditorPendingCompositionComponent": {
                     "$type": "EditorPendingCompositionComponent",
-                    "Id": 18098854983186689422,
-                    "PendingComponents": {
-                        "EditorFixedJointComponent": {
-                            "$type": "EditorFixedJointComponent",
-                            "Id": 2540807411163674559,
-                            "Configuration": {
-                                "Parent Entity": "",
-                                "Child Entity": ""
-                            }
-                        }
-                    }
+                    "Id": 18098854983186689422
                 },
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
@@ -1398,17 +1179,7 @@
                 },
                 "EditorPendingCompositionComponent": {
                     "$type": "EditorPendingCompositionComponent",
-                    "Id": 12295804609010388912,
-                    "PendingComponents": {
-                        "EditorFixedJointComponent": {
-                            "$type": "EditorFixedJointComponent",
-                            "Id": 18274029838859631499,
-                            "Configuration": {
-                                "Parent Entity": "",
-                                "Child Entity": ""
-                            }
-                        }
-                    }
+                    "Id": 12295804609010388912
                 },
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
@@ -1468,35 +1239,7 @@
                 },
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
-                    "Id": 17617519167387097473,
-                    "DisabledComponents": {
-                        "EditorRigidBodyComponent": {
-                            "$type": "EditorRigidBodyComponent",
-                            "Id": 2487664085652031084,
-                            "Configuration": {
-                                "entityId": "",
-                                "Compute Mass": false,
-                                "Mass": 1.218999981880188,
-                                "Compute COM": false,
-                                "Compute inertia": false,
-                                "Inertia tensor": [
-                                    0.0018310388550162315,
-                                    0.0,
-                                    0.0,
-                                    0.0,
-                                    0.0018310388550162315,
-                                    0.0,
-                                    0.0,
-                                    0.0,
-                                    0.0021941999439150095
-                                ]
-                            },
-                            "PhysXSpecificConfiguration": {
-                                "SolverPositionIterations": 40,
-                                "SolverVelocityIterations": 10
-                            }
-                        }
-                    }
+                    "Id": 17617519167387097473
                 },
                 "EditorEntityIconComponent": {
                     "$type": "EditorEntityIconComponent",
@@ -1564,26 +1307,7 @@
                 },
                 "EditorPendingCompositionComponent": {
                     "$type": "EditorPendingCompositionComponent",
-                    "Id": 2495576720337268932,
-                    "PendingComponents": {
-                        "EditorHingeJointComponent": {
-                            "$type": "EditorHingeJointComponent",
-                            "Id": 4228821168727166008,
-                            "Configuration": {
-                                "Local Rotation": [
-                                    0.0,
-                                    -89.99999237060547,
-                                    0.0
-                                ],
-                                "Parent Entity": "Entity_[656037328535]",
-                                "Child Entity": "Entity_[673217197719]"
-                            },
-                            "Angular Limit": {
-                                "Positive Limit": 360.0,
-                                "Negative Limit": -360.0
-                            }
-                        }
-                    }
+                    "Id": 2495576720337268932
                 },
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
@@ -1651,17 +1375,7 @@
                 },
                 "EditorPendingCompositionComponent": {
                     "$type": "EditorPendingCompositionComponent",
-                    "Id": 3768930271661577407,
-                    "PendingComponents": {
-                        "EditorFixedJointComponent": {
-                            "$type": "EditorFixedJointComponent",
-                            "Id": 8265112374632981275,
-                            "Configuration": {
-                                "Parent Entity": "",
-                                "Child Entity": ""
-                            }
-                        }
-                    }
+                    "Id": 3768930271661577407
                 },
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
@@ -1700,19 +1414,7 @@
             "Components": {
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
-                    "Id": 17758815968857029180,
-                    "DisabledComponents": {
-                        "ROS2RobotControlComponent": {
-                            "$type": "GenericComponentWrapper",
-                            "Id": 5958796147330969134,
-                            "m_template": {
-                                "$type": "ROS2RobotControlComponent",
-                                "SubscriberConfiguration": {
-                                    "Topic": "cmd_vel"
-                                }
-                            }
-                        }
-                    }
+                    "Id": 17758815968857029180
                 },
                 "EditorEntityIconComponent": {
                     "$type": "EditorEntityIconComponent",
@@ -1976,35 +1678,7 @@
                 },
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
-                    "Id": 6825910910262722001,
-                    "DisabledComponents": {
-                        "EditorRigidBodyComponent": {
-                            "$type": "EditorRigidBodyComponent",
-                            "Id": 15972914335770594700,
-                            "Configuration": {
-                                "entityId": "",
-                                "Compute Mass": false,
-                                "Mass": 3.700000047683716,
-                                "Compute COM": false,
-                                "Compute inertia": false,
-                                "Inertia tensor": [
-                                    0.014972352422773838,
-                                    0.0,
-                                    0.0,
-                                    0.0,
-                                    0.014972352422773838,
-                                    0.0,
-                                    0.0,
-                                    0.0,
-                                    0.01040625013411045
-                                ]
-                            },
-                            "PhysXSpecificConfiguration": {
-                                "SolverPositionIterations": 40,
-                                "SolverVelocityIterations": 10
-                            }
-                        }
-                    }
+                    "Id": 6825910910262722001
                 },
                 "EditorEntityIconComponent": {
                     "$type": "EditorEntityIconComponent",
@@ -2073,26 +1747,7 @@
                 },
                 "EditorPendingCompositionComponent": {
                     "$type": "EditorPendingCompositionComponent",
-                    "Id": 17804401019373081075,
-                    "PendingComponents": {
-                        "EditorHingeJointComponent": {
-                            "$type": "EditorHingeJointComponent",
-                            "Id": 1643240907085891067,
-                            "Configuration": {
-                                "Local Rotation": [
-                                    0.0,
-                                    -89.99999237060547,
-                                    0.0
-                                ],
-                                "Parent Entity": "Entity_[651742361239]",
-                                "Child Entity": "Entity_[698987001495]"
-                            },
-                            "Angular Limit": {
-                                "Positive Limit": 360.0,
-                                "Negative Limit": -360.0
-                            }
-                        }
-                    }
+                    "Id": 17804401019373081075
                 },
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
@@ -2152,40 +1807,7 @@
                 },
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
-                    "Id": 453233964865915281,
-                    "DisabledComponents": {
-                        "EditorRigidBodyComponent": {
-                            "$type": "EditorRigidBodyComponent",
-                            "Id": 5624832871562135019,
-                            "Configuration": {
-                                "entityId": "",
-                                "Compute Mass": false,
-                                "Mass": 0.18790000677108765,
-                                "Compute COM": false,
-                                "Centre of mass offset": [
-                                    0.0,
-                                    0.0,
-                                    -0.015250000171363354
-                                ],
-                                "Compute inertia": false,
-                                "Inertia tensor": [
-                                    0.00008062472625169903,
-                                    0.0,
-                                    0.0,
-                                    0.0,
-                                    0.00008062472625169903,
-                                    0.0,
-                                    0.0,
-                                    0.0,
-                                    0.00013211718760430813
-                                ]
-                            },
-                            "PhysXSpecificConfiguration": {
-                                "SolverPositionIterations": 40,
-                                "SolverVelocityIterations": 10
-                            }
-                        }
-                    }
+                    "Id": 453233964865915281
                 },
                 "EditorEntityIconComponent": {
                     "$type": "EditorEntityIconComponent",
@@ -2260,26 +1882,7 @@
                 },
                 "EditorPendingCompositionComponent": {
                     "$type": "EditorPendingCompositionComponent",
-                    "Id": 13002095070005706399,
-                    "PendingComponents": {
-                        "EditorHingeJointComponent": {
-                            "$type": "EditorHingeJointComponent",
-                            "Id": 16883181557595541209,
-                            "Configuration": {
-                                "Local Rotation": [
-                                    0.0,
-                                    -89.99999237060547,
-                                    0.0
-                                ],
-                                "Parent Entity": "Entity_[673217197719]",
-                                "Child Entity": "Entity_[703281968791]"
-                            },
-                            "Angular Limit": {
-                                "Positive Limit": 360.0,
-                                "Negative Limit": -360.0
-                            }
-                        }
-                    }
+                    "Id": 13002095070005706399
                 },
                 "EditorVisibilityComponent": {
                     "$type": "EditorVisibilityComponent",
