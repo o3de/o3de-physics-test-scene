@@ -473,7 +473,10 @@
                 },
                 "EditorEntitySortComponent": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 14258789409936656255
+                    "Id": 14258789409936656255,
+                    "Child Entity Order": [
+                        "Entity_[924297055372553]"
+                    ]
                 },
                 "EditorInspectorComponent": {
                     "$type": "EditorInspectorComponent",
@@ -1916,6 +1919,91 @@
                             -1.3559519403108056e-28,
                             3.791516178933426e-22
                         ]
+                    }
+                }
+            }
+        },
+        "Entity_[924297055372553]": {
+            "Id": "Entity_[924297055372553]",
+            "Name": "Gripper",
+            "Components": {
+                "AZ::Render::EditorMeshComponent": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 11324340114786559234,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{F1B496AA-BF92-5182-B91C-1AC2295ADB3C}",
+                                    "subId": 284840925
+                                },
+                                "assetHint": "assets/gripper/gripper.azmodel"
+                            }
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16211024477316862200
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 6298338374928373868
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8544839997100629076
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11451814537828883890
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6841869107055578507
+                },
+                "EditorMaterialComponent": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 2934242913426590101,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": {
+                                "{}": {
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{F1B496AA-BF92-5182-B91C-1AC2295ADB3C}",
+                                            "subId": 751895252
+                                        },
+                                        "assetHint": "assets/gripper/gripper_gripper_6414519389446537940.azmaterial"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4146354489435986729
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11500285193491066461
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 13853132537267391802
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 11207811410115042866,
+                    "Parent Entity": "Entity_[634562492055]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.00030040740966796875,
+                            -0.003850698471069336,
+                            0.03845787048339844
+                        ],
+                        "UniformScale": 0.6000000238418579
                     }
                 }
             }
