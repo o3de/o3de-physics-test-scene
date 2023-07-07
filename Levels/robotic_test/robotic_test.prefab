@@ -23,7 +23,9 @@
                     "Entity_[405439541680212]",
                     "Entity_[405426656778324]",
                     "Instance_[995808666086914]/ContainerEntity",
-                    "Entity_[68414121030376]"
+                    "Entity_[68414121030376]",
+                    "Instance_[68546296481033]/ContainerEntity",
+                    "Instance_[409661189063945]/ContainerEntity"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -161,6 +163,13 @@
                 "EditorDisabledCompositionComponent": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 12293582381486403313
+                },
+                "FlyCameraInputComponent": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 8056123671205468450,
+                    "m_template": {
+                        "$type": "FlyCameraInputComponent"
+                    }
                 }
             }
         },
@@ -3892,32 +3901,22 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": -7.977887153625488
+                    "value": -7.977886199951172
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 11.316133499145508
+                    "value": 7.339483261108398
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
-                    "value": 0.2633405029773712
+                    "value": 0.26333966851234436
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/0",
-                    "value": 0.000012073957805114333
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/1",
-                    "value": 4.071109497693487e-13
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
-                    "value": -4.289531828266403e-20
+                    "value": 0.00001207386958412826
                 }
             ]
         },
@@ -4081,6 +4080,31 @@
                 }
             ]
         },
+        "Instance_[409661189063945]": {
+            "Source": "Assets/ur5Moveit.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": 0.10970625281333923
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 1.8464021682739258
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 0.6149988174438477
+                }
+            ]
+        },
         "Instance_[4980853547463014]": {
             "Source": "Assets/Factory/Box2.prefab",
             "Patches": [
@@ -4092,17 +4116,17 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": -7.948472499847412
+                    "value": -8.647285461425781
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 10.06625747680664
+                    "value": 10.066255569458008
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
-                    "value": 0.2500579059123993
+                    "value": 0.25005778670310974
                 },
                 {
                     "op": "replace",
@@ -4188,6 +4212,53 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
                     "value": 0.00000965934304986149
+                }
+            ]
+        },
+        "Instance_[68546296481033]": {
+            "Source": "Assets/ur5Moveit.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[924297055372553]/Components/EditorMaterialComponent/Controller/Configuration/materials/0/Value/PropertyOverrides",
+                    "value": {
+                        "clearCoat.enable": {
+                            "$type": "bool",
+                            "Value": false
+                        },
+                        "clearCoat.roughness": {
+                            "$type": "float",
+                            "Value": 0.0
+                        },
+                        "general.doubleSided": {
+                            "$type": "bool",
+                            "Value": true
+                        },
+                        "specularF0.factor": {
+                            "$type": "float",
+                            "Value": 0.8700000047683716
+                        }
+                    }
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -1.952437400817871
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 1.8269124031066895
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 0.6150005459785461
                 }
             ]
         },
