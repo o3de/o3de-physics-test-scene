@@ -9,6 +9,9 @@ from launch.actions import ExecuteProcess
 from ament_index_python.packages import get_package_share_directory
 from moveit_configs_utils import MoveItConfigsBuilder
 
+from launch_ros.actions import ComposableNodeContainer
+from launch_ros.descriptions import ComposableNode
+
 
 def generate_launch_description():
 
@@ -50,6 +53,7 @@ def launch_setup(context, *args, **kwargs):
         [current_directory, "panda_moveit_config_demo.rviz"]
     )
 
+
     # RViz
     rviz_node = Node(
         package="rviz2",
@@ -75,6 +79,26 @@ def launch_setup(context, *args, **kwargs):
         arguments=["0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "world", "panda_link0"],
     )
 
+    rgbd_pc = ComposableNodeContainer(
+            name='container0',
+            namespace='',
+            package='rclcpp_components',
+            executable='component_container',
+            composable_node_descriptions=[
+                ComposableNode(
+                    package='depth_image_proc',
+                    plugin='depth_image_proc::PointCloudXyzrgbNode',
+                    name='point_cloud_xyzrgb_node',
+                    remappings=[('rgb/camera_info', '/color_camera_info'),
+                                ('rgb/image_rect_color', '/camera_image_color'),
+                                ('depth_registered/image_rect','/camera_image_depth'),
+                                ('/points','/FooCameraTest/pointcloud')]
+                ),
+            ],
+            output='screen',
+            parameters=[{'use_sim_time': True}],
+        )
+    
     # Publish TF
     robot_state_publisher = Node(
         package="robot_state_publisher",
@@ -125,6 +149,7 @@ def launch_setup(context, *args, **kwargs):
         static_tf,
         robot_state_publisher,
         run_move_group_node,
+        rgbd_pc,
         
         #ros2_control_node,
         #arm_controller_spawner,
